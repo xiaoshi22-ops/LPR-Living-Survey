@@ -1,0 +1,451 @@
+[
+  {
+    "description": "Methods that encode a complete scan or submap into a descriptor used for candidate place retrieval.",
+    "exclude": [
+      "methods used only for local registration after retrieval",
+      "pure odometry"
+    ],
+    "include": [
+      "scan-level descriptor",
+      "submap-level descriptor",
+      "global retrieval embedding"
+    ],
+    "name": "Global Descriptor",
+    "parent_path": null,
+    "path": "global_descriptor",
+    "status": "active"
+  },
+  {
+    "description": "Global descriptors constructed by deterministic geometric, projection, histogram, or signal-processing rules.",
+    "exclude": [
+      "descriptors trained end-to-end"
+    ],
+    "include": [
+      "Scan Context family",
+      "M2DP",
+      "RING family"
+    ],
+    "name": "Handcrafted",
+    "parent_path": "global_descriptor",
+    "path": "global_descriptor/handcrafted",
+    "status": "active"
+  },
+  {
+    "description": "Handcrafted global descriptors derived from bird's-eye-view or polar BEV representations.",
+    "exclude": [
+      "learned BEV CNN embeddings"
+    ],
+    "include": [
+      "polar height image",
+      "BEV signature"
+    ],
+    "name": "BEV",
+    "parent_path": "global_descriptor/handcrafted",
+    "path": "global_descriptor/handcrafted/bev",
+    "status": "active"
+  },
+  {
+    "description": "Handcrafted descriptors based on spatial bins, histograms, signatures, or discrete scan partitions.",
+    "exclude": [
+      "raw-point learned embeddings"
+    ],
+    "include": [
+      "fixed bins",
+      "adaptive bins",
+      "height or occupancy signatures"
+    ],
+    "name": "Discretization",
+    "parent_path": "global_descriptor/handcrafted",
+    "path": "global_descriptor/handcrafted/discretization",
+    "status": "active"
+  },
+  {
+    "description": "Handcrafted descriptors using Fourier, Radon, sinogram, or related transform-domain representations.",
+    "exclude": [
+      "ordinary spatial histogram without transform-domain matching"
+    ],
+    "include": [
+      "frequency-domain scan context",
+      "Radon sinogram"
+    ],
+    "name": "Frequency / Transform Domain",
+    "parent_path": "global_descriptor/handcrafted",
+    "path": "global_descriptor/handcrafted/frequency_transform",
+    "status": "active"
+  },
+  {
+    "description": "Handcrafted global descriptors built from point sets, stable primitives, graphs, contours, triangles, or other explicit structures.",
+    "exclude": [
+      "learned graph networks"
+    ],
+    "include": [
+      "stable triangle descriptor",
+      "contour or graph signature"
+    ],
+    "name": "Point / Structural",
+    "parent_path": "global_descriptor/handcrafted",
+    "path": "global_descriptor/handcrafted/point_or_structure",
+    "status": "active"
+  },
+  {
+    "description": "Global scan or submap descriptors learned from data for retrieval or loop-closure classification.",
+    "exclude": [
+      "handcrafted descriptor followed only by a learned threshold"
+    ],
+    "include": [
+      "deep global embedding",
+      "Siamese retrieval network",
+      "learned global pooling"
+    ],
+    "name": "Learning",
+    "parent_path": "global_descriptor",
+    "path": "global_descriptor/learning",
+    "status": "active"
+  },
+  {
+    "description": "Learned global descriptors based primarily on voxels, sparse convolutions, or other 3D discretizations.",
+    "exclude": [
+      "2D projection CNN"
+    ],
+    "include": [
+      "sparse convolutional FPN",
+      "voxel transformer"
+    ],
+    "name": "Voxel / Sparse Discretization",
+    "parent_path": "global_descriptor/learning",
+    "path": "global_descriptor/learning/discretization",
+    "status": "active"
+  },
+  {
+    "description": "Learned place descriptors that fuse LiDAR with image, radar, semantic, or other sensor modalities.",
+    "exclude": [
+      "LiDAR-only descriptor using intensity"
+    ],
+    "include": [
+      "LiDAR-camera fusion",
+      "cross-modal descriptor"
+    ],
+    "name": "Multimodal",
+    "parent_path": "global_descriptor/learning",
+    "path": "global_descriptor/learning/multimodal",
+    "status": "active"
+  },
+  {
+    "description": "Learned global descriptors whose main encoder operates on points or point neighborhoods.",
+    "exclude": [
+      "primarily voxelized or projected encoders"
+    ],
+    "include": [
+      "PointNet family",
+      "point convolution",
+      "point graph encoder"
+    ],
+    "name": "Raw Point / Point Network",
+    "parent_path": "global_descriptor/learning",
+    "path": "global_descriptor/learning/point",
+    "status": "active"
+  },
+  {
+    "description": "Learned global descriptors based primarily on range, spherical, BEV, or other 2D projections.",
+    "exclude": [
+      "raw-point-only encoder"
+    ],
+    "include": [
+      "range-image Siamese network",
+      "BEV CNN",
+      "projection transformer"
+    ],
+    "name": "Projection",
+    "parent_path": "global_descriptor/learning",
+    "path": "global_descriptor/learning/projection",
+    "status": "active"
+  },
+  {
+    "description": "Methods whose primary retrieval unit is a local keypoint, patch, neighborhood, or local geometric feature extracted from LiDAR data.",
+    "exclude": [
+      "single descriptor for an entire scan",
+      "segment-level retrieval without local keypoints"
+    ],
+    "include": [
+      "local keypoints",
+      "local patches",
+      "local feature matching"
+    ],
+    "name": "Local Descriptor",
+    "parent_path": null,
+    "path": "local_descriptor",
+    "status": "active"
+  },
+  {
+    "description": "Local descriptors defined by deterministic geometric or signal-processing rules without learned parameters.",
+    "exclude": [
+      "features learned from labelled or self-supervised data"
+    ],
+    "include": [
+      "LRF-based descriptors",
+      "histogram or signature local features"
+    ],
+    "name": "Handcrafted",
+    "parent_path": "local_descriptor",
+    "path": "local_descriptor/handcrafted",
+    "status": "active"
+  },
+  {
+    "description": "Handcrafted local descriptors computed from spherical-view, BEV, range-image, or other 2D projections.",
+    "exclude": [
+      "whole-image global descriptors"
+    ],
+    "include": [
+      "spherical-view local feature",
+      "BEV local feature"
+    ],
+    "name": "2D Projection Local",
+    "parent_path": "local_descriptor/handcrafted",
+    "path": "local_descriptor/handcrafted/2d_projection",
+    "status": "active"
+  },
+  {
+    "description": "Handcrafted local descriptors operating directly on 3D neighborhoods.",
+    "exclude": [
+      "2D projected patches"
+    ],
+    "include": [
+      "LRF-based",
+      "LRF-free 3D neighborhoods"
+    ],
+    "name": "3D Local",
+    "parent_path": "local_descriptor/handcrafted",
+    "path": "local_descriptor/handcrafted/3d",
+    "status": "active"
+  },
+  {
+    "description": "Local LiDAR descriptors whose representation or matching function is learned from data.",
+    "exclude": [
+      "global pooling as the primary descriptor"
+    ],
+    "include": [
+      "learned keypoint descriptors",
+      "voxel or raw-point local encoders"
+    ],
+    "name": "Learning",
+    "parent_path": "local_descriptor",
+    "path": "local_descriptor/learning",
+    "status": "active"
+  },
+  {
+    "description": "Methods that explicitly match a query scan or submap against a persistent map representation and produce place or global-localization hypotheses.",
+    "exclude": [
+      "map used only as storage for single-scan descriptors"
+    ],
+    "include": [
+      "scan-to-map retrieval",
+      "map node recognition",
+      "global relocalization"
+    ],
+    "name": "Map",
+    "parent_path": null,
+    "path": "map",
+    "status": "active"
+  },
+  {
+    "description": "Map-based recognition or global localization using handcrafted map features, grids, meshes, probabilities, or registration rules.",
+    "exclude": [
+      "learned map embedding"
+    ],
+    "include": [
+      "grid or point-cloud map descriptor",
+      "handcrafted scan-to-map matching"
+    ],
+    "name": "Handcrafted",
+    "parent_path": "map",
+    "path": "map/handcrafted",
+    "status": "active"
+  },
+  {
+    "description": "Map-based recognition or global localization using learned map, node, intensity, point-cloud, or cross-source representations.",
+    "exclude": [
+      "scan-only retrieval with no explicit map representation"
+    ],
+    "include": [
+      "learned map node descriptor",
+      "neural 6DoF relocalization"
+    ],
+    "name": "Learning",
+    "parent_path": "map",
+    "path": "map/learning",
+    "status": "active"
+  },
+  {
+    "description": "LPR methods centered on a distinct research dimension not adequately represented by the stable categories above.",
+    "exclude": [
+      "method that fits an existing category but uses an unusual backbone"
+    ],
+    "include": [
+      "cross-source recognition",
+      "uncertainty-aware recognition",
+      "lifelong memory"
+    ],
+    "name": "Other Methods",
+    "parent_path": null,
+    "path": "other_methods",
+    "status": "active"
+  },
+  {
+    "description": "Recognition between substantially different sensing viewpoints, platforms, map sources, or domains.",
+    "exclude": [
+      "ordinary seasonal domain shift within the same sensor setup"
+    ],
+    "include": [
+      "aerial-ground place recognition",
+      "cross-sensor map matching"
+    ],
+    "name": "Cross-source / Cross-domain",
+    "parent_path": "other_methods",
+    "path": "other_methods/cross_source",
+    "status": "active"
+  },
+  {
+    "description": "Methods whose main contribution is lifelong adaptation, novelty handling, calibrated uncertainty, or memory management for place recognition.",
+    "exclude": [
+      "ordinary retrieval confidence used only as a threshold"
+    ],
+    "include": [
+      "lifelong memory",
+      "uncertainty-aware LPR",
+      "novel-environment detection"
+    ],
+    "name": "Lifelong / Uncertainty",
+    "parent_path": "other_methods",
+    "path": "other_methods/lifelong_or_uncertainty",
+    "status": "active"
+  },
+  {
+    "description": "Methods that partition a scan or map into object-like or geometric segments and recognize places through segment descriptors or relations.",
+    "exclude": [
+      "global scan descriptor without segment identities"
+    ],
+    "include": [
+      "segment matching",
+      "segment descriptor retrieval",
+      "segment graph similarity"
+    ],
+    "name": "Segments",
+    "parent_path": null,
+    "path": "segments",
+    "status": "active"
+  },
+  {
+    "description": "Segment-based recognition using handcrafted segment descriptors, matching, or structural similarity.",
+    "exclude": [
+      "learned segment embedding"
+    ],
+    "include": [
+      "geometric segment features",
+      "handcrafted segment association"
+    ],
+    "name": "Handcrafted",
+    "parent_path": "segments",
+    "path": "segments/handcrafted",
+    "status": "active"
+  },
+  {
+    "description": "Segment-based recognition using learned descriptors, classifiers, or similarity models.",
+    "exclude": [
+      "semantic object graph without segment retrieval"
+    ],
+    "include": [
+      "SegMap-like learned segment descriptor",
+      "learned segment matching"
+    ],
+    "name": "Learning",
+    "parent_path": "segments",
+    "path": "segments/learning",
+    "status": "active"
+  },
+  {
+    "description": "Methods where semantic classes, objects, or semantic relations are a primary source of place-recognition evidence.",
+    "exclude": [
+      "semantic labels used only for visualization or filtering"
+    ],
+    "include": [
+      "semantic graph",
+      "semantic scan descriptor",
+      "object-class relations"
+    ],
+    "name": "Semantics",
+    "parent_path": null,
+    "path": "semantics",
+    "status": "active"
+  },
+  {
+    "description": "Semantic place recognition using graphs of objects, classes, segments, or relations.",
+    "exclude": [
+      "flat semantic histogram without graph relations"
+    ],
+    "include": [
+      "semantic graph matching",
+      "graph similarity"
+    ],
+    "name": "Graph-based",
+    "parent_path": "semantics",
+    "path": "semantics/graph_based",
+    "status": "active"
+  },
+  {
+    "description": "Semantic place recognition using semantic descriptors or embeddings without an explicit relational graph.",
+    "exclude": [
+      "explicit node-edge graph matching"
+    ],
+    "include": [
+      "semantic scan context",
+      "semantic pooling"
+    ],
+    "name": "Graph-free",
+    "parent_path": "semantics",
+    "path": "semantics/graph_free",
+    "status": "active"
+  },
+  {
+    "description": "Methods that use ordered scan sequences, submap trajectories, or odometry-linked temporal context for place recognition.",
+    "exclude": [
+      "single-scan recognition without temporal context"
+    ],
+    "include": [
+      "sequence matching",
+      "spatiotemporal retrieval",
+      "trajectory consistency"
+    ],
+    "name": "Trajectory",
+    "parent_path": null,
+    "path": "trajectory",
+    "status": "active"
+  },
+  {
+    "description": "Trajectory or sequence recognition based on deterministic distance, overlap, registration, or temporal rules.",
+    "exclude": [
+      "learned sequence encoder"
+    ],
+    "include": [
+      "odometry-constrained sequence matching",
+      "handcrafted trajectory consistency"
+    ],
+    "name": "Handcrafted",
+    "parent_path": "trajectory",
+    "path": "trajectory/handcrafted",
+    "status": "active"
+  },
+  {
+    "description": "Trajectory or sequence recognition using learned temporal, recurrent, or attention-based models.",
+    "exclude": [
+      "single-scan transformer without temporal input"
+    ],
+    "include": [
+      "sequence transformer",
+      "learned scan-sequence descriptor"
+    ],
+    "name": "Learning",
+    "parent_path": "trajectory",
+    "path": "trajectory/learning",
+    "status": "active"
+  }
+]

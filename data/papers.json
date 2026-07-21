@@ -1,0 +1,3549 @@
+[
+  {
+    "code_url": "https://github.com/rayguan97/crossloc3d",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 6,
+          "section": "Abstract;III. CrossLoc3D;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-V"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "CS-Campus3D",
+          "Oxford RobotCar"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 2,
+          "section": "Abstract;III. CrossLoc3D;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-V"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single 4096-point ground query scan or 100x100 m aerial point-cloud submap"
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 3,
+          "section": "Abstract;III. CrossLoc3D;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-V"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "point-order permutation at global aggregation",
+          "cross-source viewpoint, density, coverage and noise gaps are learned robustness rather than rigid-transform invariance"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 2,
+          "section": "Abstract;III. CrossLoc3D;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-V"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "multi-grained voxelizations",
+          "multi-scale sparse convolutions with feature selection",
+          "coarse-to-fine diffusion-inspired external-attention refinement",
+          "NetVLAD global descriptor",
+          "lazy triplet loss"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 1,
+          "section": "Abstract;III. CrossLoc3D;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-V"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 1,
+          "section": "Abstract;III. CrossLoc3D;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-V"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2303.17778",
+    "paradigm": "Learning",
+    "primary_family": "Other Methods",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "crossloc3d-aerial-ground-cross-source-3d-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      },
+      {
+        "name": "Other Methods",
+        "path": "other_methods"
+      },
+      {
+        "name": "Cross-source / Cross-domain",
+        "path": "other_methods/cross_source"
+      }
+    ],
+    "title": "CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition",
+    "venue": "ICCV",
+    "version_id": "arxiv:2303.17778",
+    "work_id": "LPR-003",
+    "year": 2024
+  },
+  {
+    "code_url": "https://github.com/nubot-nudt/SGLC",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 5,
+          "section": "Abstract;III-IV. SGLC;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-VI"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI",
+          "KITTI-360",
+          "Ford Campus",
+          "Apollo Columbia Park MapData"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III-IV. SGLC;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-VI"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "single semantically segmented LiDAR scan",
+          "query and candidate scans are paired for verification and 6-DoF pose estimation"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III-IV. SGLC;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-VI"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "rigid-transform invariance of graph edge-length and local-triangle subfeatures",
+          "the complete scan descriptor has no proven global rotation or translation invariance"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III-IV. SGLC;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-VI"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "foreground semantic-instance graph",
+          "node edge-histogram and adjacency-eigenvector descriptors",
+          "foreground global edge and node-count descriptor",
+          "background semantic ring descriptor",
+          "FAISS retrieval",
+          "Hungarian node matching",
+          "local-triangle outlier pruning",
+          "RANSAC and SVD",
+          "coarse node, fine instance ICP and background point-to-plane refinement"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III-IV. SGLC;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-VI"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": [
+          "no",
+          "the SGLC core is handcrafted and may consume labels from an external learned semantic segmenter"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III-IV. SGLC;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-VI"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2407.08106",
+    "paradigm": "Learning",
+    "primary_family": "Semantics",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "Point / Structural",
+        "path": "global_descriptor/handcrafted/point_or_structure"
+      },
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "map/handcrafted"
+      },
+      {
+        "name": "Semantics",
+        "path": "semantics"
+      },
+      {
+        "name": "Graph-based",
+        "path": "semantics/graph_based"
+      }
+    ],
+    "title": "SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM",
+    "venue": "arXiv",
+    "version_id": "arxiv:2407.08106",
+    "work_id": "LPR-011",
+    "year": 2024
+  },
+  {
+    "code_url": "https://github.com/zjuluolun/BEVPlace",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 5,
+          "section": "Abstract;III-IV. BEVPlace;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-IV"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI Odometry 00, 02, 05 and 06",
+          "ALITA",
+          "PointNetVLAD benchmark Oxford, U.S., R.A. and B.D."
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III-IV. BEVPlace;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-IV"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single LiDAR scan cropped to a 40 m cube, usually downsampled to 4096 points and projected to BEV"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III-IV. BEVPlace;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-IV"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "planar yaw rotation under the SO(2) BEV model",
+          "no translation invariance"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III-IV. BEVPlace;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-IV"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "0.4 m point-density bird's-eye-view image",
+          "SO(2) group-convolution local features",
+          "NetVLAD rotation-invariant global descriptor",
+          "lazy triplet loss",
+          "feature-distance-to-geometric-distance mapping and multilateration-style position estimator"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 1,
+          "section": "Abstract;III-IV. BEVPlace;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-IV"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 1,
+          "section": "Abstract;III-IV. BEVPlace;V. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-IV"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Luo_BEVPlace_Learning_LiDAR-based_Place_Recognition_using_Birds_Eye_View_Images_ICCV_2023_paper.html",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "bevplace-learning-lidar-based-place-recognition-using-bird-s-eye-view-images",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      }
+    ],
+    "title": "BEVPlace: Learning LiDAR-based Place Recognition using Bird's Eye View Images",
+    "venue": "ICCV",
+    "version_id": "title:bab14c3343daf3e9",
+    "work_id": "LPR-014",
+    "year": 2023
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 12,
+          "page_start": 9,
+          "section": "Abstract;III-IV. RING++;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-15;Table I-VII"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "NCLT",
+          "MulRan",
+          "Oxford Radar RobotCar",
+          "legged-robot multi-robot SLAM dataset"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 3,
+          "section": "Abstract;III-IV. RING++;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-15;Table I-VII"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single ground-removed query scan and a sparse database of map scans, each cropped to a 140 m square region"
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 5,
+          "section": "Abstract;III-IV. RING++;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-15;Table I-VII"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "yaw rotation and planar translation in theory, including their combination",
+          "practical translation invariance degrades with finite scan range, occlusion and discretization"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 4,
+          "section": "Abstract;III-IV. RING++;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-15;Table I-VII"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "six-channel local-geometric BEV features",
+          "Radon sinogram",
+          "row-wise DFT-magnitude translation-invariant and rotation-equivariant TING",
+          "cross-correlation and max-pooled roto-translation-invariant RING",
+          "global yaw and planar-translation solvers",
+          "ICP 6-DoF refinement"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 17,
+          "page_start": 1,
+          "section": "Abstract;III-IV. RING++;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-15;Table I-VII"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_end": 17,
+          "page_start": 1,
+          "section": "Abstract;III-IV. RING++;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-15;Table I-VII"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2210.05984",
+    "paradigm": "Handcrafted",
+    "primary_family": "Map",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Frequency / Transform Domain",
+        "path": "global_descriptor/handcrafted/frequency_transform"
+      },
+      {
+        "name": "Point / Structural",
+        "path": "global_descriptor/handcrafted/point_or_structure"
+      },
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "map/handcrafted"
+      }
+    ],
+    "title": "RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map",
+    "venue": "TRO",
+    "version_id": "arxiv:2210.05984",
+    "work_id": "LPR-024",
+    "year": 2023
+  },
+  {
+    "code_url": "https://github.com/hku-mars/STD",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "Abstract;III. STD;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-10;Table I-II"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI",
+          "NCLT",
+          "Complex Urban",
+          "KA Urban East",
+          "two park datasets",
+          "indoor Livox dataset"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "Abstract;III. STD;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-10;Table I-II"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "LiDAR keyframe accumulated from consecutive scans: 10 frames on spinning-LiDAR benchmarks and 20 frames in Livox experiments"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;III. STD;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-10;Table I-II"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "arbitrary rigid rotation and translation of the triangle attributes and keypoint geometry"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;III. STD;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-10;Table I-II"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "plane-region growing and boundary-projection keypoints",
+          "stable triangle descriptors with ordered side lengths and adjacent-plane normal dot products",
+          "hash-table voting and top-10 candidates",
+          "RANSAC and SVD pose",
+          "plane-overlap verification",
+          "optional plane-based STD-ICP"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 1,
+          "section": "Abstract;III. STD;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-10;Table I-II"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 1,
+          "section": "Abstract;III. STD;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-10;Table I-II"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": [
+          "no",
+          "multiple scans are accumulated into one keyframe without temporal-order modeling"
+        ]
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2209.12435",
+    "paradigm": "Handcrafted",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "std-stable-triangle-descriptor-for-3d-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "Point / Structural",
+        "path": "global_descriptor/handcrafted/point_or_structure"
+      },
+      {
+        "name": "Local Descriptor",
+        "path": "local_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "local_descriptor/handcrafted"
+      },
+      {
+        "name": "3D Local",
+        "path": "local_descriptor/handcrafted/3d"
+      }
+    ],
+    "title": "STD: Stable Triangle Descriptor for 3D place recognition",
+    "venue": "ICRA",
+    "version_id": "arxiv:2209.12435",
+    "work_id": "LPR-026",
+    "year": 2023
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "Abstract;III. BoxGraph;IV. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-III"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": "SemanticKITTI/KITTI Odometry 00, 02, 05, 06, 07 and 08"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;III. BoxGraph;IV. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-III"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single semantically segmented LiDAR scan matched against scans in a prebuilt map"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. BoxGraph;IV. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-III"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "inter-object edge distances are rigid-transform invariant",
+          "the full descriptor is not globally rotation invariant because bounding boxes are measured in the sensor frame and road-aligned heading is assumed"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. BoxGraph;IV. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-III"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "DBSCAN semantic-object clusters",
+          "fully connected semantic graph",
+          "vertex centroid, class and sensor-frame 3-D bounding-box dimensions",
+          "inter-centroid-distance edges",
+          "Hungarian same-class assignment",
+          "RANSAC and SVD 6-DoF pose",
+          "inlier-refined graph similarity"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. BoxGraph;IV. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-III"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": [
+          "no",
+          "the BoxGraph core is handcrafted and may consume labels from external learned segmenters"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. BoxGraph;IV. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-III"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2206.15154",
+    "paradigm": "Learning",
+    "primary_family": "Semantics",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "boxgraph-semantic-place-recognition-and-pose-estimation-from-3d-lidar",
+    "taxonomy": [
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "map/handcrafted"
+      },
+      {
+        "name": "Semantics",
+        "path": "semantics"
+      },
+      {
+        "name": "Graph-based",
+        "path": "semantics/graph_based"
+      }
+    ],
+    "title": "BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR",
+    "venue": "IROS",
+    "version_id": "arxiv:2206.15154",
+    "work_id": "LPR-032",
+    "year": 2022
+  },
+  {
+    "code_url": "https://github.com/soytony/FreSCo",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "Abstract;III. FreSCo;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-III"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "MulRan KAIST03",
+          "KITTI 08",
+          "Oxford Radar RobotCar 2019-01-11, 2019-01-13, 2019-01-24 and 2019-01-51"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. FreSCo;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-III"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "single ground-removed LiDAR scan",
+          "compact flattened 2-D point clouds are retained for pose estimation after retrieval"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. FreSCo;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-III"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "planar translation from the Fourier-magnitude theorem, limited in practice by finite sampling, cropping and occlusion",
+          "yaw rotation after circular-shift minimization"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. FreSCo;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-III"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "ground-removed max-height Cartesian BEV",
+          "2-D Fourier magnitude",
+          "cropped low-frequency polar FreSCo descriptor",
+          "KD-tree key retrieval",
+          "circular-shift matching",
+          "two-stage planar NICP followed by optional 3-D ICP pose estimation"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. FreSCo;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-III"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. FreSCo;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-III"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2206.12628",
+    "paradigm": "Handcrafted",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "fresco-frequency-domain-scan-context-for-lidar-based-place-recognition-with-translation-and-rotation-invariance",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Frequency / Transform Domain",
+        "path": "global_descriptor/handcrafted/frequency_transform"
+      }
+    ],
+    "title": "Fresco: Frequency-domain scan context for lidar-based place recognition with translation and rotation invariance:",
+    "venue": "ICARCV",
+    "version_id": "arxiv:2206.12628",
+    "work_id": "LPR-036",
+    "year": 2022
+  },
+  {
+    "code_url": "https://github.com/robot-learning-freiburg/LCDNet",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 12,
+          "page_start": 9,
+          "section": "Abstract;III-IV. LCDNet;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-12;Table I-VIII"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI",
+          "KITTI-360",
+          "Freiburg",
+          "MulRan for exploratory partial-overlap tests"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 4,
+          "section": "Abstract;III-IV. LCDNet;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-12;Table I-VIII"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "pair of single LiDAR scans containing x, y, z and intensity, voxelized over a 360-degree local grid"
+      },
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 5,
+          "section": "Abstract;III-IV. LCDNet;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-12;Table I-VIII"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "learned rotation and translation robustness of keypoint features, supported by the training objective, augmentation and experiments rather than an analytic guarantee",
+          "partial-overlap robustness"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 4,
+          "section": "Abstract;III-IV. LCDNet;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-12;Table I-VIII"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "PV-RCNN-derived voxel and point feature extractor",
+          "NetVLAD with context gating for the global descriptor",
+          "unbalanced-optimal-transport correspondence head",
+          "SVD or RANSAC 6-DoF pose estimation",
+          "optional ICP",
+          "LIO-SAM integration"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 17,
+          "page_start": 1,
+          "section": "Abstract;III-IV. LCDNet;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-12;Table I-VIII"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 17,
+          "page_start": 1,
+          "section": "Abstract;III-IV. LCDNet;V-VI. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 2-12;Table I-VIII"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2103.05056",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "lcdnet-deep-loop-closure-detection-and-point-cloud-registration-for-lidar-slam",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      },
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Learning",
+        "path": "map/learning"
+      }
+    ],
+    "title": "LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM",
+    "venue": "TRO",
+    "version_id": "arxiv:2103.05056",
+    "work_id": "LPR-041",
+    "year": 2022
+  },
+  {
+    "code_url": "https://github.com/csiro-robotics/LoGG3D-Net",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 4,
+          "section": "Abstract;III. LoGG3D-Net;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-5;Table I-V"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI Odometry",
+          "MulRan"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. LoGG3D-Net;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-5;Table I-V"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "single raw LiDAR point cloud with x, y, z and intensity",
+          "training preprocessing removes ground and voxelizes at 10 cm"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. LoGG3D-Net;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-5;Table I-V"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "none formally",
+          "random yaw augmentation and cross-revisit local consistency provide empirical viewpoint and reverse-loop robustness"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;III. LoGG3D-Net;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-5;Table I-V"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "SparseConv U-Net local point features",
+          "local-consistency hardest-contrastive loss",
+          "second-order pooling",
+          "differentiable eigenvalue power normalization",
+          "256-D global descriptor",
+          "quadruplet loss"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 1,
+          "section": "Abstract;III. LoGG3D-Net;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-5;Table I-V"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 1,
+          "section": "Abstract;III. LoGG3D-Net;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-5;Table I-V"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2109.08336",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "logg3d-net-locally-guided-global-descriptor-learning-for-3d-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      },
+      {
+        "name": "Local Descriptor",
+        "path": "local_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "local_descriptor/learning"
+      }
+    ],
+    "title": "LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition",
+    "venue": "ICRA",
+    "version_id": "arxiv:2109.08336",
+    "work_id": "LPR-042",
+    "year": 2022
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "Abstract;III. One RING;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-II"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "NCLT",
+          "MulRan DCC and KAIST",
+          "Oxford Radar RobotCar"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. One RING;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-II"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single query LiDAR scan matched against a database of single map scans"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. One RING;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-II"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "yaw rotation through orientation-invariant similarity",
+          "planar translation through TI-RING Fourier magnitude",
+          "both under combined planar displacement, with finite-range practical limitations"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. One RING;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-II"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "ground-removed binary-occupancy BEV",
+          "Radon-transform sinogram RING",
+          "row-wise Fourier-magnitude TI-RING",
+          "orientation-invariant circular-cross-correlation similarity",
+          "global orientation and closed-form planar-translation solvers",
+          "optional refinement"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. One RING;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-II"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. One RING;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-II"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2204.07992",
+    "paradigm": "Handcrafted",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "one-ring-to-rule-them-all-radon-sinogram-for-place-recognition-orientation-and-translation-estimation",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Frequency / Transform Domain",
+        "path": "global_descriptor/handcrafted/frequency_transform"
+      },
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "map/handcrafted"
+      }
+    ],
+    "title": "One RING to Rule Them All: Radon Sinogram for Place Recognition, Orientation and Translation Estimation:",
+    "venue": "IROS",
+    "version_id": "arxiv:2204.07992",
+    "work_id": "LPR-045",
+    "year": 2022
+  },
+  {
+    "code_url": "https://github.com/haomo-ai/OverlapTransformer",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 5,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI Odometry",
+          "Ford Campus",
+          "Haomo"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single LiDAR scan projected to a 64x900 or 32x900 range image"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "yaw rotation, architecturally derived up to range-image discretization",
+          "point-order permutation in NetVLAD aggregation"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "single-channel spherical range image",
+          "horizontal-shift-equivariant convolutional encoder",
+          "self-attention transformer",
+          "NetVLAD and MLP global descriptor",
+          "256-D Euclidean retrieval",
+          "overlap-supervised lazy triplet loss"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2203.03397",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "overlaptransformer-an-efficient-and-yaw-angle-invariant-transformer-network-for-lidar-based-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      }
+    ],
+    "title": "OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition",
+    "venue": "RAL",
+    "version_id": "arxiv:2203.03397",
+    "work_id": "LPR-046",
+    "year": 2022
+  },
+  {
+    "code_url": "https://github.com/BIT-MJY/SeqOT",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "Abstract;III. SeqOT;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "NCLT",
+          "KITTI Odometry",
+          "MulRan",
+          "Haomo"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. SeqOT;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "sequence of 20 LiDAR range images, each 32x900 in the main experiments"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. SeqOT;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "yaw rotation, mathematically derived",
+          "permutation of temporally pooled subdescriptors, but not arbitrary reordering inside each three-scan window"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. SeqOT;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "sequence of spherical range images",
+          "single-scan OverlapNetLeg plus transformer",
+          "multi-scan transformer over consecutive three-scan windows",
+          "NetVLAD and MLP 256-D subdescriptors",
+          "GeM temporal pooling",
+          "two-phase triplet training"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. SeqOT;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. SeqOT;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "uses_sequence",
+        "information_type": "source_fact",
+        "value": "yes"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2209.07951",
+    "paradigm": "Learning",
+    "primary_family": "Trajectory",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      },
+      {
+        "name": "Trajectory",
+        "path": "trajectory"
+      },
+      {
+        "name": "Learning",
+        "path": "trajectory/learning"
+      }
+    ],
+    "title": "SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data",
+    "venue": "TIE",
+    "version_id": "arxiv:2209.07951",
+    "work_id": "LPR-051",
+    "year": 2022
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "IV-A. Dataset and Experimental Settings",
+          "source_type": "manual",
+          "table": "Fig. 5;Table II"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "Oxford RobotCar/PointNetVLAD benchmark",
+          "NCLT",
+          "MulRan"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 3,
+          "section": "III-A. Problem Statement;IV-A. Dataset and Experimental Settings",
+          "source_type": "manual",
+          "table": "Fig. 2-3"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "single ground-removed 3D LiDAR scan",
+          "Oxford experiments use a 4096-point submap"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 1,
+          "section": "Abstract;III-A. Problem Statement;III-B. Differentiable Signature;III-C. Metric Learning;Appendix C. Pitch Problem",
+          "source_type": "manual",
+          "table": "Eq. 1-5;Fig. 3;Fig. 10"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "yaw rotation (theoretical for pure rotation",
+          "approximate under translation and environmental change)",
+          "limited pitch robustness (multi-layer BEV only)"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "III-B. Differentiable Signature in Frequency Domain;III-C. Metric Learning for Place Recognition;III-D. Differentiable Relative Angle Estimation;III-E. Implementation and Training",
+          "source_type": "manual",
+          "table": "Fig. 2-4;Eq. 4-15"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "polar multi-layer occupied/density BEV or single-layer height BEV",
+          "U-Net features",
+          "FFT-magnitude low-frequency signature",
+          "Euclidean-distance KD-tree retrieval",
+          "shared differentiable phase correlation and softmax-expectation yaw estimation",
+          "joint quadruplet and KL-divergence losses"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "III-B. Differentiable Signature in Frequency Domain;III-C. Metric Learning;III-E. Implementation and Training",
+          "source_type": "manual",
+          "table": "Eq. 4-6;Eq. 14-15"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 1,
+          "section": "Abstract;III. Methodology;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 1-2"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2010.10949",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "disco-differentiable-scan-context-with-orientation",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      }
+    ],
+    "title": "DiSCO: Differentiable Scan Context With Orientation",
+    "venue": "RAL",
+    "version_id": "arxiv:2010.10949",
+    "work_id": "LPR-057",
+    "year": 2021
+  },
+  {
+    "code_url": "https://github.com/jac99/Egonn",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "MulRan",
+          "Apollo-SouthBay",
+          "KITTI Odometry"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "single ground-removed raw scan from a rotating 3D LiDAR",
+          "the map is a database of geotagged scans"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 3,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "yaw rotation for the learned global descriptor, supported architecturally and empirically but not exact under discretization",
+          "no translation invariance"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "cylindrical sparse occupied voxels",
+          "shared 3D-convolutional feature pyramid",
+          "GeM 256-D global descriptor",
+          "regressed keypoints, saliency uncertainty and 128-D local descriptors",
+          "global retrieval followed by local matching and RANSAC 6-DoF pose estimation"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-7;Table I-V"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2021.3133593",
+    "paradigm": "Learning",
+    "primary_family": "Map",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      },
+      {
+        "name": "Local Descriptor",
+        "path": "local_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "local_descriptor/learning"
+      },
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Learning",
+        "path": "map/learning"
+      }
+    ],
+    "title": "EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale",
+    "venue": "RAL",
+    "version_id": "doi:10.1109/lra.2021.3133593",
+    "work_id": "LPR-058",
+    "year": 2021
+  },
+  {
+    "code_url": "https://github.com/jac99/MinkLoc3D",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2;Table I-IX"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "Oxford RobotCar",
+          "University Sector (U.S.)",
+          "Residential Area (R.A.)",
+          "Business District (B.D.)",
+          "RobotCar Seasons"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 4,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2;Table I-IX"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single ground-removed point-cloud submap downsampled to 4096 points, zero-centered and scaled to [-1,1]"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2;Table I-IX"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "point-order permutation",
+          "no demonstrated rotation or translation invariance"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2;Table I-IX"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "sparse occupied-voxel tensor",
+          "3D sparse Feature Pyramid Network",
+          "GeM pooling",
+          "256-D global descriptor",
+          "Euclidean nearest-neighbor retrieval",
+          "triplet margin loss with batch-hard negative mining"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2;Table I-IX"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2;Table I-IX"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://openaccess.thecvf.com/content/WACV2021/html/Komorowski_MinkLoc3D_Point_Cloud_Based_Large-Scale_Place_Recognition_WACV_2021_paper.html",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "minkloc3d-point-cloud-based-large-scale-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      }
+    ],
+    "title": "MinkLoc3D: Point Cloud Based Large-Scale Place Recognition",
+    "venue": "WACV",
+    "version_id": "title:a2df964b725145d8",
+    "work_id": "LPR-060",
+    "year": 2021
+  },
+  {
+    "code_url": "https://github.com/PRBonn/OverlapNet",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 13,
+          "page_start": 10,
+          "section": "Abstract;III. Method;IV-VI. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-19;Table I-IV"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI Odometry",
+          "Ford Campus",
+          "IPB-Car/Bonn seasonal dataset"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 3,
+          "section": "Abstract;III. Method;IV-VI. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-19;Table I-IV"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "pair of single spherical LiDAR range images",
+          "global localization compares a query scan with map-rendered virtual scans"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 5,
+          "section": "Abstract;III. Method;IV-VI. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-19;Table I-IV"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "none",
+          "relative yaw is explicitly estimated rather than eliminated"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 3,
+          "section": "Abstract;III. Method;IV-VI. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-19;Table I-IV"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "spherical range-image channels for range, normals, intensity and optional semantic probabilities",
+          "weight-sharing Siamese legs",
+          "overlap regression head",
+          "correlation-based relative-yaw head",
+          "SuMa loop-candidate integration",
+          "OverlapNet observation model for Monte Carlo localization"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 18,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV-VI. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-19;Table I-IV"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 18,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV-VI. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-19;Table I-IV"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1007/s10514-021-09999-0",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "overlapnet-a-siamese-network-for-computing-lidar-scan-similarity-with-applications-to-loop-closing-and-localization",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      },
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Learning",
+        "path": "map/learning"
+      }
+    ],
+    "title": "OverlapNet: a siamese network for computing LiDAR scan similarity with applications to loop closing and localization",
+    "venue": "Autonomous Robots",
+    "version_id": "doi:10.1007/s10514-021-09999-0",
+    "work_id": "LPR-063",
+    "year": 2021
+  },
+  {
+    "code_url": "https://github.com/asdfghjkl623/scancontext",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 8,
+          "section": "Abstract;III-IV. Descriptor;V-VII. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 3-19;Table I-VIII"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI 00/08",
+          "MulRan KAIST03/Riverside02/Sejong01-02",
+          "Oxford Radar RobotCar 2019-01-11 and 2019-01-15",
+          "NAVER LABS Pangyo",
+          "KA Urban Campus 1"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III-IV. Descriptor;V-VII. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 3-19;Table I-VIII"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single raw range scan projected to a bird's-eye-view structural descriptor"
+      },
+      {
+        "evidence": {
+          "page_end": 18,
+          "page_start": 5,
+          "section": "Abstract;III-IV. Descriptor;V-VII. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 3-19;Table I-VIII"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "heading rotation for Polar Context",
+          "lateral translation for Cart Context",
+          "combined rotation/lateral robustness through root-shift augmentation",
+          "limited roll, pitch and height robustness under mild motion"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 3,
+          "section": "Abstract;III-IV. Descriptor;V-VII. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 3-19;Table I-VIII"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "Polar Context and Cart Context max-height matrices",
+          "compact retrieval key and KD-tree candidate search",
+          "aligning-key pre-alignment",
+          "full-descriptor similarity rejection",
+          "root-shift descriptor augmentation",
+          "1-DoF yaw or lateral-offset estimate"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 18,
+          "page_start": 1,
+          "section": "Abstract;III-IV. Descriptor;V-VII. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 3-19;Table I-VIII"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_end": 18,
+          "page_start": 1,
+          "section": "Abstract;III-IV. Descriptor;V-VII. Evaluation",
+          "source_type": "manual",
+          "table": "Fig. 3-19;Table I-VIII"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2109.13494",
+    "paradigm": "Handcrafted",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Discretization",
+        "path": "global_descriptor/handcrafted/discretization"
+      }
+    ],
+    "title": "Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:",
+    "venue": "TRO",
+    "version_id": "arxiv:2109.13494",
+    "work_id": "LPR-066",
+    "year": 2021
+  },
+  {
+    "code_url": "https://github.com/lilin-hitcrt/SSC",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-III"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI Odometry 00, 02, 05, 06, 07 and 08",
+          "SemanticKITTI labels",
+          "RangeNet++ predicted labels"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-III"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "pair of single semantically labeled LiDAR point clouds",
+          "one descriptor is generated per aligned scan"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-III"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "none",
+          "relative yaw and planar translation are explicitly estimated and compensated"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-III"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "semantic segmentation",
+          "representative-object filtering",
+          "1-D semantic radial vectors for yaw estimation",
+          "fast semantic ICP for x-y translation",
+          "point-cloud alignment",
+          "polar Semantic Scan Context label-priority matrix",
+          "semantic-label equality score"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-III"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": [
+          "no",
+          "the core method is handcrafted and may consume labels from an external learned segmenter"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-8;Table I-III"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2107.00382",
+    "paradigm": "Learning",
+    "primary_family": "Semantics",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "ssc-semantic-scan-context-for-large-scale-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Semantics",
+        "path": "semantics"
+      },
+      {
+        "name": "Graph-free",
+        "path": "semantics/graph_free"
+      }
+    ],
+    "title": "SSC: Semantic Scan Context for Large-Scale Place Recognition",
+    "venue": "IROS",
+    "version_id": "arxiv:2107.00382",
+    "work_id": "LPR-070",
+    "year": 2021
+  },
+  {
+    "code_url": "https://github.com/slothfulxtx/TransLoc3D",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 11,
+          "page_start": 9,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-VI"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "Oxford RobotCar",
+          "Business District (B.D.)",
+          "Residential Area (R.A.)",
+          "University Sector (U.S.)"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 9,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-VI"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single ground-removed point-cloud submap downsampled to 4096 points and scaled to [-1,1]"
+      },
+      {
+        "evidence": {
+          "page_end": 10,
+          "page_start": 9,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-VI"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "point-order permutation",
+          "no claimed rigid-pose invariance"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 3,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-VI"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "sparse voxelization and 3D sparse convolutions",
+          "five-branch adaptive receptive-field module",
+          "point-wise feature reweighting",
+          "external-attention transformer",
+          "NetVLAD with context gating",
+          "256-D global descriptor",
+          "triplet margin loss with batch-hard negative mining"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 18,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-VI"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 18,
+          "page_start": 1,
+          "section": "Abstract;III. Method;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2-9;Table I-VI"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/2105.11605",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "transloc3d-point-cloud-based-large-scale-place-recognition-using-adaptive-receptive-fields",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      }
+    ],
+    "title": "TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields",
+    "venue": "arXiv",
+    "version_id": "arxiv:2105.11605",
+    "work_id": "LPR-071",
+    "year": 2021
+  },
+  {
+    "code_url": "https://github.com/JoestarK/LiDAR-Iris",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "V-A. Dataset;V-C. Performance Comparison",
+          "source_type": "manual",
+          "table": "Fig. 7-10"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI 00",
+          "KITTI 05",
+          "KITTI 08",
+          "small campus VLP-16 sequence",
+          "large campus VLP-16 sequence"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 1,
+          "section": "Abstract;III. LiDAR Iris;IV. Loop-Closure Detection",
+          "source_type": "manual",
+          "table": "Fig. 2-3"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single raw LiDAR keyframe point cloud"
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 1,
+          "section": "Abstract;III-B. Fourier Transform for a Translation-Invariant LiDAR Iris",
+          "source_type": "manual",
+          "table": "Fig. 2;Fig. 5;Eq. 1-2"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "yaw rotation"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 1,
+          "section": "III-A. Generation of LiDAR-Iris;III-B. Fourier Transform;III-C. Binary Feature Extraction;IV. Loop-Closure Detection",
+          "source_type": "manual",
+          "table": "Fig. 2-6;Eq. 1-3"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "80x360 polar LiDAR-Iris image",
+          "8-bit height-occupancy encoding per bin",
+          "Fourier phase-correlation alignment",
+          "four 1D LoG-Gabor filters",
+          "thresholded binary feature map",
+          "Hamming-distance matching"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 2,
+          "section": "III-A. Generation of LiDAR-Iris Image Representation",
+          "source_type": "manual"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV. Loop-Closure Detection with LiDAR Iris",
+          "source_type": "manual"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/1912.03825",
+    "paradigm": "Handcrafted",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "lidar-iris-for-loop-closure-detection",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Frequency / Transform Domain",
+        "path": "global_descriptor/handcrafted/frequency_transform"
+      }
+    ],
+    "title": "LiDAR Iris for Loop-Closure Detection:",
+    "venue": "IROS",
+    "version_id": "arxiv:1912.03825",
+    "work_id": "LPR-077",
+    "year": 2020
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "IV. Experimental Evaluation",
+          "source_type": "manual",
+          "table": "Table I;Fig. 6"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI 00",
+          "KITTI 05",
+          "KITTI 08"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 2,
+          "page_start": 1,
+          "section": "Abstract;III. Proposed Method",
+          "source_type": "manual",
+          "table": "Fig. 1"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single 3D LiDAR scan"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 3,
+          "section": "III-C. Rotation and Translation Invariant;IV-A. Rotation and Translation Invariant Experiments",
+          "source_type": "manual",
+          "table": "Eq. 1-2;Fig. 4-5"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": [
+          "rotation",
+          "translation (conditional on consistent segmentation and rigid transformation)"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "III-A. Point Cloud Segmentation;III-B. Egocenter Determination;III-C. Topological Information;III-D. Descriptor Generation;III-E. Similarity Measurement;III-F. Fast Retrieval",
+          "source_type": "manual",
+          "table": "Algorithm 1;Fig. 1-3"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "downsampling and ground removal",
+          "Cluster-All Euclidean segments",
+          "egocenter from upper layers of two largest segments",
+          "PCA-and-voting dominant direction",
+          "20x60 ring-sector relative-distance matrix",
+          "normalized cross-correlation",
+          "ring-key KD-tree retrieval"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "III. Proposed Method",
+          "source_type": "manual",
+          "table": "Algorithm 1;Fig. 1-3"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_end": 2,
+          "page_start": 1,
+          "section": "Abstract;III. Proposed Method",
+          "source_type": "manual",
+          "table": "Fig. 1"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/iros45743.2020.9341517",
+    "paradigm": "Handcrafted",
+    "primary_family": "Segments",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "Point / Structural",
+        "path": "global_descriptor/handcrafted/point_or_structure"
+      },
+      {
+        "name": "Segments",
+        "path": "segments"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "segments/handcrafted"
+      }
+    ],
+    "title": "Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection",
+    "venue": "IROS",
+    "version_id": "doi:10.1109/iros45743.2020.9341517",
+    "work_id": "LPR-080",
+    "year": 2020
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 14,
+          "page_start": 8,
+          "section": "5.2 Training Data;5.7 6-DoF Pose Retrieval;5.8 Complete System;5.9 Multi-Robot Experiments",
+          "source_type": "manual",
+          "table": "Fig. 5-14;Table 2"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI 00",
+          "KITTI 05",
+          "KITTI 06",
+          "KITTI 08",
+          "Gustav Knepper powerplant",
+          "Phoenix-West foundry"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "3. The SegMap Approach - Segmentation;4.1 Descriptor Extractor Architecture",
+          "source_type": "manual",
+          "table": "Fig. 2-3"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "incrementally grown 3D segment point cloud accumulated from a stream of LiDAR scans"
+      },
+      {
+        "evidence": {
+          "page_end": 13,
+          "page_start": 2,
+          "section": "Abstract;4.2 Segment Alignment and Scaling;5.2.1 Data Augmentation;5.9.2 Disaster Environments",
+          "source_type": "manual",
+          "table": "Fig. 1;Fig. 14"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "none"
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 3,
+          "section": "3. The SegMap Approach;4. The SegMap Descriptor",
+          "source_type": "manual",
+          "table": "Fig. 1-4"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "incremental region-growing 3D segments",
+          "PCA alignment",
+          "32x32x16 binary voxel input",
+          "3D CNN 64-D segment descriptor",
+          "k-NN retrieval and geometric-consistency verification",
+          "segment map with reconstruction and semantic heads"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 2,
+          "section": "Abstract;4.1 Descriptor Architecture;4.3 Training the SegMap Descriptor",
+          "source_type": "manual",
+          "table": "Fig. 3-4;Eq. 1-3"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "3. The SegMap Approach;4. The SegMap Descriptor",
+          "source_type": "manual",
+          "table": "Fig. 3"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1177/0278364919863090",
+    "paradigm": "Learning",
+    "primary_family": "Segments",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "segmap-segment-based-mapping-and-localization-using-data-driven-descriptors",
+    "taxonomy": [
+      {
+        "name": "Map",
+        "path": "map"
+      },
+      {
+        "name": "Learning",
+        "path": "map/learning"
+      },
+      {
+        "name": "Segments",
+        "path": "segments"
+      },
+      {
+        "name": "Learning",
+        "path": "segments/learning"
+      }
+    ],
+    "title": "SegMap: Segment-based mapping and localization using data-driven descriptors",
+    "venue": "IJRR",
+    "version_id": "doi:10.1177/0278364919863090",
+    "work_id": "LPR-081",
+    "year": 2020
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 9,
+          "page_start": 6,
+          "section": "4.1 Dataset;4.7 Generalization",
+          "source_type": "manual",
+          "table": "Table 1-6;Fig. 5-7"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "Oxford",
+          "University Sector (U.S.)",
+          "Residential Area (R.A.)",
+          "Business District (B.D.)",
+          "ModelNet40 (cross-task generalization only)"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 3,
+          "section": "3.1 Overview;4.1 Dataset",
+          "source_type": "manual",
+          "table": "Fig. 3"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single ground-removed point-cloud submap downsampled to 4096 points"
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 3,
+          "section": "2.1 Point Cloud Reasoning Methods;3.1 Overview;3.2 Static Graph Convolution;4. Experiment",
+          "source_type": "manual",
+          "table": "Fig. 3;Eq. 2-3"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "point-order permutation"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "3.1 Overview;3.2 Static Graph Convolution;3.3 Spatial Attention Module;3.4 Dense Semantic Fusion",
+          "source_type": "manual",
+          "table": "Fig. 3-4;Eq. 1-7"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "static Cartesian-coordinate KNN graph",
+          "6 SGC layers",
+          "three SAM-weighted late layers",
+          "Dense Semantic Fusion with duplicate connections",
+          "shared SLP",
+          "NetVLAD",
+          "256-D global descriptor",
+          "Euclidean-distance KNN retrieval"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 1,
+          "section": "Abstract;3. Methods;4.2 Implementation Details",
+          "source_type": "manual",
+          "table": "Fig. 3"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 1,
+          "section": "Abstract;1. Introduction;3.1 Overview",
+          "source_type": "manual",
+          "table": "Fig. 1;Eq. 1"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1111/cgf.14146",
+    "paradigm": "Learning",
+    "primary_family": "Semantics",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Raw Point / Point Network",
+        "path": "global_descriptor/learning/point"
+      },
+      {
+        "name": "Semantics",
+        "path": "semantics"
+      },
+      {
+        "name": "Graph-based",
+        "path": "semantics/graph_based"
+      }
+    ],
+    "title": "SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion",
+    "venue": "Computer Graphics Forum",
+    "version_id": "doi:10.1111/cgf.14146",
+    "work_id": "LPR-083",
+    "year": 2020
+  },
+  {
+    "code_url": "https://github.com/Suoivy/LPD-net",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 5,
+          "section": "4. Experiments;4.1 Place Recognition Results;4.3 Comparison with image-based methods",
+          "source_type": "manual",
+          "table": "Table 4;Table 8"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "modified Oxford RobotCar",
+          "In-house University Sector (U.S.)",
+          "In-house Residential Area (R.A.)",
+          "In-house Business District (B.D.)",
+          "RobotCar Seasons"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "4. Experiments",
+          "source_type": "manual"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single point-cloud submap randomly downsampled to 4096 points and normalized to [-1,1]"
+      },
+      {
+        "evidence": {
+          "page_end": 7,
+          "page_start": 3,
+          "section": "3.1 Network Architecture;3.2.1 Feature Network Structure;4.2 Robustness Test",
+          "source_type": "manual",
+          "table": "Fig. 2;Fig. 9"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "point-order permutation"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 3,
+          "section": "3.1 Network Architecture;3.2 Adaptive Local Feature Extraction;3.3 Graph-based Neighborhood Aggregation",
+          "source_type": "manual",
+          "table": "Fig. 2-6;Table 1"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "10-D adaptive local geometric features",
+          "feature-space and Cartesian-space graph aggregation",
+          "NetVLAD",
+          "256-D global descriptor",
+          "lazy quadruplet loss"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 1,
+          "section": "Abstract;3.1 Network Architecture",
+          "source_type": "manual",
+          "table": "Fig. 2"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 2,
+          "section": "3. Network Design;4.1 Place Recognition Results",
+          "source_type": "manual",
+          "table": "Fig. 2"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.html",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "lpd-net-3d-point-cloud-learning-for-large-scale-place-recognition-and-environment-analysis",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Raw Point / Point Network",
+        "path": "global_descriptor/learning/point"
+      }
+    ],
+    "title": "LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis",
+    "venue": "ICCV",
+    "version_id": "title:045c3ec7f455e74f",
+    "work_id": "LPR-088",
+    "year": 2019
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "VI-A. RobotCar;VI-B. KITTI;VI-C. Real Experimental Results",
+          "source_type": "manual",
+          "table": "Fig. 5-8;Table I-II"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "Oxford RobotCar",
+          "KITTI",
+          "Chinese University of Hong Kong campus vehicle dataset"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "III. System Framework;VI-A. Place Recognition Results in RobotCar Datasets",
+          "source_type": "manual",
+          "table": "Fig. 1"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": [
+          "sequence of 3D point-cloud submaps",
+          "Oxford submap covers about 20 m of vehicle trajectory and contains 4096 normalized points"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 2,
+          "section": "II. Related Work;IV-A. Local Feature Extraction;IV-B. Graph-Based Feature Neighborhood Aggregation;VI-C. Real Experimental Results",
+          "source_type": "manual",
+          "table": "Fig. 3-4;Fig. 6"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "point-order permutation"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "III. System Framework;IV. Large-Scale Place Description;V. Loop-Closure Detection",
+          "source_type": "manual",
+          "table": "Fig. 1-4"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "LPD-Light local geometric features",
+          "graph-based feature aggregation",
+          "NetVLAD 256-D global descriptor",
+          "K-means++ descriptor clusters",
+          "super keyframes",
+          "coarse matching and SeqSLAM-style local sequence matching"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 2,
+          "page_start": 1,
+          "section": "Abstract;IV. Large-Scale Place Description",
+          "source_type": "manual",
+          "table": "Fig. 2"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 1,
+          "section": "Abstract;III. System Framework;V-C. Coarse Matching and Local Sequence Matching",
+          "source_type": "manual",
+          "table": "Fig. 1;Fig. 6"
+        },
+        "field": "uses_sequence",
+        "information_type": "source_fact",
+        "value": "yes"
+      }
+    ],
+    "paper_url": "https://arxiv.org/abs/1904.13030",
+    "paradigm": "Learning",
+    "primary_family": "Trajectory",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Raw Point / Point Network",
+        "path": "global_descriptor/learning/point"
+      },
+      {
+        "name": "Trajectory",
+        "path": "trajectory"
+      },
+      {
+        "name": "Learning",
+        "path": "trajectory/learning"
+      }
+    ],
+    "title": "SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles",
+    "venue": "IROS",
+    "version_id": "arxiv:1904.13030",
+    "work_id": "LPR-092",
+    "year": 2019
+  },
+  {
+    "code_url": "https://github.com/mikacuy/pointnetvlad",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "5.1 Benchmark Datasets",
+          "source_type": "manual",
+          "table": "Table 1;Fig. 4"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "Oxford RobotCar",
+          "University Sector (U.S.)",
+          "Residential Area (R.A.)",
+          "Business District (B.D.)"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "5.1 Benchmark Datasets - Submap preprocessing",
+          "source_type": "manual",
+          "table": "Fig. 3"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single submap with ground removed, downsampled to 4096 points, centered and scaled to [-1,1]"
+      },
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 5,
+          "section": "4.3 Permutation Invariance;5.2 Image comparisons under changing scene conditions",
+          "source_type": "manual",
+          "table": "Fig. 6(c)"
+        },
+        "field": "invariances",
+        "information_type": "source_fact",
+        "value": [
+          "point-order permutation",
+          "illumination/weather/season robustness"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 3,
+          "section": "4. Our PointNetVLAD;4.1 Network Architecture;4.2 Metric Learning",
+          "source_type": "manual",
+          "table": "Fig. 2;Eq. 1-3"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "PointNet local features",
+          "NetVLAD aggregation",
+          "256-D L2-normalized global descriptor",
+          "lazy quadruplet loss"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 1,
+          "section": "Abstract;4.2 Metric Learning",
+          "source_type": "manual",
+          "table": "Eq. 2-3"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "3. Problem Definition",
+          "source_type": "manual"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/cvpr.2018.00470",
+    "paradigm": "Learning",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "pointnetvlad-deep-point-cloud-based-retrieval-for-large-scale-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Learning",
+        "path": "global_descriptor/learning"
+      },
+      {
+        "name": "Raw Point / Point Network",
+        "path": "global_descriptor/learning/point"
+      }
+    ],
+    "title": "PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition",
+    "venue": "CVPR",
+    "version_id": "doi:10.1109/cvpr.2018.00470",
+    "work_id": "LPR-094",
+    "year": 2018
+  },
+  {
+    "code_url": null,
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 5,
+          "section": "IV-A. Dataset and Experimental Settings",
+          "source_type": "manual",
+          "table": "Table I;Fig. 5"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI",
+          "NCLT",
+          "Complex Urban LiDAR"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 2,
+          "section": "I. Introduction;III. Scan Context for Place Recognition",
+          "source_type": "manual",
+          "table": "Fig. 2"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single 3D LiDAR scan"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "I. Introduction;III-A. Scan Context;III-B. Similarity Score",
+          "source_type": "manual",
+          "table": "Fig. 3;Eq. 6-7"
+        },
+        "field": "invariances",
+        "information_type": "source_fact",
+        "value": [
+          "yaw/heading rotation",
+          "point-density robustness",
+          "surface-normal robustness",
+          "limited translation robustness via 8-way root-shift augmentation"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 1,
+          "section": "I. Introduction;III-A. Scan Context;III-B. Similarity Score;III-C. Two-Phase Search",
+          "source_type": "manual",
+          "table": "Fig. 1-4;Eq. 1-10"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "polar top-view maximum-height matrix",
+          "ring/sector discretization",
+          "ring-key retrieval",
+          "circular-column-shift cosine matching"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 2,
+          "page_start": 1,
+          "section": "Abstract;I. Introduction",
+          "source_type": "manual"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 2,
+          "section": "I. Introduction;III. Scan Context for Place Recognition",
+          "source_type": "manual",
+          "table": "Fig. 2"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://ieeexplore.ieee.org/document/8593953",
+    "paradigm": "Handcrafted",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "scan-context-egocentric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Discretization",
+        "path": "global_descriptor/handcrafted/discretization"
+      }
+    ],
+    "title": "Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map",
+    "venue": "IROS",
+    "version_id": "ieee:8593953",
+    "work_id": "LPR-095",
+    "year": 2018
+  },
+  {
+    "code_url": "https://github.com/ethz-asl/segmap",
+    "facts": [
+      {
+        "evidence": {
+          "page_end": 8,
+          "page_start": 5,
+          "section": "IV-A Dataset;IV-B Training and testing;IV-E Loop-closure performance;IV-F Generalization",
+          "source_type": "manual",
+          "table": "Fig. 6-7"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI 06",
+          "KITTI 00",
+          "KITTI 05",
+          "Zurich Clausiusstrasse"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "III-A. Segmentation",
+          "source_type": "manual",
+          "table": "Fig. 2"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "3D segments extracted from a local point cloud"
+      },
+      {
+        "evidence": {
+          "page_end": 4,
+          "page_start": 2,
+          "section": "Abstract;I. Introduction;III. SegMatch",
+          "source_type": "manual"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "none"
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 4,
+          "section": "III. SegMatch;III-B Feature extraction;III-C Segment matching;III-D Geometric verification",
+          "source_type": "manual",
+          "table": "Fig. 2;Table I"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "3D segments",
+          "handcrafted eigenvalue features",
+          "handcrafted ensemble-of-shape histograms",
+          "kNN candidate retrieval",
+          "learned random-forest matcher",
+          "geometric verification"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 5,
+          "page_start": 4,
+          "section": "III-C Segment matching;IV-B Training and testing setup",
+          "source_type": "manual",
+          "table": "Table I"
+        },
+        "field": "uses_learning",
+        "information_type": "source_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_end": 6,
+          "page_start": 4,
+          "section": "III. SegMatch;IV. Experiments",
+          "source_type": "manual",
+          "table": "Fig. 2"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/icra.2017.7989618",
+    "paradigm": "Handcrafted",
+    "primary_family": "Segments",
+    "relevance_tier": "core_lpr",
+    "representative_tier": "ordinary",
+    "slug": "segmatch-segment-based-place-recognition-in-3d-point-clouds",
+    "taxonomy": [
+      {
+        "name": "Segments",
+        "path": "segments"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "segments/handcrafted"
+      }
+    ],
+    "title": "SegMatch: Segment based place recognition in 3D point clouds",
+    "venue": "ICRA",
+    "version_id": "doi:10.1109/icra.2017.7989618",
+    "work_id": "LPR-099",
+    "year": 2017
+  },
+  {
+    "code_url": "https://github.com/LiHeUA/M2DP",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV-A. Dataset and Experimental Settings",
+          "source_type": "manual"
+        },
+        "field": "datasets",
+        "information_type": "source_fact",
+        "value": [
+          "KITTI 00",
+          "KITTI 05",
+          "KITTI 06",
+          "KITTI 07",
+          "Freiburg Campus",
+          "Ford Campus"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "manual"
+        },
+        "field": "input_unit",
+        "information_type": "source_fact",
+        "value": "single 3D point cloud"
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 2,
+          "section": "III-B. Pre-processing of a Point Cloud",
+          "source_type": "manual",
+          "table": "Algorithm 1"
+        },
+        "field": "invariances",
+        "information_type": "researcher_judgement",
+        "value": "none"
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 1,
+          "section": "Abstract;III. Multiview 2D Projection Algorithm",
+          "source_type": "manual",
+          "table": "Algorithm 1"
+        },
+        "field": "representation",
+        "information_type": "source_fact",
+        "value": [
+          "multi-plane 2D projections",
+          "density signatures",
+          "SVD global descriptor"
+        ]
+      },
+      {
+        "evidence": {
+          "page_end": 3,
+          "page_start": 2,
+          "section": "III. Multiview 2D Projection Algorithm",
+          "source_type": "manual",
+          "table": "Algorithm 1"
+        },
+        "field": "uses_learning",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV-A. Dataset and Experimental Settings",
+          "source_type": "manual"
+        },
+        "field": "uses_sequence",
+        "information_type": "researcher_judgement",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://ieeexplore.ieee.org/document/7759060",
+    "paradigm": "Handcrafted",
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "legacy_foundational",
+    "representative_tier": "ordinary",
+    "slug": "m2dp-a-novel-3d-point-cloud-descriptor-and-its-application-in-loop-closure-detection",
+    "taxonomy": [
+      {
+        "name": "Global Descriptor",
+        "path": "global_descriptor"
+      },
+      {
+        "name": "Handcrafted",
+        "path": "global_descriptor/handcrafted"
+      },
+      {
+        "name": "Discretization",
+        "path": "global_descriptor/handcrafted/discretization"
+      }
+    ],
+    "title": "M2DP: A novel 3D point cloud descriptor and its application in loop closure detection",
+    "venue": "IROS",
+    "version_id": "ieee:7759060",
+    "work_id": "LPR-100",
+    "year": 2016
+  }
+]
