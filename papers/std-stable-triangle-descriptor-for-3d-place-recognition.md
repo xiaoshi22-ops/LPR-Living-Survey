@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-026`
 - **Reviewed version:** `arxiv:2209.12435`
-- **Year / venue:** 2023 / ICRA
+- **Year / venue / type:** 2023 / ICRA / `arxiv_preprint`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Geometry / topology](../landscape.md#branch-global-retrieval-handcrafted-geometry-topology)
 - **Links:** [Paper](https://arxiv.org/abs/2209.12435) · [Reviewed official code](https://github.com/hku-mars/STD)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/handcrafted](../branches/global_descriptor--handcrafted.md)
@@ -29,4 +31,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

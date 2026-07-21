@@ -1,0 +1,163 @@
+{
+  "counts": {
+    "emerging_cross_domain": 1,
+    "emerging_cross_domain/cross_source": 1,
+    "global_retrieval": 17,
+    "global_retrieval/handcrafted": 7,
+    "global_retrieval/handcrafted/frequency_transform": 3,
+    "global_retrieval/handcrafted/geometry_topology": 1,
+    "global_retrieval/handcrafted/projection_context": 3,
+    "global_retrieval/learned": 10,
+    "global_retrieval/learned/point": 2,
+    "global_retrieval/learned/projection": 4,
+    "global_retrieval/learned/voxel_sparse": 4,
+    "local_structural": 7,
+    "local_structural/segment_object": 3,
+    "local_structural/semantic_descriptor": 1,
+    "local_structural/semantic_graph": 3,
+    "temporal_map": 4,
+    "temporal_map/map_assisted": 2,
+    "temporal_map/sequence": 2
+  },
+  "nodes": [
+    {
+      "description": "Whole-scan or submap retrieval using a compact place representation.",
+      "name": "Global retrieval",
+      "parent_path": null,
+      "path": "global_retrieval"
+    },
+    {
+      "description": "Deterministic geometric, projection, histogram, or signal-processing descriptors.",
+      "name": "Handcrafted descriptors",
+      "parent_path": "global_retrieval",
+      "path": "global_retrieval/handcrafted"
+    },
+    {
+      "description": "BEV, polar, range-view, contextual, or discretized handcrafted representations.",
+      "name": "Projection / context",
+      "parent_path": "global_retrieval/handcrafted",
+      "path": "global_retrieval/handcrafted/projection_context"
+    },
+    {
+      "description": "Fourier, Radon, sinogram, and related transform-domain methods.",
+      "name": "Frequency / transform",
+      "parent_path": "global_retrieval/handcrafted",
+      "path": "global_retrieval/handcrafted/frequency_transform"
+    },
+    {
+      "description": "Explicit points, triangles, contours, graphs, or other geometric structures.",
+      "name": "Geometry / topology",
+      "parent_path": "global_retrieval/handcrafted",
+      "path": "global_retrieval/handcrafted/geometry_topology"
+    },
+    {
+      "description": "Data-driven global embeddings and similarity functions.",
+      "name": "Learned descriptors",
+      "parent_path": "global_retrieval",
+      "path": "global_retrieval/learned"
+    },
+    {
+      "description": "Learned BEV, range, spherical, or other projected representations.",
+      "name": "Projection-based learning",
+      "parent_path": "global_retrieval/learned",
+      "path": "global_retrieval/learned/projection"
+    },
+    {
+      "description": "Encoders operating primarily on raw points or point neighborhoods.",
+      "name": "Point-based learning",
+      "parent_path": "global_retrieval/learned",
+      "path": "global_retrieval/learned/point"
+    },
+    {
+      "description": "Voxel, sparse-convolution, and discretized 3D encoders.",
+      "name": "Voxel / sparse learning",
+      "parent_path": "global_retrieval/learned",
+      "path": "global_retrieval/learned/voxel_sparse"
+    },
+    {
+      "description": "Place representations learned across LiDAR and another sensor or map source.",
+      "name": "Multimodal learning",
+      "parent_path": "global_retrieval/learned",
+      "path": "global_retrieval/learned/multimodal"
+    },
+    {
+      "description": "Learned global retrieval that does not yet fit a stable representation branch.",
+      "name": "Other learned retrieval",
+      "parent_path": "global_retrieval/learned",
+      "path": "global_retrieval/learned/other"
+    },
+    {
+      "description": "Recognition based on local features, segments, objects, semantics, or relations.",
+      "name": "Local, segment and semantic structure",
+      "parent_path": null,
+      "path": "local_structural"
+    },
+    {
+      "description": "Keypoint, patch, or neighborhood descriptors and matching.",
+      "name": "Local descriptors",
+      "parent_path": "local_structural",
+      "path": "local_structural/local_descriptor"
+    },
+    {
+      "description": "Recognition through segment or object descriptors and associations.",
+      "name": "Segment / object matching",
+      "parent_path": "local_structural",
+      "path": "local_structural/segment_object"
+    },
+    {
+      "description": "Graph-based recognition using semantic entities and relations.",
+      "name": "Semantic graphs",
+      "parent_path": "local_structural",
+      "path": "local_structural/semantic_graph"
+    },
+    {
+      "description": "Semantic representations without an explicit relational graph.",
+      "name": "Semantic descriptors",
+      "parent_path": "local_structural",
+      "path": "local_structural/semantic_descriptor"
+    },
+    {
+      "description": "Recognition using sequences, submaps, trajectories, or persistent maps.",
+      "name": "Temporal and map-assisted",
+      "parent_path": null,
+      "path": "temporal_map"
+    },
+    {
+      "description": "Ordered scan sequences and learned or handcrafted temporal context.",
+      "name": "Sequence-based recognition",
+      "parent_path": "temporal_map",
+      "path": "temporal_map/sequence"
+    },
+    {
+      "description": "Explicit scan-to-map, submap, or persistent-map recognition.",
+      "name": "Map / submap-assisted",
+      "parent_path": "temporal_map",
+      "path": "temporal_map/map_assisted"
+    },
+    {
+      "description": "Cross-source, lifelong, uncertainty-aware, and other emerging LPR directions.",
+      "name": "Emerging and cross-domain",
+      "parent_path": null,
+      "path": "emerging_cross_domain"
+    },
+    {
+      "description": "Recognition across sensing sources, platforms, viewpoints, or map domains.",
+      "name": "Cross-source / cross-view",
+      "parent_path": "emerging_cross_domain",
+      "path": "emerging_cross_domain/cross_source"
+    },
+    {
+      "description": "Continual adaptation, novelty, memory, or calibrated uncertainty.",
+      "name": "Lifelong / uncertainty",
+      "parent_path": "emerging_cross_domain",
+      "path": "emerging_cross_domain/lifelong_uncertainty"
+    },
+    {
+      "description": "Emerging primary contributions awaiting a stable landscape branch.",
+      "name": "Other emerging methods",
+      "parent_path": "emerging_cross_domain",
+      "path": "emerging_cross_domain/other"
+    }
+  ],
+  "version": "0.1.0"
+}

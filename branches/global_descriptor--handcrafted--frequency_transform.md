@@ -16,13 +16,13 @@ Handcrafted descriptors using Fourier, Radon, sinogram, or related transform-dom
 
 ### 2023
 
-- [RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md) · TRO · ![Map](https://img.shields.io/badge/family-Map-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://arxiv.org/abs/2210.05984)
+- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
 ### 2022
 
-- [Fresco: Frequency-domain scan context for lidar-based place recognition with translation and rotation invariance:](../papers/fresco-frequency-domain-scan-context-for-lidar-based-place-recognition-with-translation-and-rotation-invariance.md) · ICARCV · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://arxiv.org/abs/2206.12628) · [Code](https://github.com/soytony/FreSCo)
-- [One RING to Rule Them All: Radon Sinogram for Place Recognition, Orientation and Translation Estimation:](../papers/one-ring-to-rule-them-all-radon-sinogram-for-place-recognition-orientation-and-translation-estimation.md) · IROS · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://arxiv.org/abs/2204.07992)
+- **[Fresco: Frequency-domain scan context for lidar-based place recognition with translation and rotation invariance:](../papers/fresco-frequency-domain-scan-context-for-lidar-based-place-recognition-with-translation-and-rotation-invariance.md)** · ICARCV · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/2206.12628) · [Code](https://github.com/soytony/FreSCo)
+- **[One RING to Rule Them All: Radon Sinogram for Place Recognition, Orientation and Translation Estimation:](../papers/one-ring-to-rule-them-all-radon-sinogram-for-place-recognition-orientation-and-translation-estimation.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/2204.07992)
 ### 2020
 
-- [LiDAR Iris for Loop-Closure Detection:](../papers/lidar-iris-for-loop-closure-detection.md) · IROS · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://arxiv.org/abs/1912.03825) · [Code](https://github.com/JoestarK/LiDAR-Iris)
+- **[LiDAR Iris for Loop-Closure Detection:](../papers/lidar-iris-for-loop-closure-detection.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/1912.03825) · [Code](https://github.com/JoestarK/LiDAR-Iris)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

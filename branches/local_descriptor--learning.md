@@ -16,9 +16,9 @@ Local LiDAR descriptors whose representation or matching function is learned fro
 
 ### 2022
 
-- [LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition](../papers/logg3d-net-locally-guided-global-descriptor-learning-for-3d-place-recognition.md) · ICRA · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://arxiv.org/abs/2109.08336) · [Code](https://github.com/csiro-robotics/LoGG3D-Net)
+- **[LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition](../papers/logg3d-net-locally-guided-global-descriptor-learning-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2109.08336) · [Code](https://github.com/csiro-robotics/LoGG3D-Net)
 ### 2021
 
-- [EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md) · RAL · ![Map](https://img.shields.io/badge/family-Map-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
+- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Map / submap-assisted` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

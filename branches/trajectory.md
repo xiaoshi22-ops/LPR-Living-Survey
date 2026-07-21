@@ -16,9 +16,9 @@ Methods that use ordered scan sequences, submap trajectories, or odometry-linked
 
 ### 2022
 
-- [SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](../papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md) · TIE · ![Trajectory](https://img.shields.io/badge/family-Trajectory-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
+- **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](../papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
 ### 2019
 
-- [SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md) · IROS · ![Trajectory](https://img.shields.io/badge/family-Trajectory-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://arxiv.org/abs/1904.13030)
+- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

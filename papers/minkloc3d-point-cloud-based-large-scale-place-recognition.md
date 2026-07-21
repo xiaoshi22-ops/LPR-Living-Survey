@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-060`
 - **Reviewed version:** `title:a2df964b725145d8`
-- **Year / venue:** 2021 / WACV
+- **Year / venue / type:** 2021 / WACV / `unknown`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Voxel / sparse learning](../landscape.md#branch-global-retrieval-learned-voxel-sparse)
 - **Links:** [Paper](https://openaccess.thecvf.com/content/WACV2021/html/Komorowski_MinkLoc3D_Point_Cloud_Based_Large-Scale_Place_Recognition_WACV_2021_paper.html) · [Reviewed official code](https://github.com/jac99/MinkLoc3D)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/learning](../branches/global_descriptor--learning.md)
@@ -26,4 +28,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-003`
 - **Reviewed version:** `arxiv:2303.17778`
-- **Year / venue:** 2024 / ICCV
+- **Year / venue / type:** 2024 / ICCV / `arxiv_preprint`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Cross-source / cross-view](../landscape.md#branch-emerging-cross-domain-cross-source)
 - **Links:** [Paper](https://arxiv.org/abs/2303.17778) · [Reviewed official code](https://github.com/rayguan97/crossloc3d)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/learning](../branches/global_descriptor--learning.md)
@@ -28,4 +30,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

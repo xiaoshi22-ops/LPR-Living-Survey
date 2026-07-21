@@ -16,6 +16,6 @@ Recognition between substantially different sensing viewpoints, platforms, map s
 
 ### 2024
 
-- [CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md) · ICCV · ![Other Methods](https://img.shields.io/badge/family-Other%20Methods-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
+- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / cross-view` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

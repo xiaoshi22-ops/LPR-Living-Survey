@@ -2,11 +2,12 @@
 
 # Snapshot changelog
 
-## lpr-survey-9f39d66b9f3f0113
+## lpr-survey-8c1a9ca39c018560
 
-- Added 29 reviewed papers from the frozen `gold-v0.1` corpus.
-- Omitted 1 corpus item(s) because a publication gate was not satisfied.
-- Published 31 active taxonomy branches.
+- Published 29 reviewed papers from the canonical public-scope corpus.
+- Kept 75 corpus item(s) in the private review queue because a publication gate was not satisfied.
+- Added an exclusive primary research landscape with 23 versioned nodes.
+- Retained 31 active multi-label taxonomy nodes for detailed browsing.
 - No paper is marked representative or milestone in this baseline.
 
-Snapshot SHA-256: `9f39d66b9f3f011361e007505ede614c8bc2c748c369bedec10df85b40e77a9c`
+Snapshot SHA-256: `8c1a9ca39c0185607d42cf1edc1957d57fa1faa7839055c065ad8c17ff26eb6d`

@@ -1,6 +1,7 @@
 [
   {
     "code_url": "https://github.com/rayguan97/crossloc3d",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -89,6 +90,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2303.17778",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Cross-source / cross-view",
+      "path": "emerging_cross_domain/cross_source"
+    },
     "primary_family": "Other Methods",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -118,11 +123,13 @@
     "title": "CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition",
     "venue": "ICCV",
     "version_id": "arxiv:2303.17778",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-003",
     "year": 2024
   },
   {
     "code_url": "https://github.com/nubot-nudt/SGLC",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -223,6 +230,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2407.08106",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Semantic graphs",
+      "path": "local_structural/semantic_graph"
+    },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -260,11 +271,13 @@
     "title": "SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM",
     "venue": "arXiv",
     "version_id": "arxiv:2407.08106",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-011",
     "year": 2024
   },
   {
     "code_url": "https://github.com/zjuluolun/BEVPlace",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -354,6 +367,10 @@
     ],
     "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Luo_BEVPlace_Learning_LiDAR-based_Place_Recognition_using_Birds_Eye_View_Images_ICCV_2023_paper.html",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "global_retrieval/learned/projection"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -375,11 +392,13 @@
     "title": "BEVPlace: Learning LiDAR-based Place Recognition using Bird's Eye View Images",
     "venue": "ICCV",
     "version_id": "title:bab14c3343daf3e9",
+    "version_type": "unknown",
     "work_id": "LPR-014",
     "year": 2023
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -471,6 +490,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2210.05984",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Map / submap-assisted",
+      "path": "temporal_map/map_assisted"
+    },
     "primary_family": "Map",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -508,11 +531,13 @@
     "title": "RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map",
     "venue": "TRO",
     "version_id": "arxiv:2210.05984",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-024",
     "year": 2023
   },
   {
     "code_url": "https://github.com/hku-mars/STD",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -606,6 +631,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2209.12435",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Geometry / topology",
+      "path": "global_retrieval/handcrafted/geometry_topology"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -639,11 +668,13 @@
     "title": "STD: Stable Triangle Descriptor for 3D place recognition",
     "venue": "ICRA",
     "version_id": "arxiv:2209.12435",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-026",
     "year": 2023
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -734,6 +765,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2206.15154",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Semantic graphs",
+      "path": "local_structural/semantic_graph"
+    },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -759,11 +794,13 @@
     "title": "BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR",
     "venue": "IROS",
     "version_id": "arxiv:2206.15154",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-032",
     "year": 2022
   },
   {
     "code_url": "https://github.com/soytony/FreSCo",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -857,6 +894,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2206.12628",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Frequency / transform",
+      "path": "global_retrieval/handcrafted/frequency_transform"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -882,11 +923,13 @@
     "title": "Fresco: Frequency-domain scan context for lidar-based place recognition with translation and rotation invariance:",
     "venue": "ICARCV",
     "version_id": "arxiv:2206.12628",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-036",
     "year": 2022
   },
   {
     "code_url": "https://github.com/robot-learning-freiburg/LCDNet",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -978,6 +1021,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2103.05056",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Voxel / sparse learning",
+      "path": "global_retrieval/learned/voxel_sparse"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1007,11 +1054,13 @@
     "title": "LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM",
     "venue": "TRO",
     "version_id": "arxiv:2103.05056",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-041",
     "year": 2022
   },
   {
     "code_url": "https://github.com/csiro-robotics/LoGG3D-Net",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1104,6 +1153,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2109.08336",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Voxel / sparse learning",
+      "path": "global_retrieval/learned/voxel_sparse"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1133,11 +1186,13 @@
     "title": "LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition",
     "venue": "ICRA",
     "version_id": "arxiv:2109.08336",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-042",
     "year": 2022
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1229,6 +1284,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2204.07992",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Frequency / transform",
+      "path": "global_retrieval/handcrafted/frequency_transform"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1262,11 +1321,13 @@
     "title": "One RING to Rule Them All: Radon Sinogram for Place Recognition, Orientation and Translation Estimation:",
     "venue": "IROS",
     "version_id": "arxiv:2204.07992",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-045",
     "year": 2022
   },
   {
     "code_url": "https://github.com/haomo-ai/OverlapTransformer",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1357,6 +1418,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2203.03397",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "global_retrieval/learned/projection"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1378,11 +1443,13 @@
     "title": "OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition",
     "venue": "RAL",
     "version_id": "arxiv:2203.03397",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-046",
     "year": 2022
   },
   {
     "code_url": "https://github.com/BIT-MJY/SeqOT",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1474,6 +1541,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2209.07951",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Sequence-based recognition",
+      "path": "temporal_map/sequence"
+    },
     "primary_family": "Trajectory",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1503,11 +1574,13 @@
     "title": "SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data",
     "venue": "TIE",
     "version_id": "arxiv:2209.07951",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-051",
     "year": 2022
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1602,6 +1675,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2010.10949",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "global_retrieval/learned/projection"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1623,11 +1700,13 @@
     "title": "DiSCO: Differentiable Scan Context With Orientation",
     "venue": "RAL",
     "version_id": "arxiv:2010.10949",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-057",
     "year": 2021
   },
   {
     "code_url": "https://github.com/jac99/Egonn",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1720,6 +1799,10 @@
     ],
     "paper_url": "https://doi.org/10.1109/lra.2021.3133593",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Map / submap-assisted",
+      "path": "temporal_map/map_assisted"
+    },
     "primary_family": "Map",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1757,11 +1840,13 @@
     "title": "EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale",
     "venue": "RAL",
     "version_id": "doi:10.1109/lra.2021.3133593",
+    "version_type": "conference",
     "work_id": "LPR-058",
     "year": 2021
   },
   {
     "code_url": "https://github.com/jac99/MinkLoc3D",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1854,6 +1939,10 @@
     ],
     "paper_url": "https://openaccess.thecvf.com/content/WACV2021/html/Komorowski_MinkLoc3D_Point_Cloud_Based_Large-Scale_Place_Recognition_WACV_2021_paper.html",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Voxel / sparse learning",
+      "path": "global_retrieval/learned/voxel_sparse"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -1875,11 +1964,13 @@
     "title": "MinkLoc3D: Point Cloud Based Large-Scale Place Recognition",
     "venue": "WACV",
     "version_id": "title:a2df964b725145d8",
+    "version_type": "unknown",
     "work_id": "LPR-060",
     "year": 2021
   },
   {
     "code_url": "https://github.com/PRBonn/OverlapNet",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -1973,6 +2064,10 @@
     ],
     "paper_url": "https://doi.org/10.1007/s10514-021-09999-0",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "global_retrieval/learned/projection"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2002,11 +2097,13 @@
     "title": "OverlapNet: a siamese network for computing LiDAR scan similarity with applications to loop closing and localization",
     "venue": "Autonomous Robots",
     "version_id": "doi:10.1007/s10514-021-09999-0",
+    "version_type": "conference",
     "work_id": "LPR-063",
     "year": 2021
   },
   {
     "code_url": "https://github.com/asdfghjkl623/scancontext",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2101,6 +2198,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2109.13494",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Projection / context",
+      "path": "global_retrieval/handcrafted/projection_context"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2126,11 +2227,13 @@
     "title": "Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:",
     "venue": "TRO",
     "version_id": "arxiv:2109.13494",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-066",
     "year": 2021
   },
   {
     "code_url": "https://github.com/lilin-hitcrt/SSC",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2228,6 +2331,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2107.00382",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Semantic descriptors",
+      "path": "local_structural/semantic_descriptor"
+    },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2257,11 +2364,13 @@
     "title": "SSC: Semantic Scan Context for Large-Scale Place Recognition",
     "venue": "IROS",
     "version_id": "arxiv:2107.00382",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-070",
     "year": 2021
   },
   {
     "code_url": "https://github.com/slothfulxtx/TransLoc3D",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2354,6 +2463,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/2105.11605",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Voxel / sparse learning",
+      "path": "global_retrieval/learned/voxel_sparse"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2375,11 +2488,13 @@
     "title": "TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields",
     "venue": "arXiv",
     "version_id": "arxiv:2105.11605",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-071",
     "year": 2021
   },
   {
     "code_url": "https://github.com/JoestarK/LiDAR-Iris",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2466,6 +2581,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/1912.03825",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Frequency / transform",
+      "path": "global_retrieval/handcrafted/frequency_transform"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2491,11 +2610,13 @@
     "title": "LiDAR Iris for Loop-Closure Detection:",
     "venue": "IROS",
     "version_id": "arxiv:1912.03825",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-077",
     "year": 2020
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2587,6 +2708,10 @@
     ],
     "paper_url": "https://doi.org/10.1109/iros45743.2020.9341517",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Segment / object matching",
+      "path": "local_structural/segment_object"
+    },
     "primary_family": "Segments",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2616,11 +2741,13 @@
     "title": "Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection",
     "venue": "IROS",
     "version_id": "doi:10.1109/iros45743.2020.9341517",
+    "version_type": "conference",
     "work_id": "LPR-080",
     "year": 2020
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2711,6 +2838,10 @@
     ],
     "paper_url": "https://doi.org/10.1177/0278364919863090",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Segment / object matching",
+      "path": "local_structural/segment_object"
+    },
     "primary_family": "Segments",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2736,11 +2867,13 @@
     "title": "SegMap: Segment-based mapping and localization using data-driven descriptors",
     "venue": "IJRR",
     "version_id": "doi:10.1177/0278364919863090",
+    "version_type": "conference",
     "work_id": "LPR-081",
     "year": 2020
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2832,6 +2965,10 @@
     ],
     "paper_url": "https://doi.org/10.1111/cgf.14146",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Semantic graphs",
+      "path": "local_structural/semantic_graph"
+    },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2861,11 +2998,13 @@
     "title": "SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion",
     "venue": "Computer Graphics Forum",
     "version_id": "doi:10.1111/cgf.14146",
+    "version_type": "conference",
     "work_id": "LPR-083",
     "year": 2020
   },
   {
     "code_url": "https://github.com/Suoivy/LPD-net",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -2952,6 +3091,10 @@
     ],
     "paper_url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.html",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Point-based learning",
+      "path": "global_retrieval/learned/point"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -2973,11 +3116,13 @@
     "title": "LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis",
     "venue": "ICCV",
     "version_id": "title:045c3ec7f455e74f",
+    "version_type": "unknown",
     "work_id": "LPR-088",
     "year": 2019
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -3068,6 +3213,10 @@
     ],
     "paper_url": "https://arxiv.org/abs/1904.13030",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Sequence-based recognition",
+      "path": "temporal_map/sequence"
+    },
     "primary_family": "Trajectory",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -3097,11 +3246,13 @@
     "title": "SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles",
     "venue": "IROS",
     "version_id": "arxiv:1904.13030",
+    "version_type": "arxiv_preprint",
     "work_id": "LPR-092",
     "year": 2019
   },
   {
     "code_url": "https://github.com/mikacuy/pointnetvlad",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -3188,6 +3339,10 @@
     ],
     "paper_url": "https://doi.org/10.1109/cvpr.2018.00470",
     "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Point-based learning",
+      "path": "global_retrieval/learned/point"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -3209,11 +3364,13 @@
     "title": "PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition",
     "venue": "CVPR",
     "version_id": "doi:10.1109/cvpr.2018.00470",
+    "version_type": "conference",
     "work_id": "LPR-094",
     "year": 2018
   },
   {
     "code_url": null,
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -3303,6 +3460,10 @@
     ],
     "paper_url": "https://ieeexplore.ieee.org/document/8593953",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Projection / context",
+      "path": "global_retrieval/handcrafted/projection_context"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -3328,11 +3489,13 @@
     "title": "Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map",
     "venue": "IROS",
     "version_id": "ieee:8593953",
+    "version_type": "unknown",
     "work_id": "LPR-095",
     "year": 2018
   },
   {
     "code_url": "https://github.com/ethz-asl/segmap",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -3419,6 +3582,10 @@
     ],
     "paper_url": "https://doi.org/10.1109/icra.2017.7989618",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Segment / object matching",
+      "path": "local_structural/segment_object"
+    },
     "primary_family": "Segments",
     "relevance_tier": "core_lpr",
     "representative_tier": "ordinary",
@@ -3436,11 +3603,13 @@
     "title": "SegMatch: Segment based place recognition in 3D point clouds",
     "venue": "ICRA",
     "version_id": "doi:10.1109/icra.2017.7989618",
+    "version_type": "conference",
     "work_id": "LPR-099",
     "year": 2017
   },
   {
     "code_url": "https://github.com/LiHeUA/M2DP",
+    "curation_tier": "evidence_reviewed",
     "facts": [
       {
         "evidence": {
@@ -3522,6 +3691,10 @@
     ],
     "paper_url": "https://ieeexplore.ieee.org/document/7759060",
     "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Projection / context",
+      "path": "global_retrieval/handcrafted/projection_context"
+    },
     "primary_family": "Global Descriptor",
     "relevance_tier": "legacy_foundational",
     "representative_tier": "ordinary",
@@ -3543,6 +3716,7 @@
     "title": "M2DP: A novel 3D point cloud descriptor and its application in loop closure detection",
     "venue": "IROS",
     "version_id": "ieee:7759060",
+    "version_type": "unknown",
     "work_id": "LPR-100",
     "year": 2016
   }

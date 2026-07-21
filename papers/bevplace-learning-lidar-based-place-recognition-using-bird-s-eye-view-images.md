@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-014`
 - **Reviewed version:** `title:bab14c3343daf3e9`
-- **Year / venue:** 2023 / ICCV
+- **Year / venue / type:** 2023 / ICCV / `unknown`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Projection-based learning](../landscape.md#branch-global-retrieval-learned-projection)
 - **Links:** [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_BEVPlace_Learning_LiDAR-based_Place_Recognition_using_Birds_Eye_View_Images_ICCV_2023_paper.html) · [Reviewed official code](https://github.com/zjuluolun/BEVPlace)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/learning](../branches/global_descriptor--learning.md)
@@ -26,4 +28,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

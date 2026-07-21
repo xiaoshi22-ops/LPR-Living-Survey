@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-032`
 - **Reviewed version:** `arxiv:2206.15154`
-- **Year / venue:** 2022 / IROS
+- **Year / venue / type:** 2022 / IROS / `arxiv_preprint`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Semantic graphs](../landscape.md#branch-local-structural-semantic-graph)
 - **Links:** [Paper](https://arxiv.org/abs/2206.15154)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [map](../branches/map.md)
 - [map/handcrafted](../branches/map--handcrafted.md)
@@ -27,4 +29,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

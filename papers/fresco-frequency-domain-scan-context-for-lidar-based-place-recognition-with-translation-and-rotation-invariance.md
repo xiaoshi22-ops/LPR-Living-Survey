@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-036`
 - **Reviewed version:** `arxiv:2206.12628`
-- **Year / venue:** 2022 / ICARCV
+- **Year / venue / type:** 2022 / ICARCV / `arxiv_preprint`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Frequency / transform](../landscape.md#branch-global-retrieval-handcrafted-frequency-transform)
 - **Links:** [Paper](https://arxiv.org/abs/2206.12628) · [Reviewed official code](https://github.com/soytony/FreSCo)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/handcrafted](../branches/global_descriptor--handcrafted.md)
@@ -27,4 +29,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

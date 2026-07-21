@@ -16,12 +16,12 @@ Handcrafted descriptors based on spatial bins, histograms, signatures, or discre
 
 ### 2021
 
-- [Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:](../papers/scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments.md) · TRO · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://arxiv.org/abs/2109.13494) · [Code](https://github.com/asdfghjkl623/scancontext)
+- **[Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:](../papers/scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments.md)** · TRO · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2109.13494) · [Code](https://github.com/asdfghjkl623/scancontext)
 ### 2018
 
-- [Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map](../papers/scan-context-egocentric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map.md) · IROS · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://ieeexplore.ieee.org/document/8593953)
+- **[Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map](../papers/scan-context-egocentric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/8593953)
 ### 2016
 
-- [M2DP: A novel 3D point cloud descriptor and its application in loop closure detection](../papers/m2dp-a-novel-3d-point-cloud-descriptor-and-its-application-in-loop-closure-detection.md) · IROS · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://ieeexplore.ieee.org/document/7759060) · [Code](https://github.com/LiHeUA/M2DP)
+- **[M2DP: A novel 3D point cloud descriptor and its application in loop closure detection](../papers/m2dp-a-novel-3d-point-cloud-descriptor-and-its-application-in-loop-closure-detection.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/7759060) · [Code](https://github.com/LiHeUA/M2DP)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

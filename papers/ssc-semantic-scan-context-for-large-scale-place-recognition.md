@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-070`
 - **Reviewed version:** `arxiv:2107.00382`
-- **Year / venue:** 2021 / IROS
+- **Year / venue / type:** 2021 / IROS / `arxiv_preprint`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Semantic descriptors](../landscape.md#branch-local-structural-semantic-descriptor)
 - **Links:** [Paper](https://arxiv.org/abs/2107.00382) · [Reviewed official code](https://github.com/lilin-hitcrt/SSC)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/handcrafted](../branches/global_descriptor--handcrafted.md)
@@ -28,4 +30,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

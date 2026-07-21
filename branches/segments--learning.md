@@ -16,6 +16,6 @@ Segment-based recognition using learned descriptors, classifiers, or similarity 
 
 ### 2020
 
-- [SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md) · IJRR · ![Segments](https://img.shields.io/badge/family-Segments-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://doi.org/10.1177/0278364919863090)
+- **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

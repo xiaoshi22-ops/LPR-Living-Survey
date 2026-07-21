@@ -16,10 +16,10 @@ Methods that partition a scan or map into object-like or geometric segments and 
 
 ### 2020
 
-- [Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md) · IROS · ![Segments](https://img.shields.io/badge/family-Segments-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
-- [SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md) · IJRR · ![Segments](https://img.shields.io/badge/family-Segments-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://doi.org/10.1177/0278364919863090)
+- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
+- **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
 ### 2017
 
-- [SegMatch: Segment based place recognition in 3D point clouds](../papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md) · ICRA · ![Segments](https://img.shields.io/badge/family-Segments-007ec6) ![Handcrafted](https://img.shields.io/badge/paradigm-Handcrafted-5b8c00) · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
+- **[SegMatch: Segment based place recognition in 3D point clouds](../papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

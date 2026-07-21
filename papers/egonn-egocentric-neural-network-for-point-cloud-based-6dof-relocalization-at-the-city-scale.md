@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-058`
 - **Reviewed version:** `doi:10.1109/lra.2021.3133593`
-- **Year / venue:** 2021 / RAL
+- **Year / venue / type:** 2021 / RAL / `conference`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Map / submap-assisted](../landscape.md#branch-temporal-map-map-assisted)
 - **Links:** [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Reviewed official code](https://github.com/jac99/Egonn)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/learning](../branches/global_descriptor--learning.md)
@@ -30,4 +32,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

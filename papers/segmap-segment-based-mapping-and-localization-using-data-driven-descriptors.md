@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-081`
 - **Reviewed version:** `doi:10.1177/0278364919863090`
-- **Year / venue:** 2020 / IJRR
+- **Year / venue / type:** 2020 / IJRR / `conference`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Segment / object matching](../landscape.md#branch-local-structural-segment-object)
 - **Links:** [Paper](https://doi.org/10.1177/0278364919863090)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [map](../branches/map.md)
 - [map/learning](../branches/map--learning.md)
@@ -27,4 +29,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

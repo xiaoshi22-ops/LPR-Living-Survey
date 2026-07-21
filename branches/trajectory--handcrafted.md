@@ -16,4 +16,4 @@ Trajectory or sequence recognition based on deterministic distance, overlap, reg
 
 No reviewed papers are assigned to this active node in the current snapshot.
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

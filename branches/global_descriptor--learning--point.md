@@ -16,13 +16,13 @@ Learned global descriptors whose main encoder operates on points or point neighb
 
 ### 2020
 
-- [SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](../papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md) · Computer Graphics Forum · ![Semantics](https://img.shields.io/badge/family-Semantics-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://doi.org/10.1111/cgf.14146)
+- **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](../papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Semantic graphs` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
 ### 2019
 
-- [LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis](../papers/lpd-net-3d-point-cloud-learning-for-large-scale-place-recognition-and-environment-analysis.md) · ICCV · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.html) · [Code](https://github.com/Suoivy/LPD-net)
-- [SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md) · IROS · ![Trajectory](https://img.shields.io/badge/family-Trajectory-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://arxiv.org/abs/1904.13030)
+- **[LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis](../papers/lpd-net-3d-point-cloud-learning-for-large-scale-place-recognition-and-environment-analysis.md)** · ICCV · `unknown` · `Point-based learning` · `Learning` · [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.html) · [Code](https://github.com/Suoivy/LPD-net)
+- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
 ### 2018
 
-- [PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition](../papers/pointnetvlad-deep-point-cloud-based-retrieval-for-large-scale-place-recognition.md) · CVPR · ![Global Descriptor](https://img.shields.io/badge/family-Global%20Descriptor-007ec6) ![Learning](https://img.shields.io/badge/paradigm-Learning-5b8c00) · [Paper](https://doi.org/10.1109/cvpr.2018.00470) · [Code](https://github.com/mikacuy/pointnetvlad)
+- **[PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition](../papers/pointnetvlad-deep-point-cloud-based-retrieval-for-large-scale-place-recognition.md)** · CVPR · `conference` · `Point-based learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr.2018.00470) · [Code](https://github.com/mikacuy/pointnetvlad)
 
-[Back to taxonomy](../taxonomy.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

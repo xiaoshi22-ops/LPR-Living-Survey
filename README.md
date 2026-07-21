@@ -2,17 +2,47 @@
 
 # LiDAR Place Recognition Living Survey
 
-An evidence-reviewed, multi-label map of LiDAR place recognition research, maintained by [@xiaoshi22-ops](https://github.com/xiaoshi22-ops).
+An evidence-reviewed, continuously updated map of LiDAR place recognition research, maintained by [@xiaoshi22-ops](https://github.com/xiaoshi22-ops).
 
-This baseline contains **29 publishable papers** across **31 active taxonomy nodes**. Its canonical coverage currently ends in **2024**; the 2024–2026 catch-up and subsequent weekly checks are tracked as incremental curation work.
+| Evidence-reviewed | Indexed | In review | Published coverage |
+| ---: | ---: | ---: | :--- |
+| **29** | **0** | **75** | **2016–2024** |
+
+The canonical public-scope corpus currently contains **104 unique works**. Only entries that pass version-metadata and primary-classification gates appear in the public paper lists; pending records remain in the review queue.
+
+## Field at a glance
+
+![Reviewed LPR papers by year](assets/publications-by-year.svg)
+
+![Primary method distribution](assets/method-distribution.svg)
+
+## Research landscape
+
+Each paper has one additive primary branch for overview statistics and any number of reviewed method tags for detailed browsing.
+
+| Primary branch | Papers |
+| --- | ---: |
+| Global retrieval | 17 |
+| Local, segment and semantic structure | 7 |
+| Temporal and map-assisted | 4 |
+| Emerging and cross-domain | 1 |
+
+[Open the research tree and branch paper lists →](landscape.md)
 
 ## Explore
 
 - [Methods organized by year](by-year.md)
-- [Taxonomy and branch index](taxonomy.md)
+- [Research landscape: one primary branch per paper](landscape.md)
+- [Multi-label method index](taxonomy.md)
 - [Snapshot changelog](CHANGELOG.md)
 - [How to propose a correction or addition](CONTRIBUTING.md)
 - [Machine-readable snapshot](data/snapshot.json)
+
+## Update policy
+
+- The 2024–2026 catch-up and later literature checks run on a weekly cadence.
+- Journal, conference, and preprint versions are distinguished; a preprint is not presented as a peer-reviewed paper.
+- Newly discovered papers enter the review queue before they can change public counts or summaries.
 
 ## Trust model
 
@@ -21,4 +51,4 @@ This baseline contains **29 publishable papers** across **31 active taxonomy nod
 - “Initial reviewed corpus” does not mean “representative” or “milestone”; those labels require a separate human decision.
 - Restricted PDFs, evidence quotations, local paths, credentials, and unreviewed model output are never published.
 
-Snapshot: `lpr-survey-9f39d66b9f3f0113` (`9f39d66b9f3f`)
+Snapshot: `lpr-survey-8c1a9ca39c018560` (`8c1a9ca39c01`)

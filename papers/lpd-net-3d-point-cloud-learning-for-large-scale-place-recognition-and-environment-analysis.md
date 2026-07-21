@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-088`
 - **Reviewed version:** `title:045c3ec7f455e74f`
-- **Year / venue:** 2019 / ICCV
+- **Year / venue / type:** 2019 / ICCV / `unknown`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Point-based learning](../landscape.md#branch-global-retrieval-learned-point)
 - **Links:** [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.html) · [Reviewed official code](https://github.com/Suoivy/LPD-net)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/learning](../branches/global_descriptor--learning.md)
@@ -26,4 +28,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`

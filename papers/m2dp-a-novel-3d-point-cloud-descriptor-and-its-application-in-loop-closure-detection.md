@@ -4,12 +4,14 @@
 
 - **Work ID:** `LPR-100`
 - **Reviewed version:** `ieee:7759060`
-- **Year / venue:** 2016 / IROS
+- **Year / venue / type:** 2016 / IROS / `unknown`
+- **Curation tier:** `evidence_reviewed`
 - **Relevance:** `legacy_foundational`
 - **Representative tier:** `ordinary`
+- **Primary branch:** [Projection / context](../landscape.md#branch-global-retrieval-handcrafted-projection-context)
 - **Links:** [Paper](https://ieeexplore.ieee.org/document/7759060) · [Reviewed official code](https://github.com/LiHeUA/M2DP)
 
-## Reviewed taxonomy assignments
+## Additional reviewed method tags
 
 - [global_descriptor](../branches/global_descriptor.md)
 - [global_descriptor/handcrafted](../branches/global_descriptor--handcrafted.md)
@@ -26,4 +28,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-9f39d66b9f3f0113`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
