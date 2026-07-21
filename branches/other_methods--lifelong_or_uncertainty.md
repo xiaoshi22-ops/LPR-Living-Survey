@@ -12,8 +12,13 @@ Methods whose main contribution is lifelong adaptation, novelty handling, calibr
 
 **Exclude:** ordinary retrieval confidence used only as a threshold
 
-## Papers (0)
+## Papers (2)
 
-No reviewed papers are assigned to this active node in the current snapshot.
+### 2024
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+- **[Uncertainty-Aware Lidar Place Recognition in Novel Environments](../papers/uncertainty-aware-lidar-place-recognition-in-novel-environments.md)** · IROS · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2210.01361)
+### 2023
+
+- **[BioSLAM: A Bioinspired Lifelong Memory System for General Place Recognition](../papers/bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition.md)** · TRO · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2208.14543)
+
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

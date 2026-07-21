@@ -12,8 +12,12 @@ Handcrafted descriptors based on spatial bins, histograms, signatures, or discre
 
 **Exclude:** raw-point learned embeddings
 
-## Papers (3)
+## Papers (7)
 
+### 2024
+
+- **[Effectively Detecting Loop Closures using Point Cloud Density Maps](../papers/effectively-detecting-loop-closures-using-point-cloud-density-maps.md)** · ICRA · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://www.ipb.uni-bonn.de/pdfs/gupta2024icra.pdf)
+- **[OSK: A Novel LiDAR Occupancy Set Key-Based Place Recognition Method in Urban Environment](../papers/osk-a-novel-lidar-occupancy-set-key-based-place-recognition-method-in-urban-environment.md)** · TIM · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/tim.2024.3375408)
 ### 2021
 
 - **[Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:](../papers/scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments.md)** · TRO · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2109.13494) · [Code](https://github.com/asdfghjkl623/scancontext)
@@ -23,5 +27,11 @@ Handcrafted descriptors based on spatial bins, histograms, signatures, or discre
 ### 2016
 
 - **[M2DP: A novel 3D point cloud descriptor and its application in loop closure detection](../papers/m2dp-a-novel-3d-point-cloud-descriptor-and-its-application-in-loop-closure-detection.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/7759060) · [Code](https://github.com/LiHeUA/M2DP)
+### 2015
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+- **[A fast histogram-based similarity measure for detecting loop closures in 3-D LIDAR data](../papers/a-fast-histogram-based-similarity-measure-for-detecting-loop-closures-in-3-d-lidar-data.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/7353454)
+### 2011
+
+- **[Loop closure detection using small-sized signatures from 3D LIDAR data](../papers/loop-closure-detection-using-small-sized-signatures-from-3d-lidar-data.md)** · SSRR · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/6106765)
+
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

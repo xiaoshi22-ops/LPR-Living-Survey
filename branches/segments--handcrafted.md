@@ -21,4 +21,4 @@ Segment-based recognition using handcrafted segment descriptors, matching, or st
 
 - **[SegMatch: Segment based place recognition in 3D point clouds](../papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

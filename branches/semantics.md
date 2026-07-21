@@ -27,4 +27,4 @@ Methods where semantic classes, objects, or semantic relations are a primary sou
 
 - **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](../papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Semantic graphs` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

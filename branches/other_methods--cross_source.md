@@ -18,4 +18,4 @@ Recognition between substantially different sensing viewpoints, platforms, map s
 
 - **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / cross-view` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

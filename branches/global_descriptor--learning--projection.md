@@ -12,18 +12,28 @@ Learned global descriptors based primarily on range, spherical, BEV, or other 2D
 
 **Exclude:** raw-point-only encoder
 
-## Papers (5)
+## Papers (11)
 
+### 2024
+
+- **[CVTNet: A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments](../papers/cvtnet-a-cross-view-transformer-network-for-lidar-based-place-recognition-in-autonomous-driving-environments.md)** · TII · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2302.01665)
+- **[OverlapMamba: Novel Shift State Space Model for LiDAR-based Place Recognition](../papers/overlapmamba-novel-shift-state-space-model-for-lidar-based-place-recognition.md)** · arXiv · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2025.3582109)
 ### 2023
 
 - **[BEVPlace: Learning LiDAR-based Place Recognition using Bird's Eye View Images](../papers/bevplace-learning-lidar-based-place-recognition-using-bird-s-eye-view-images.md)** · ICCV · `unknown` · `Projection-based learning` · `Learning` · [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_BEVPlace_Learning_LiDAR-based_Place_Recognition_using_Birds_Eye_View_Images_ICCV_2023_paper.html) · [Code](https://github.com/zjuluolun/BEVPlace)
+- **[Spherical Transformer for LiDAR-Based 3D Recognition](../papers/spherical-transformer-for-lidar-based-3d-recognition.md)** · CVPR · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2303.12766)
 ### 2022
 
+- **[DSC: Deep Scan Context Descriptor for Large-Scale Place Recognition](../papers/dsc-deep-scan-context-descriptor-for-large-scale-place-recognition.md)** · MFI · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2111.13838)
+- **[Object Scan Context: Object-centric Spatial Descriptor for Place Recognition within 3D Point Cloud Map](../papers/object-scan-context-object-centric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map.md)** · arXiv · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2206.03062)
 - **[OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition](../papers/overlaptransformer-an-efficient-and-yaw-angle-invariant-transformer-network-for-lidar-based-place-recognition.md)** · RAL · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2203.03397) · [Code](https://github.com/haomo-ai/OverlapTransformer)
 - **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](../papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
 ### 2021
 
 - **[DiSCO: Differentiable Scan Context With Orientation](../papers/disco-differentiable-scan-context-with-orientation.md)** · RAL · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2010.10949)
 - **[OverlapNet: a siamese network for computing LiDAR scan similarity with applications to loop closing and localization](../papers/overlapnet-a-siamese-network-for-computing-lidar-scan-similarity-with-applications-to-loop-closing-and-localization.md)** · Autonomous Robots · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1007/s10514-021-09999-0) · [Code](https://github.com/PRBonn/OverlapNet)
+### 2019
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+- **[1-Day Learning, 1-Year Localization: Long-Term LiDAR Localization Using Scan Context Image](../papers/1-day-learning-1-year-localization-long-term-lidar-localization-using-scan-context-image.md)** · RAL · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2019.2897340)
+
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

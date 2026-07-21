@@ -12,10 +12,14 @@ LPR methods centered on a distinct research dimension not adequately represented
 
 **Exclude:** method that fits an existing category but uses an unusual backbone
 
-## Papers (1)
+## Papers (3)
 
 ### 2024
 
 - **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / cross-view` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
+- **[Uncertainty-Aware Lidar Place Recognition in Novel Environments](../papers/uncertainty-aware-lidar-place-recognition-in-novel-environments.md)** · IROS · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2210.01361)
+### 2023
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+- **[BioSLAM: A Bioinspired Lifelong Memory System for General Place Recognition](../papers/bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition.md)** · TRO · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2208.14543)
+
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

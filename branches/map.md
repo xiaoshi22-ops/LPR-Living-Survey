@@ -12,10 +12,11 @@ Methods that explicitly match a query scan or submap against a persistent map re
 
 **Exclude:** map used only as storage for single-scan descriptors
 
-## Papers (8)
+## Papers (9)
 
 ### 2024
 
+- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
 - **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](../papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
 ### 2023
 
@@ -33,4 +34,4 @@ Methods that explicitly match a query scan or submap against a persistent map re
 
 - **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

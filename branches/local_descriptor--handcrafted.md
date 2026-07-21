@@ -18,4 +18,4 @@ Local descriptors defined by deterministic geometric or signal-processing rules 
 
 - **[STD: Stable Triangle Descriptor for 3D place recognition](../papers/std-stable-triangle-descriptor-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Geometry / topology` · `Handcrafted` · [Paper](https://arxiv.org/abs/2209.12435) · [Code](https://github.com/hku-mars/STD)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

@@ -12,8 +12,11 @@ Methods whose primary retrieval unit is a local keypoint, patch, neighborhood, o
 
 **Exclude:** single descriptor for an entire scan; segment-level retrieval without local keypoints
 
-## Papers (3)
+## Papers (4)
 
+### 2024
+
+- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
 ### 2023
 
 - **[STD: Stable Triangle Descriptor for 3D place recognition](../papers/std-stable-triangle-descriptor-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Geometry / topology` · `Handcrafted` · [Paper](https://arxiv.org/abs/2209.12435) · [Code](https://github.com/hku-mars/STD)
@@ -24,4 +27,4 @@ Methods whose primary retrieval unit is a local keypoint, patch, neighborhood, o
 
 - **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Map / submap-assisted` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

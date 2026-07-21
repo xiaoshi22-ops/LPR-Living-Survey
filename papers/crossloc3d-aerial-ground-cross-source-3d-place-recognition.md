@@ -30,4 +30,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`

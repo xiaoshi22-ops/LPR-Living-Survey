@@ -21,4 +21,4 @@ Trajectory or sequence recognition using learned temporal, recurrent, or attenti
 
 - **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

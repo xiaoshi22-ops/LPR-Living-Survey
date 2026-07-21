@@ -18,4 +18,4 @@ Semantic place recognition using semantic descriptors or embeddings without an e
 
 - **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Semantic descriptors` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

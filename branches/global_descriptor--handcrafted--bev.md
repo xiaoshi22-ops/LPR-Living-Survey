@@ -12,7 +12,7 @@ Handcrafted global descriptors derived from bird's-eye-view or polar BEV represe
 
 **Exclude:** learned BEV CNN embeddings
 
-## Papers (7)
+## Papers (9)
 
 ### 2023
 
@@ -25,11 +25,13 @@ Handcrafted global descriptors derived from bird's-eye-view or polar BEV represe
 
 - **[Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:](../papers/scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments.md)** · TRO · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2109.13494) · [Code](https://github.com/asdfghjkl623/scancontext)
 - **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Semantic descriptors` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
+- **[Weighted scan context: Global descriptor with sparse height feature for loop closure detection:](../papers/weighted-scan-context-global-descriptor-with-sparse-height-feature-for-loop-closure-detection.md)** · ICCCR · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/icccr49711.2021.9349417)
 ### 2020
 
+- **[Intensity Scan Context: Coding Intensity and Geometry Relations for Loop Closure Detection:](../papers/intensity-scan-context-coding-intensity-and-geometry-relations-for-loop-closure-detection.md)** · ICRA · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2003.05656)
 - **[LiDAR Iris for Loop-Closure Detection:](../papers/lidar-iris-for-loop-closure-detection.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/1912.03825) · [Code](https://github.com/JoestarK/LiDAR-Iris)
 ### 2018
 
 - **[Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map](../papers/scan-context-egocentric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/8593953)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

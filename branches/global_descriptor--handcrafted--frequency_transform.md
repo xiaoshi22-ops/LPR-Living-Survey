@@ -25,4 +25,4 @@ Handcrafted descriptors using Fourier, Radon, sinogram, or related transform-dom
 
 - **[LiDAR Iris for Loop-Closure Detection:](../papers/lidar-iris-for-loop-closure-detection.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/1912.03825) · [Code](https://github.com/JoestarK/LiDAR-Iris)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

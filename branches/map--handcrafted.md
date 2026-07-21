@@ -25,4 +25,4 @@ Map-based recognition or global localization using handcrafted map features, gri
 - **[BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR](../papers/boxgraph-semantic-place-recognition-and-pose-estimation-from-3d-lidar.md)** · IROS · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2206.15154)
 - **[One RING to Rule Them All: Radon Sinogram for Place Recognition, Orientation and Translation Estimation:](../papers/one-ring-to-rule-them-all-radon-sinogram-for-place-recognition-orientation-and-translation-estimation.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/2204.07992)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

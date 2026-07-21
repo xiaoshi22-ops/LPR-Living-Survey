@@ -2,12 +2,12 @@
 
 # Snapshot changelog
 
-## lpr-survey-8c1a9ca39c018560
+## lpr-survey-911453a86068e183
 
-- Published 29 reviewed papers from the canonical public-scope corpus.
-- Kept 75 corpus item(s) in the private review queue because a publication gate was not satisfied.
+- Published 74 reviewed papers from the canonical public-scope corpus.
+- Kept 30 corpus item(s) in the private review queue because a publication gate was not satisfied.
 - Added an exclusive primary research landscape with 23 versioned nodes.
 - Retained 31 active multi-label taxonomy nodes for detailed browsing.
 - No paper is marked representative or milestone in this baseline.
 
-Snapshot SHA-256: `8c1a9ca39c0185607d42cf1edc1957d57fa1faa7839055c065ad8c17ff26eb6d`
+Snapshot SHA-256: `911453a86068e1835dd976b7c2f7f32496db72062209099986602c0ed288dd51`

@@ -2,14 +2,49 @@
   "corpus": "reviewed-canonical-v0.2",
   "counts": {
     "canonical_public_scope": 104,
-    "evidence_reviewed_entries": 29,
-    "indexed_entries": 0,
+    "evidence_reviewed_entries": 30,
+    "indexed_entries": 44,
     "landscape_nodes": 23,
-    "omitted_entries": 75,
-    "published_entries": 29,
+    "omitted_entries": 30,
+    "published_entries": 74,
     "taxonomy_nodes": 31
   },
   "entries": [
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/tro.2024.3353076",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Geometry / topology",
+        "path": "global_retrieval/handcrafted/geometry_topology"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "btc-a-binary-and-triangle-combined-descriptor-for-3-d-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Point / Structural",
+          "path": "global_descriptor/handcrafted/point_or_structure"
+        }
+      ],
+      "title": "BTC: A Binary and Triangle Combined Descriptor for 3-D Place Recognition",
+      "venue": "TRO",
+      "version_id": "doi:10.1109/tro.2024.3353076",
+      "version_type": "conference",
+      "work_id": "LPR-002",
+      "year": 2024
+    },
     {
       "code_url": "https://github.com/rayguan97/crossloc3d",
       "curation_tier": "evidence_reviewed",
@@ -136,6 +171,360 @@
       "version_id": "arxiv:2303.17778",
       "version_type": "arxiv_preprint",
       "work_id": "LPR-003",
+      "year": 2024
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2302.01665",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Projection-based learning",
+        "path": "global_retrieval/learned/projection"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "cvtnet-a-cross-view-transformer-network-for-lidar-based-place-recognition-in-autonomous-driving-environments",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Projection",
+          "path": "global_descriptor/learning/projection"
+        }
+      ],
+      "title": "CVTNet: A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments",
+      "venue": "TII",
+      "version_id": "arxiv:2302.01665",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-004",
+      "year": 2024
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://www.ipb.uni-bonn.de/pdfs/gupta2024icra.pdf",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Projection / context",
+        "path": "global_retrieval/handcrafted/projection_context"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "effectively-detecting-loop-closures-using-point-cloud-density-maps",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Discretization",
+          "path": "global_descriptor/handcrafted/discretization"
+        }
+      ],
+      "title": "Effectively Detecting Loop Closures using Point Cloud Density Maps",
+      "venue": "ICRA",
+      "version_id": "title:08d0d918b63a8ffd",
+      "version_type": "unknown",
+      "work_id": "LPR-005",
+      "year": 2024
+    },
+    {
+      "code_url": "https://github.com/nubot-nudt/LCR-Net",
+      "curation_tier": "evidence_reviewed",
+      "facts": [
+        {
+          "evidence": {
+            "page_end": 13,
+            "page_start": 10,
+            "section": "Abstract;III-IV. LCR-Net;V-VI. System and Evaluation",
+            "source_type": "manual",
+            "table": "Fig. 2-9;Table I-VI"
+          },
+          "field": "datasets",
+          "information_type": "source_fact",
+          "value": [
+            "KITTI Odometry",
+            "KITTI-360",
+            "Apollo-SouthBay",
+            "Ford Campus",
+            "MulRan"
+          ]
+        },
+        {
+          "evidence": {
+            "page_end": 9,
+            "page_start": 4,
+            "section": "Abstract;III-IV. LCR-Net;V-VI. System and Evaluation",
+            "source_type": "manual",
+            "table": "Fig. 2-9;Table I-VI"
+          },
+          "field": "input_unit",
+          "information_type": "source_fact",
+          "value": [
+            "pair of single raw LiDAR scans",
+            "candidate retrieval embeds the incoming scan and map scans separately"
+          ]
+        },
+        {
+          "evidence": {
+            "page_end": 6,
+            "page_start": 5,
+            "section": "Abstract;III-IV. LCR-Net;V-VI. System and Evaluation",
+            "source_type": "manual",
+            "table": "Fig. 2-9;Table I-VI"
+          },
+          "field": "invariances",
+          "information_type": "researcher_judgement",
+          "value": [
+            "translation-invariant relative-position attention and keypoint features when the learned rotary mapping is linear",
+            "no proven global rotation or full-descriptor translation invariance"
+          ]
+        },
+        {
+          "evidence": {
+            "page_end": 9,
+            "page_start": 4,
+            "section": "Abstract;III-IV. LCR-Net;V-VI. System and Evaluation",
+            "source_type": "manual",
+            "table": "Fig. 2-9;Table I-VI"
+          },
+          "field": "representation",
+          "information_type": "source_fact",
+          "value": [
+            "KPEncoder keypoints",
+            "3D-RoFormer++ pose-aware attention",
+            "VoteEncoder salient keypoints",
+            "NetVLAD with context gating for a 256-D global descriptor",
+            "sparse-to-dense optimal-transport point matching",
+            "RANSAC or local-to-global registration for 6-DoF pose",
+            "A-LOAM integration"
+          ]
+        },
+        {
+          "evidence": {
+            "page_end": 16,
+            "page_start": 1,
+            "section": "Abstract;III-IV. LCR-Net;V-VI. System and Evaluation",
+            "source_type": "manual",
+            "table": "Fig. 2-9;Table I-VI"
+          },
+          "field": "uses_learning",
+          "information_type": "source_fact",
+          "value": "yes"
+        },
+        {
+          "evidence": {
+            "page_end": 16,
+            "page_start": 1,
+            "section": "Abstract;III-IV. LCR-Net;V-VI. System and Evaluation",
+            "source_type": "manual",
+            "table": "Fig. 2-9;Table I-VI"
+          },
+          "field": "uses_sequence",
+          "information_type": "researcher_judgement",
+          "value": "no"
+        }
+      ],
+      "paper_url": "https://arxiv.org/abs/2309.08086",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Map / submap-assisted",
+        "path": "temporal_map/map_assisted"
+      },
+      "primary_family": "Map",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        },
+        {
+          "name": "Local Descriptor",
+          "path": "local_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "local_descriptor/learning"
+        },
+        {
+          "name": "Map",
+          "path": "map"
+        },
+        {
+          "name": "Learning",
+          "path": "map/learning"
+        }
+      ],
+      "title": "Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM",
+      "venue": "TRO",
+      "version_id": "arxiv:2309.08086",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-006",
+      "year": 2024
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/tim.2024.3375408",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Projection / context",
+        "path": "global_retrieval/handcrafted/projection_context"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "osk-a-novel-lidar-occupancy-set-key-based-place-recognition-method-in-urban-environment",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Discretization",
+          "path": "global_descriptor/handcrafted/discretization"
+        }
+      ],
+      "title": "OSK: A Novel LiDAR Occupancy Set Key-Based Place Recognition Method in Urban Environment",
+      "venue": "TIM",
+      "version_id": "doi:10.1109/tim.2024.3375408",
+      "version_type": "conference",
+      "work_id": "LPR-007",
+      "year": 2024
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/lra.2025.3582109",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Projection-based learning",
+        "path": "global_retrieval/learned/projection"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "overlapmamba-novel-shift-state-space-model-for-lidar-based-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Projection",
+          "path": "global_descriptor/learning/projection"
+        }
+      ],
+      "title": "OverlapMamba: Novel Shift State Space Model for LiDAR-based Place Recognition",
+      "venue": "arXiv",
+      "version_id": "doi:10.1109/lra.2025.3582109",
+      "version_type": "conference",
+      "work_id": "LPR-008",
+      "year": 2024
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2309.00168",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "p-gat-pose-graph-attentional-network-for-lidar-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "P-GAT: Pose-Graph Attentional Network for Lidar Place Recognition",
+      "venue": "RAL",
+      "version_id": "arxiv:2309.00168",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-009",
+      "year": 2024
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2306.01205",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "selfloc-selective-feature-fusion-for-large-scale-point-cloud-based-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "SelFLoc: Selective feature fusion for large-scale point cloud-based place recognition",
+      "venue": "KBS",
+      "version_id": "arxiv:2306.01205",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-010",
       "year": 2024
     },
     {
@@ -287,6 +676,37 @@
       "year": 2024
     },
     {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2210.01361",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Lifelong / uncertainty",
+        "path": "emerging_cross_domain/lifelong_uncertainty"
+      },
+      "primary_family": "Other Methods",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "uncertainty-aware-lidar-place-recognition-in-novel-environments",
+      "taxonomy": [
+        {
+          "name": "Other Methods",
+          "path": "other_methods"
+        },
+        {
+          "name": "Lifelong / Uncertainty",
+          "path": "other_methods/lifelong_or_uncertainty"
+        }
+      ],
+      "title": "Uncertainty-Aware Lidar Place Recognition in Novel Environments",
+      "venue": "IROS",
+      "version_id": "arxiv:2210.01361",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-012",
+      "year": 2024
+    },
+    {
       "code_url": "https://github.com/zjuluolun/BEVPlace",
       "curation_tier": "evidence_reviewed",
       "facts": [
@@ -405,6 +825,142 @@
       "version_id": "title:bab14c3343daf3e9",
       "version_type": "unknown",
       "work_id": "LPR-014",
+      "year": 2023
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/lra.2023.3297063",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Geometry / topology",
+        "path": "global_retrieval/handcrafted/geometry_topology"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "binary-image-fingerprint-stable-structure-identifier-for-3d-lidar-place-recognition-ral",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Point / Structural",
+          "path": "global_descriptor/handcrafted/point_or_structure"
+        }
+      ],
+      "title": "Binary Image Fingerprint: Stable Structure Identifier for 3D LiDAR Place Recognition ``RAL``",
+      "venue": "待确认",
+      "version_id": "doi:10.1109/lra.2023.3297063",
+      "version_type": "conference",
+      "work_id": "LPR-015",
+      "year": 2023
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2208.14543",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Lifelong / uncertainty",
+        "path": "emerging_cross_domain/lifelong_uncertainty"
+      },
+      "primary_family": "Other Methods",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Other Methods",
+          "path": "other_methods"
+        },
+        {
+          "name": "Lifelong / Uncertainty",
+          "path": "other_methods/lifelong_or_uncertainty"
+        }
+      ],
+      "title": "BioSLAM: A Bioinspired Lifelong Memory System for General Place Recognition",
+      "venue": "TRO",
+      "version_id": "arxiv:2208.14543",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-016",
+      "year": 2023
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2302.06149",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Geometry / topology",
+        "path": "global_retrieval/handcrafted/geometry_topology"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "contour-context-abstract-structural-distribution-for-3d-lidar-loop-detection-and-metric-pose-estimation",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Point / Structural",
+          "path": "global_descriptor/handcrafted/point_or_structure"
+        }
+      ],
+      "title": "Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation",
+      "venue": "ICRA",
+      "version_id": "arxiv:2302.06149",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-019",
+      "year": 2023
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/lra.2023.3234744",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Geometry / topology",
+        "path": "global_retrieval/handcrafted/geometry_topology"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "place-recognition-of-large-scale-unstructured-orchards-with-attention-score-maps",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Point / Structural",
+          "path": "global_descriptor/handcrafted/point_or_structure"
+        }
+      ],
+      "title": "Place Recognition of Large-Scale Unstructured Orchards With Attention Score Maps",
+      "venue": "RAL",
+      "version_id": "doi:10.1109/lra.2023.3234744",
+      "version_type": "conference",
+      "work_id": "LPR-023",
       "year": 2023
     },
     {
@@ -547,6 +1103,41 @@
       "year": 2023
     },
     {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2303.12766",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Projection-based learning",
+        "path": "global_retrieval/learned/projection"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "spherical-transformer-for-lidar-based-3d-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Projection",
+          "path": "global_descriptor/learning/projection"
+        }
+      ],
+      "title": "Spherical Transformer for LiDAR-Based 3D Recognition",
+      "venue": "CVPR",
+      "version_id": "arxiv:2303.12766",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-025",
+      "year": 2023
+    },
+    {
       "code_url": "https://github.com/hku-mars/STD",
       "curation_tier": "evidence_reviewed",
       "facts": [
@@ -685,6 +1276,76 @@
     },
     {
       "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2308.12870",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "vni-net-vector-neurons-based-rotation-invariant-descriptor-for-lidar-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "VNI-Net: Vector Neurons-based Rotation-Invariant Descriptor for LiDAR Place Recognition",
+      "venue": "arXiv",
+      "version_id": "arxiv:2308.12870",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-028",
+      "year": 2023
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2111.11739",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Multimodal learning",
+        "path": "global_retrieval/learned/multimodal"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "adafusion-visual-lidar-fusion-with-adaptive-weights-for-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Multimodal",
+          "path": "global_descriptor/learning/multimodal"
+        }
+      ],
+      "title": "AdaFusion: Visual-LiDAR Fusion With Adaptive Weights for Place Recognition",
+      "venue": "RAL",
+      "version_id": "arxiv:2111.11739",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-030",
+      "year": 2022
+    },
+    {
+      "code_url": null,
       "curation_tier": "evidence_reviewed",
       "facts": [
         {
@@ -807,6 +1468,76 @@
       "version_id": "arxiv:2206.15154",
       "version_type": "arxiv_preprint",
       "work_id": "LPR-032",
+      "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2111.13838",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Projection-based learning",
+        "path": "global_retrieval/learned/projection"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "dsc-deep-scan-context-descriptor-for-large-scale-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Projection",
+          "path": "global_descriptor/learning/projection"
+        }
+      ],
+      "title": "DSC: Deep Scan Context Descriptor for Large-Scale Place Recognition",
+      "venue": "MFI",
+      "version_id": "arxiv:2111.13838",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-034",
+      "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2101.02374",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "efficient-3d-point-cloud-feature-learning-for-large-scale-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "Efficient 3D Point Cloud Feature Learning for Large-Scale Place Recognition",
+      "venue": "TIP",
+      "version_id": "arxiv:2101.02374",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-035",
       "year": 2022
     },
     {
@@ -936,6 +1667,111 @@
       "version_id": "arxiv:2206.12628",
       "version_type": "arxiv_preprint",
       "work_id": "LPR-036",
+      "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2204.05481",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "hitpr-hierarchical-transformer-for-place-recognition-in-point-cloud",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "HiTPR: Hierarchical Transformer for Place Recognition in Point Cloud",
+      "venue": "ICRA",
+      "version_id": "arxiv:2204.05481",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-038",
+      "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2203.00972",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "improving-point-cloud-based-place-recognition-with-ranking-based-loss-and-large-batch-training",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "Improving Point Cloud Based Place Recognition with Ranking-based Loss and Large Batch Training",
+      "venue": "ICPR",
+      "version_id": "arxiv:2203.00972",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-039",
+      "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2203.00807",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "incloud-incremental-learning-for-point-cloud-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "InCloud: Incremental Learning for Point Cloud Place Recognition",
+      "venue": "IROS",
+      "version_id": "arxiv:2203.00807",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-040",
       "year": 2022
     },
     {
@@ -1203,6 +2039,76 @@
     },
     {
       "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/lra.2021.3136863",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Voxel / sparse learning",
+        "path": "global_retrieval/learned/voxel_sparse"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "minkloc3d-si-3d-lidar-place-recognition-with-sparse-convolutions-spherical-coordinates-and-intensity",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Voxel / Sparse Discretization",
+          "path": "global_descriptor/learning/discretization"
+        }
+      ],
+      "title": "MinkLoc3D-SI: 3D LiDAR Place Recognition With Sparse Convolutions, Spherical Coordinates, and Intensity",
+      "venue": "RAL",
+      "version_id": "doi:10.1109/lra.2021.3136863",
+      "version_type": "conference",
+      "work_id": "LPR-043",
+      "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2206.03062",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Projection-based learning",
+        "path": "global_retrieval/learned/projection"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "object-scan-context-object-centric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Projection",
+          "path": "global_descriptor/learning/projection"
+        }
+      ],
+      "title": "Object Scan Context: Object-centric Spatial Descriptor for Place Recognition within 3D Point Cloud Map",
+      "venue": "arXiv",
+      "version_id": "arxiv:2206.03062",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-044",
+      "year": 2022
+    },
+    {
+      "code_url": null,
       "curation_tier": "evidence_reviewed",
       "facts": [
         {
@@ -1459,6 +2365,41 @@
       "year": 2022
     },
     {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://ieeexplore.ieee.org/document/9811785",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "retriever-point-cloud-retrieval-in-compressed-3d-maps",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "Retriever: Point Cloud Retrieval in Compressed 3D Maps",
+      "venue": "ICRA",
+      "version_id": "ieee:9811785",
+      "version_type": "unknown",
+      "work_id": "LPR-048",
+      "year": 2022
+    },
+    {
       "code_url": "https://github.com/BIT-MJY/SeqOT",
       "curation_tier": "evidence_reviewed",
       "facts": [
@@ -1588,6 +2529,111 @@
       "version_type": "arxiv_preprint",
       "work_id": "LPR-051",
       "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1609/aaai.v36i1.19934",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Voxel / sparse learning",
+        "path": "global_retrieval/learned/voxel_sparse"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "svt-net-super-light-weight-sparse-voxel-transformer-for-large-scale-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Voxel / Sparse Discretization",
+          "path": "global_descriptor/learning/discretization"
+        }
+      ],
+      "title": "SVT-Net: Super Light-Weight Sparse Voxel Transformer for Large Scale Place Recognition",
+      "venue": "AAAI",
+      "version_id": "doi:10.1609/aaai.v36i1.19934",
+      "version_type": "conference",
+      "work_id": "LPR-054",
+      "year": 2022
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2012.05018",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "a-registration-aided-domain-adaptation-network-for-3d-point-cloud-based-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "A registration-aided domain adaptation network for 3d point cloud based place recognition",
+      "venue": "IROS",
+      "version_id": "arxiv:2012.05018",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-055",
+      "year": 2021
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2011.10934",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Multimodal learning",
+        "path": "global_retrieval/learned/multimodal"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "coral-colored-structural-representation-for-bi-modal-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Multimodal",
+          "path": "global_descriptor/learning/multimodal"
+        }
+      ],
+      "title": "CORAL: Colored structural representation for bi-modal place recognition",
+      "venue": "IROS",
+      "version_id": "arxiv:2011.10934",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-056",
+      "year": 2021
     },
     {
       "code_url": null,
@@ -1980,6 +3026,72 @@
       "year": 2021
     },
     {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2103.12292",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Voxel / sparse learning",
+        "path": "global_retrieval/learned/voxel_sparse"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "ndt-transformer-large-scale-3d-point-cloud-localisation-using-the-normal-distribution-transform-representation",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Voxel / Sparse Discretization",
+          "path": "global_descriptor/learning/discretization"
+        }
+      ],
+      "title": "NDT-Transformer: Large-Scale 3D Point Cloud Localisation using the Normal Distribution Transform Representation",
+      "venue": "ICRA",
+      "version_id": "arxiv:2103.12292",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-061",
+      "year": 2021
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2108.01383",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Segment / object matching",
+        "path": "local_structural/segment_object"
+      },
+      "primary_family": "Segments",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "on-the-descriptive-power-of-lidar-intensity-images-for-segment-based-loop-closing-in-3-d-slam",
+      "taxonomy": [
+        {
+          "name": "Segments",
+          "path": "segments"
+        },
+        {
+          "name": "Learning",
+          "path": "segments/learning"
+        }
+      ],
+      "title": "On the descriptive power of LiDAR intensity images for segment-based loop closing in 3-D SLAM",
+      "venue": "IROS",
+      "version_id": "arxiv:2108.01383",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-062",
+      "year": 2021
+    },
+    {
       "code_url": "https://github.com/PRBonn/OverlapNet",
       "curation_tier": "evidence_reviewed",
       "facts": [
@@ -2113,6 +3225,41 @@
       "year": 2021
     },
     {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Hui_Pyramid_Point_Cloud_Transformer_for_Large-Scale_Place_Recognition_ICCV_2021_paper.html",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "pyramid-point-cloud-transformer-for-large-scale-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "Pyramid Point Cloud Transformer for Large-Scale Place Recognition",
+      "venue": "ICCV",
+      "version_id": "title:315c41f86f2b041f",
+      "version_type": "unknown",
+      "work_id": "LPR-065",
+      "year": 2021
+    },
+    {
       "code_url": "https://github.com/asdfghjkl623/scancontext",
       "curation_tier": "evidence_reviewed",
       "facts": [
@@ -2240,6 +3387,76 @@
       "version_id": "arxiv:2109.13494",
       "version_type": "arxiv_preprint",
       "work_id": "LPR-066",
+      "year": 2021
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Xia_SOE-Net_A_Self-Attention_and_Orientation_Encoding_Network_for_Point_Cloud_CVPR_2021_paper.html",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "soe-net-a-self-attention-and-orientation-encoding-network-for-point-cloud-based-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "SOE-Net: A Self-Attention and Orientation Encoding Network for Point Cloud Based Place Recognition",
+      "venue": "CVPR",
+      "version_id": "title:fcc7ef455f3cb648",
+      "version_type": "unknown",
+      "work_id": "LPR-068",
+      "year": 2021
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2104.10067",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Multimodal learning",
+        "path": "global_retrieval/learned/multimodal"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "spherical-multi-modal-place-recognition-for-heterogeneous-sensor-systems",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Multimodal",
+          "path": "global_descriptor/learning/multimodal"
+        }
+      ],
+      "title": "Spherical Multi-Modal Place Recognition for Heterogeneous Sensor Systems",
+      "venue": "ICRA",
+      "version_id": "arxiv:2104.10067",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-069",
       "year": 2021
     },
     {
@@ -2504,6 +3721,76 @@
       "year": 2021
     },
     {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/icccr49711.2021.9349417",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Projection / context",
+        "path": "global_retrieval/handcrafted/projection_context"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "weighted-scan-context-global-descriptor-with-sparse-height-feature-for-loop-closure-detection",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "BEV",
+          "path": "global_descriptor/handcrafted/bev"
+        }
+      ],
+      "title": "Weighted scan context: Global descriptor with sparse height feature for loop closure detection:",
+      "venue": "ICCCR",
+      "version_id": "doi:10.1109/icccr49711.2021.9349417",
+      "version_type": "conference",
+      "work_id": "LPR-072",
+      "year": 2021
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2003.05656",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Projection / context",
+        "path": "global_retrieval/handcrafted/projection_context"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "intensity-scan-context-coding-intensity-and-geometry-relations-for-loop-closure-detection",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "BEV",
+          "path": "global_descriptor/handcrafted/bev"
+        }
+      ],
+      "title": "Intensity Scan Context: Coding Intensity and Geometry Relations for Loop Closure Detection:",
+      "venue": "ICRA",
+      "version_id": "arxiv:2003.05656",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-075",
+      "year": 2020
+    },
+    {
       "code_url": "https://github.com/JoestarK/LiDAR-Iris",
       "curation_tier": "evidence_reviewed",
       "facts": [
@@ -2623,6 +3910,76 @@
       "version_id": "arxiv:1912.03825",
       "version_type": "arxiv_preprint",
       "work_id": "LPR-077",
+      "year": 2020
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/lra.2020.3021374",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Geometry / topology",
+        "path": "global_retrieval/handcrafted/geometry_topology"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "lipmatch-lidar-point-cloud-plane-based-loop-closure",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Point / Structural",
+          "path": "global_descriptor/handcrafted/point_or_structure"
+        }
+      ],
+      "title": "LiPMatch: LiDAR Point Cloud Plane Based Loop-Closure",
+      "venue": "RAL",
+      "version_id": "doi:10.1109/lra.2020.3021374",
+      "version_type": "conference",
+      "work_id": "LPR-078",
+      "year": 2020
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/2008.00658",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Multimodal learning",
+        "path": "global_retrieval/learned/multimodal"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "pic-net-point-cloud-and-image-collaboration-network-for-large-scale-place-recognition",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Multimodal",
+          "path": "global_descriptor/learning/multimodal"
+        }
+      ],
+      "title": "PIC-Net: Point Cloud and Image Collaboration Network for Large-Scale Place Recognition",
+      "venue": "arXiv",
+      "version_id": "arxiv:2008.00658",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-079",
       "year": 2020
     },
     {
@@ -2884,6 +4241,41 @@
     },
     {
       "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/iros45743.2020.9341549",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Voxel / sparse learning",
+        "path": "global_retrieval/learned/voxel_sparse"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "spoxelnet-spherical-voxel-based-deep-place-recognition-for-3d-point-clouds-of-crowded-indoor-spaces",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Voxel / Sparse Discretization",
+          "path": "global_descriptor/learning/discretization"
+        }
+      ],
+      "title": "SpoxelNet: Spherical Voxel-based Deep Place Recognition for 3D Point Clouds of Crowded Indoor Spaces",
+      "venue": "IROS",
+      "version_id": "doi:10.1109/iros45743.2020.9341549",
+      "version_type": "conference",
+      "work_id": "LPR-082",
+      "year": 2020
+    },
+    {
+      "code_url": null,
       "curation_tier": "evidence_reviewed",
       "facts": [
         {
@@ -3014,6 +4406,111 @@
       "year": 2020
     },
     {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://ieeexplore.ieee.org/document/9340992",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Voxel / sparse learning",
+        "path": "global_retrieval/learned/voxel_sparse"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "voxel-based-representation-learning-for-place-recognition-based-on-3d-point-clouds",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Voxel / Sparse Discretization",
+          "path": "global_descriptor/learning/discretization"
+        }
+      ],
+      "title": "Voxel-Based Representation Learning for Place Recognition Based on 3D Point Clouds",
+      "venue": "IROS",
+      "version_id": "ieee:9340992",
+      "version_type": "unknown",
+      "work_id": "LPR-084",
+      "year": 2020
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://doi.org/10.1109/lra.2019.2897340",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Projection-based learning",
+        "path": "global_retrieval/learned/projection"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "1-day-learning-1-year-localization-long-term-lidar-localization-using-scan-context-image",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Projection",
+          "path": "global_descriptor/learning/projection"
+        }
+      ],
+      "title": "1-Day Learning, 1-Year Localization: Long-Term LiDAR Localization Using Scan Context Image",
+      "venue": "RAL",
+      "version_id": "doi:10.1109/lra.2019.2897340",
+      "version_type": "conference",
+      "work_id": "LPR-085",
+      "year": 2019
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://ieeexplore.ieee.org/document/8842896",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Geometry / topology",
+        "path": "global_retrieval/handcrafted/geometry_topology"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "c-m2dp-a-fast-point-cloud-descriptor-with-color-information-to-perform-loop-closure-detection",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Point / Structural",
+          "path": "global_descriptor/handcrafted/point_or_structure"
+        }
+      ],
+      "title": "c-m2dp: A fast point cloud descriptor with color information to perform loop closure detection",
+      "venue": "CASE",
+      "version_id": "ieee:8842896",
+      "version_type": "unknown",
+      "work_id": "LPR-086",
+      "year": 2019
+    },
+    {
       "code_url": "https://github.com/Suoivy/LPD-net",
       "curation_tier": "evidence_reviewed",
       "facts": [
@@ -3129,6 +4626,76 @@
       "version_id": "title:045c3ec7f455e74f",
       "version_type": "unknown",
       "work_id": "LPR-088",
+      "year": 2019
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/1903.07918",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "oreos-oriented-recognition-of-3d-point-clouds-in-outdoor-scenarios",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "OREOS: Oriented Recognition of 3D Point Clouds in Outdoor Scenarios",
+      "venue": "IROS",
+      "version_id": "arxiv:1903.07918",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-089",
+      "year": 2019
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://arxiv.org/abs/1904.09793",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "core_lpr",
+      "representative_tier": "ordinary",
+      "slug": "pcan-3d-attention-map-learning-using-contextual-information-for-point-cloud-based-retrieval",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "PCAN: 3D Attention Map Learning Using Contextual Information for Point Cloud Based Retrieval",
+      "venue": "CVPR",
+      "version_id": "arxiv:1904.09793",
+      "version_type": "arxiv_preprint",
+      "work_id": "LPR-090",
       "year": 2019
     },
     {
@@ -3730,6 +5297,111 @@
       "version_type": "unknown",
       "work_id": "LPR-100",
       "year": 2016
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://ieeexplore.ieee.org/document/7353454",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Projection / context",
+        "path": "global_retrieval/handcrafted/projection_context"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "legacy_foundational",
+      "representative_tier": "ordinary",
+      "slug": "a-fast-histogram-based-similarity-measure-for-detecting-loop-closures-in-3-d-lidar-data",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Discretization",
+          "path": "global_descriptor/handcrafted/discretization"
+        }
+      ],
+      "title": "A fast histogram-based similarity measure for detecting loop closures in 3-D LIDAR data",
+      "venue": "IROS",
+      "version_id": "ieee:7353454",
+      "version_type": "unknown",
+      "work_id": "LPR-101",
+      "year": 2015
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://ieeexplore.ieee.org/document/6106765",
+      "paradigm": "Handcrafted",
+      "primary_branch": {
+        "name": "Projection / context",
+        "path": "global_retrieval/handcrafted/projection_context"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "legacy_foundational",
+      "representative_tier": "ordinary",
+      "slug": "loop-closure-detection-using-small-sized-signatures-from-3d-lidar-data",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Handcrafted",
+          "path": "global_descriptor/handcrafted"
+        },
+        {
+          "name": "Discretization",
+          "path": "global_descriptor/handcrafted/discretization"
+        }
+      ],
+      "title": "Loop closure detection using small-sized signatures from 3D LIDAR data",
+      "venue": "SSRR",
+      "version_id": "ieee:6106765",
+      "version_type": "unknown",
+      "work_id": "LPR-102",
+      "year": 2011
+    },
+    {
+      "code_url": null,
+      "curation_tier": "indexed",
+      "facts": [],
+      "paper_url": "https://ieeexplore.ieee.org/document/5651013",
+      "paradigm": "Learning",
+      "primary_branch": {
+        "name": "Point-based learning",
+        "path": "global_retrieval/learned/point"
+      },
+      "primary_family": "Global Descriptor",
+      "relevance_tier": "legacy_foundational",
+      "representative_tier": "ordinary",
+      "slug": "learning-to-close-the-loop-from-3d-point-clouds",
+      "taxonomy": [
+        {
+          "name": "Global Descriptor",
+          "path": "global_descriptor"
+        },
+        {
+          "name": "Learning",
+          "path": "global_descriptor/learning"
+        },
+        {
+          "name": "Raw Point / Point Network",
+          "path": "global_descriptor/learning/point"
+        }
+      ],
+      "title": "Learning to close the loop from 3D point clouds",
+      "venue": "IROS",
+      "version_id": "ieee:5651013",
+      "version_type": "unknown",
+      "work_id": "LPR-103",
+      "year": 2010
     }
   ],
   "github_owner": "xiaoshi22-ops",
@@ -3876,8 +5548,8 @@
   "landscape_version": "0.1.0",
   "renderer_version": "markdown-svg.v0.2",
   "schema_version": "survey-snapshot.v0.2",
-  "snapshot_id": "lpr-survey-8c1a9ca39c018560",
-  "snapshot_sha256": "8c1a9ca39c0185607d42cf1edc1957d57fa1faa7839055c065ad8c17ff26eb6d",
+  "snapshot_id": "lpr-survey-911453a86068e183",
+  "snapshot_sha256": "911453a86068e1835dd976b7c2f7f32496db72062209099986602c0ed288dd51",
   "taxonomy_nodes": [
     {
       "description": "Methods that encode a complete scan or submap into a descriptor used for candidate place retrieval.",
@@ -4334,92 +6006,7 @@
     {
       "code": "metadata_not_confirmed",
       "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-001"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-002"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-004"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-005"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is needs_review.",
-      "work_id": "LPR-006"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-007"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-008"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-009"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-010"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-012"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
       "work_id": "LPR-013"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-015"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-016"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-017"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-018"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-019"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-020"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-021"
     },
     {
       "code": "metadata_not_confirmed",
@@ -4429,82 +6016,7 @@
     {
       "code": "metadata_not_confirmed",
       "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-023"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-025"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-027"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-028"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
       "work_id": "LPR-029"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-030"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-031"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-033"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-034"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-035"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-037"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-038"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-039"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-040"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-043"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-044"
     },
     {
       "code": "metadata_not_confirmed",
@@ -4514,92 +6026,7 @@
     {
       "code": "metadata_not_confirmed",
       "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-048"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-049"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
       "work_id": "LPR-050"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-052"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-053"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-054"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-055"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-056"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-059"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-061"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-062"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-064"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-065"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-067"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-068"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-069"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-072"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-073"
     },
     {
       "code": "metadata_not_confirmed",
@@ -4607,103 +6034,123 @@
       "work_id": "LPR-074"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-075"
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-001"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-017"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-018"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-020"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-021"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-027"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-031"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-033"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-037"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-049"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-052"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-053"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-059"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-064"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-067"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
+      "work_id": "LPR-073"
+    },
+    {
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-076"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-078"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-079"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-082"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-084"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-085"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-086"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-089"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-090"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-091"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-093"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-096"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-097"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-098"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-101"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-102"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
-      "work_id": "LPR-103"
-    },
-    {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-105"
     },
     {
-      "code": "metadata_not_confirmed",
-      "message": "Preferred version metadata is pending.",
+      "code": "missing_reviewed_taxonomy",
+      "message": "No accepted active taxonomy assignment is available.",
       "work_id": "LPR-106"
     }
   ]

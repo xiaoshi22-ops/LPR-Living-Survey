@@ -6,7 +6,7 @@ An evidence-reviewed, continuously updated map of LiDAR place recognition resear
 
 | Evidence-reviewed | Indexed | In review | Published coverage |
 | ---: | ---: | ---: | :--- |
-| **29** | **0** | **75** | **2016–2024** |
+| **30** | **44** | **30** | **2010–2024** |
 
 The canonical public-scope corpus currently contains **104 unique works**. Only entries that pass version-metadata and primary-classification gates appear in the public paper lists; pending records remain in the review queue.
 
@@ -22,10 +22,10 @@ Each paper has one additive primary branch for overview statistics and any numbe
 
 | Primary branch | Papers |
 | --- | ---: |
-| Global retrieval | 17 |
-| Local, segment and semantic structure | 7 |
-| Temporal and map-assisted | 4 |
-| Emerging and cross-domain | 1 |
+| Global retrieval | 58 |
+| Local, segment and semantic structure | 8 |
+| Temporal and map-assisted | 5 |
+| Emerging and cross-domain | 3 |
 
 [Open the research tree and branch paper lists →](landscape.md)
 
@@ -51,4 +51,4 @@ Each paper has one additive primary branch for overview statistics and any numbe
 - “Initial reviewed corpus” does not mean “representative” or “milestone”; those labels require a separate human decision.
 - Restricted PDFs, evidence quotations, local paths, credentials, and unreviewed model output are never published.
 
-Snapshot: `lpr-survey-8c1a9ca39c018560` (`8c1a9ca39c01`)
+Snapshot: `lpr-survey-911453a86068e183` (`911453a86068`)

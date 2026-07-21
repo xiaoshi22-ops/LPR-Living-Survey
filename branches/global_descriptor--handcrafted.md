@@ -12,13 +12,19 @@ Global descriptors constructed by deterministic geometric, projection, histogram
 
 **Exclude:** descriptors trained end-to-end
 
-## Papers (11)
+## Papers (23)
 
 ### 2024
 
+- **[BTC: A Binary and Triangle Combined Descriptor for 3-D Place Recognition](../papers/btc-a-binary-and-triangle-combined-descriptor-for-3-d-place-recognition.md)** · TRO · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/tro.2024.3353076)
+- **[Effectively Detecting Loop Closures using Point Cloud Density Maps](../papers/effectively-detecting-loop-closures-using-point-cloud-density-maps.md)** · ICRA · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://www.ipb.uni-bonn.de/pdfs/gupta2024icra.pdf)
+- **[OSK: A Novel LiDAR Occupancy Set Key-Based Place Recognition Method in Urban Environment](../papers/osk-a-novel-lidar-occupancy-set-key-based-place-recognition-method-in-urban-environment.md)** · TIM · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/tim.2024.3375408)
 - **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](../papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
 ### 2023
 
+- **[Binary Image Fingerprint: Stable Structure Identifier for 3D LiDAR Place Recognition ``RAL``](../papers/binary-image-fingerprint-stable-structure-identifier-for-3d-lidar-place-recognition-ral.md)** · 待确认 · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2023.3297063)
+- **[Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation](../papers/contour-context-abstract-structural-distribution-for-3d-lidar-loop-detection-and-metric-pose-estimation.md)** · ICRA · `arxiv_preprint` · `Geometry / topology` · `Handcrafted` · [Paper](https://arxiv.org/abs/2302.06149)
+- **[Place Recognition of Large-Scale Unstructured Orchards With Attention Score Maps](../papers/place-recognition-of-large-scale-unstructured-orchards-with-attention-score-maps.md)** · RAL · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2023.3234744)
 - **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
 - **[STD: Stable Triangle Descriptor for 3D place recognition](../papers/std-stable-triangle-descriptor-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Geometry / topology` · `Handcrafted` · [Paper](https://arxiv.org/abs/2209.12435) · [Code](https://github.com/hku-mars/STD)
 ### 2022
@@ -29,15 +35,27 @@ Global descriptors constructed by deterministic geometric, projection, histogram
 
 - **[Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:](../papers/scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments.md)** · TRO · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2109.13494) · [Code](https://github.com/asdfghjkl623/scancontext)
 - **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Semantic descriptors` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
+- **[Weighted scan context: Global descriptor with sparse height feature for loop closure detection:](../papers/weighted-scan-context-global-descriptor-with-sparse-height-feature-for-loop-closure-detection.md)** · ICCCR · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/icccr49711.2021.9349417)
 ### 2020
 
+- **[Intensity Scan Context: Coding Intensity and Geometry Relations for Loop Closure Detection:](../papers/intensity-scan-context-coding-intensity-and-geometry-relations-for-loop-closure-detection.md)** · ICRA · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2003.05656)
 - **[LiDAR Iris for Loop-Closure Detection:](../papers/lidar-iris-for-loop-closure-detection.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/1912.03825) · [Code](https://github.com/JoestarK/LiDAR-Iris)
+- **[LiPMatch: LiDAR Point Cloud Plane Based Loop-Closure](../papers/lipmatch-lidar-point-cloud-plane-based-loop-closure.md)** · RAL · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2020.3021374)
 - **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
+### 2019
+
+- **[c-m2dp: A fast point cloud descriptor with color information to perform loop closure detection](../papers/c-m2dp-a-fast-point-cloud-descriptor-with-color-information-to-perform-loop-closure-detection.md)** · CASE · `unknown` · `Geometry / topology` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/8842896)
 ### 2018
 
 - **[Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map](../papers/scan-context-egocentric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/8593953)
 ### 2016
 
 - **[M2DP: A novel 3D point cloud descriptor and its application in loop closure detection](../papers/m2dp-a-novel-3d-point-cloud-descriptor-and-its-application-in-loop-closure-detection.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/7759060) · [Code](https://github.com/LiHeUA/M2DP)
+### 2015
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+- **[A fast histogram-based similarity measure for detecting loop closures in 3-D LIDAR data](../papers/a-fast-histogram-based-similarity-measure-for-detecting-loop-closures-in-3-d-lidar-data.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/7353454)
+### 2011
+
+- **[Loop closure detection using small-sized signatures from 3D LIDAR data](../papers/loop-closure-detection-using-small-sized-signatures-from-3d-lidar-data.md)** · SSRR · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/6106765)
+
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

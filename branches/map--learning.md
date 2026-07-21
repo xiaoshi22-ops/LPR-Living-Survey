@@ -12,8 +12,11 @@ Map-based recognition or global localization using learned map, node, intensity,
 
 **Exclude:** scan-only retrieval with no explicit map representation
 
-## Papers (4)
+## Papers (5)
 
+### 2024
+
+- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
 ### 2022
 
 - **[LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM](../papers/lcdnet-deep-loop-closure-detection-and-point-cloud-registration-for-lidar-slam.md)** · TRO · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2103.05056) · [Code](https://github.com/robot-learning-freiburg/LCDNet)
@@ -25,4 +28,4 @@ Map-based recognition or global localization using learned map, node, intensity,
 
 - **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

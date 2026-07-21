@@ -12,7 +12,7 @@ Learned global descriptors based primarily on voxels, sparse convolutions, or ot
 
 **Exclude:** 2D projection CNN
 
-## Papers (6)
+## Papers (11)
 
 ### 2024
 
@@ -21,10 +21,17 @@ Learned global descriptors based primarily on voxels, sparse convolutions, or ot
 
 - **[LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM](../papers/lcdnet-deep-loop-closure-detection-and-point-cloud-registration-for-lidar-slam.md)** · TRO · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2103.05056) · [Code](https://github.com/robot-learning-freiburg/LCDNet)
 - **[LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition](../papers/logg3d-net-locally-guided-global-descriptor-learning-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2109.08336) · [Code](https://github.com/csiro-robotics/LoGG3D-Net)
+- **[MinkLoc3D-SI: 3D LiDAR Place Recognition With Sparse Convolutions, Spherical Coordinates, and Intensity](../papers/minkloc3d-si-3d-lidar-place-recognition-with-sparse-convolutions-spherical-coordinates-and-intensity.md)** · RAL · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3136863)
+- **[SVT-Net: Super Light-Weight Sparse Voxel Transformer for Large Scale Place Recognition](../papers/svt-net-super-light-weight-sparse-voxel-transformer-for-large-scale-place-recognition.md)** · AAAI · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1609/aaai.v36i1.19934)
 ### 2021
 
 - **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Map / submap-assisted` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
 - **[MinkLoc3D: Point Cloud Based Large-Scale Place Recognition](../papers/minkloc3d-point-cloud-based-large-scale-place-recognition.md)** · WACV · `unknown` · `Voxel / sparse learning` · `Learning` · [Paper](https://openaccess.thecvf.com/content/WACV2021/html/Komorowski_MinkLoc3D_Point_Cloud_Based_Large-Scale_Place_Recognition_WACV_2021_paper.html) · [Code](https://github.com/jac99/MinkLoc3D)
+- **[NDT-Transformer: Large-Scale 3D Point Cloud Localisation using the Normal Distribution Transform Representation](../papers/ndt-transformer-large-scale-3d-point-cloud-localisation-using-the-normal-distribution-transform-representation.md)** · ICRA · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2103.12292)
 - **[TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields](../papers/transloc3d-point-cloud-based-large-scale-place-recognition-using-adaptive-receptive-fields.md)** · arXiv · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2105.11605) · [Code](https://github.com/slothfulxtx/TransLoc3D)
+### 2020
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+- **[SpoxelNet: Spherical Voxel-based Deep Place Recognition for 3D Point Clouds of Crowded Indoor Spaces](../papers/spoxelnet-spherical-voxel-based-deep-place-recognition-for-3d-point-clouds-of-crowded-indoor-spaces.md)** · IROS · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/iros45743.2020.9341549)
+- **[Voxel-Based Representation Learning for Place Recognition Based on 3D Point Clouds](../papers/voxel-based-representation-learning-for-place-recognition-based-on-3d-point-clouds.md)** · IROS · `unknown` · `Voxel / sparse learning` · `Learning` · [Paper](https://ieeexplore.ieee.org/document/9340992)
+
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`

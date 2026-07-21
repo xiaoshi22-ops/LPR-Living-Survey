@@ -12,10 +12,13 @@ Segment-based recognition using learned descriptors, classifiers, or similarity 
 
 **Exclude:** semantic object graph without segment retrieval
 
-## Papers (1)
+## Papers (2)
 
+### 2021
+
+- **[On the descriptive power of LiDAR intensity images for segment-based loop closing in 3-D SLAM](../papers/on-the-descriptive-power-of-lidar-intensity-images-for-segment-based-loop-closing-in-3-d-slam.md)** · IROS · `arxiv_preprint` · `Segment / object matching` · `Learning` · [Paper](https://arxiv.org/abs/2108.01383)
 ### 2020
 
 - **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-8c1a9ca39c018560`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
