@@ -19,4 +19,4 @@ Corrections and paper suggestions are welcome as GitHub issues or pull requests.
 - Page plus section, figure, or table locator
 - Whether the statement is an author-reported fact, a derived fact, or a researcher judgement
 
-Do not attach paywalled PDFs, credentials, institutional download links, or long verbatim excerpts. New papers and factual changes remain candidates until metadata, taxonomy, and evidence pass human review. LLM suggestions never publish directly.
+Do not attach paywalled PDFs, credentials, institutional download links, or long verbatim excerpts. New papers remain candidates until the frozen policy gates and deterministic publication validation pass. Insufficient evidence produces a pending state; model output never bypasses the validator.

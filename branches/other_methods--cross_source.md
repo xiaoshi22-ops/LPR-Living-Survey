@@ -12,10 +12,17 @@ Recognition between substantially different sensing viewpoints, platforms, map s
 
 **Exclude:** ordinary seasonal domain shift within the same sensor setup
 
-## Papers (1)
+## Papers (4)
 
+### 2026
+
+- **[HOTFLoc++: End-to-End Hierarchical LiDAR Place Recognition, Re-Ranking, and 6-DoF Metric Localisation in Forests](../papers/hotfloc-end-to-end-hierarchical-lidar-place-recognition-re-ranking-and-6-dof-metric-localisation-in-forests.md)** · IEEE Robotics and Automation Letters · `journal` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2026.3692033)
+### 2025
+
+- **[Helios: Heterogeneous Lidar Place Recognition via Overlap-Based Learning and Local Spherical Transformer](../papers/helios-heterogeneous-lidar-place-recognition-via-overlap-based-learning-and-local-spherical-transformer.md)** · 2025 IEEE International Conference on Robotics and Automation (ICRA) · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/icra55743.2025.11127677)
+- **[HOTFormerLoc: Hierarchical Octree Transformer for Versatile Lidar Place Recognition Across Ground and Aerial Views](../papers/hotformerloc-hierarchical-octree-transformer-for-versatile-lidar-place-recognition-across-ground-and-aerial-views.md)** · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr52734.2025.00623)
 ### 2024
 
-- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / cross-view` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
+- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2020 / IJRR / `conference`
 - **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Segment / object matching](../landscape.md#branch-local-structural-segment-object)
+- **Primary method:** [Segment / semantic learning](../landscape.md#branch-learning-based-segment-semantic)
 - **Links:** [Paper](https://doi.org/10.1177/0278364919863090)
 
 ## Additional reviewed method tags
@@ -29,4 +28,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

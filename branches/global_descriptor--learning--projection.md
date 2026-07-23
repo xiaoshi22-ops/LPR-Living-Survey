@@ -12,10 +12,21 @@ Learned global descriptors based primarily on range, spherical, BEV, or other 2D
 
 **Exclude:** raw-point-only encoder
 
-## Papers (11)
+## Papers (18)
 
+### 2026
+
+- **[DyLPR: Dynamic Occlusion Inpainting-Enhanced LiDAR Place Recognition for Dynamic Traffic Environments](../papers/dylpr-dynamic-occlusion-inpainting-enhanced-lidar-place-recognition-for-dynamic-traffic-environments.md)** · IEEE Transactions on Industrial Informatics · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tii.2025.3618961)
+- **[PHMRNet: Persistent Homology Based Mamba–RWKV Network for LiDAR Place Recognition](../papers/phmrnet-persistent-homology-based-mamba-rwkv-network-for-lidar-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2026.3683589)
+- **[UniLGL: Learning Uniform Place Recognition for FOV-Limited/Panoramic LiDAR Global Localization](../papers/unilgl-learning-uniform-place-recognition-for-fov-limited-panoramic-lidar-global-localization.md)** · IEEE Transactions on Robotics · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tro.2026.3672514)
+### 2025
+
+- **[ForestLPR: LiDAR Place Recognition in Forests Attentioning Multiple BEV Density Images](../papers/forestlpr-lidar-place-recognition-in-forests-attentioning-multiple-bev-density-images.md)** · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr52734.2025.00624)
+- **[LRFusionPR: A Polar BEV-Based LiDAR-Radar Fusion Network for Place Recognition](../papers/lrfusionpr-a-polar-bev-based-lidar-radar-fusion-network-for-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2025.3614062)
+- **[MRMT-PR: A Multi-Scale Reverse-View Mamba-Transformer for LiDAR Place Recognition](../papers/mrmt-pr-a-multi-scale-reverse-view-mamba-transformer-for-lidar-place-recognition.md)** · 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/iros60139.2025.11247758)
 ### 2024
 
+- **[CCTNet: A Circular Convolutional Transformer Network for LiDAR-Based Place Recognition Handling Movable Objects Occlusion](../papers/cctnet-a-circular-convolutional-transformer-network-for-lidar-based-place-recognition-handling-movable-objects-occlusion.md)** · IEEE Transactions on Circuits and Systems for Video Technology · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tcsvt.2024.3509870)
 - **[CVTNet: A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments](../papers/cvtnet-a-cross-view-transformer-network-for-lidar-based-place-recognition-in-autonomous-driving-environments.md)** · TII · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2302.01665)
 - **[OverlapMamba: Novel Shift State Space Model for LiDAR-based Place Recognition](../papers/overlapmamba-novel-shift-state-space-model-for-lidar-based-place-recognition.md)** · arXiv · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2025.3582109)
 ### 2023
@@ -27,7 +38,7 @@ Learned global descriptors based primarily on range, spherical, BEV, or other 2D
 - **[DSC: Deep Scan Context Descriptor for Large-Scale Place Recognition](../papers/dsc-deep-scan-context-descriptor-for-large-scale-place-recognition.md)** · MFI · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2111.13838)
 - **[Object Scan Context: Object-centric Spatial Descriptor for Place Recognition within 3D Point Cloud Map](../papers/object-scan-context-object-centric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map.md)** · arXiv · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2206.03062)
 - **[OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition](../papers/overlaptransformer-an-efficient-and-yaw-angle-invariant-transformer-network-for-lidar-based-place-recognition.md)** · RAL · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2203.03397) · [Code](https://github.com/haomo-ai/OverlapTransformer)
-- **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](../papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
+- **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](../papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence / temporal learning` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
 ### 2021
 
 - **[DiSCO: Differentiable Scan Context With Orientation](../papers/disco-differentiable-scan-context-with-orientation.md)** · RAL · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2010.10949)
@@ -36,4 +47,4 @@ Learned global descriptors based primarily on range, spherical, BEV, or other 2D
 
 - **[1-Day Learning, 1-Year Localization: Long-Term LiDAR Localization Using Scan Context Image](../papers/1-day-learning-1-year-localization-long-term-lidar-localization-using-scan-context-image.md)** · RAL · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2019.2897340)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

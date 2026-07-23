@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2021 / ICCCR / `conference`
 - **Curation tier:** `indexed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Projection / context](../landscape.md#branch-global-retrieval-handcrafted-projection-context)
+- **Primary method:** [Projection / context](../landscape.md#branch-handcrafted-projection-context)
 - **Links:** [Paper](https://doi.org/10.1109/icccr49711.2021.9349417)
 
 ## Additional reviewed method tags
@@ -23,4 +22,4 @@ No public structured facts are available in this snapshot.
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

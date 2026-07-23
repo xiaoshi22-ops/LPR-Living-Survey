@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2021 / ICCV / `unknown`
 - **Curation tier:** `indexed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Point-based learning](../landscape.md#branch-global-retrieval-learned-point)
+- **Primary method:** [Point-based learning](../landscape.md#branch-learning-based-point)
 - **Links:** [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Hui_Pyramid_Point_Cloud_Transformer_for_Large-Scale_Place_Recognition_ICCV_2021_paper.html)
 
 ## Additional reviewed method tags
@@ -23,4 +22,4 @@ No public structured facts are available in this snapshot.
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

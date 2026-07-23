@@ -12,11 +12,14 @@ Handcrafted global descriptors derived from bird's-eye-view or polar BEV represe
 
 **Exclude:** learned BEV CNN embeddings
 
-## Papers (9)
+## Papers (10)
 
+### 2025
+
+- **[Matched Filtering Based LiDAR Place Recognition for Urban and Natural Environments](../papers/matched-filtering-based-lidar-place-recognition-for-urban-and-natural-environments.md)** · IEEE Robotics and Automation Letters · `journal` · `Frequency / transform` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2025.3533966)
 ### 2023
 
-- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
+- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
 ### 2022
 
 - **[Fresco: Frequency-domain scan context for lidar-based place recognition with translation and rotation invariance:](../papers/fresco-frequency-domain-scan-context-for-lidar-based-place-recognition-with-translation-and-rotation-invariance.md)** · ICARCV · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/2206.12628) · [Code](https://github.com/soytony/FreSCo)
@@ -24,7 +27,7 @@ Handcrafted global descriptors derived from bird's-eye-view or polar BEV represe
 ### 2021
 
 - **[Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:](../papers/scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments.md)** · TRO · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2109.13494) · [Code](https://github.com/asdfghjkl623/scancontext)
-- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Semantic descriptors` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
+- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
 - **[Weighted scan context: Global descriptor with sparse height feature for loop closure detection:](../papers/weighted-scan-context-global-descriptor-with-sparse-height-feature-for-loop-closure-detection.md)** · ICCCR · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/icccr49711.2021.9349417)
 ### 2020
 
@@ -34,4 +37,4 @@ Handcrafted global descriptors derived from bird's-eye-view or polar BEV represe
 
 - **[Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map](../papers/scan-context-egocentric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/8593953)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

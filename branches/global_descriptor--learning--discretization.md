@@ -12,11 +12,18 @@ Learned global descriptors based primarily on voxels, sparse convolutions, or ot
 
 **Exclude:** 2D projection CNN
 
-## Papers (11)
+## Papers (14)
 
+### 2026
+
+- **[HOTFLoc++: End-to-End Hierarchical LiDAR Place Recognition, Re-Ranking, and 6-DoF Metric Localisation in Forests](../papers/hotfloc-end-to-end-hierarchical-lidar-place-recognition-re-ranking-and-6-dof-metric-localisation-in-forests.md)** · IEEE Robotics and Automation Letters · `journal` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2026.3692033)
+### 2025
+
+- **[Helios: Heterogeneous Lidar Place Recognition via Overlap-Based Learning and Local Spherical Transformer](../papers/helios-heterogeneous-lidar-place-recognition-via-overlap-based-learning-and-local-spherical-transformer.md)** · 2025 IEEE International Conference on Robotics and Automation (ICRA) · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/icra55743.2025.11127677)
+- **[HOTFormerLoc: Hierarchical Octree Transformer for Versatile Lidar Place Recognition Across Ground and Aerial Views](../papers/hotformerloc-hierarchical-octree-transformer-for-versatile-lidar-place-recognition-across-ground-and-aerial-views.md)** · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr52734.2025.00623)
 ### 2024
 
-- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / cross-view` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
+- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
 ### 2022
 
 - **[LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM](../papers/lcdnet-deep-loop-closure-detection-and-point-cloud-registration-for-lidar-slam.md)** · TRO · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2103.05056) · [Code](https://github.com/robot-learning-freiburg/LCDNet)
@@ -25,7 +32,7 @@ Learned global descriptors based primarily on voxels, sparse convolutions, or ot
 - **[SVT-Net: Super Light-Weight Sparse Voxel Transformer for Large Scale Place Recognition](../papers/svt-net-super-light-weight-sparse-voxel-transformer-for-large-scale-place-recognition.md)** · AAAI · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1609/aaai.v36i1.19934)
 ### 2021
 
-- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Map / submap-assisted` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
+- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Learned map / submap` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
 - **[MinkLoc3D: Point Cloud Based Large-Scale Place Recognition](../papers/minkloc3d-point-cloud-based-large-scale-place-recognition.md)** · WACV · `unknown` · `Voxel / sparse learning` · `Learning` · [Paper](https://openaccess.thecvf.com/content/WACV2021/html/Komorowski_MinkLoc3D_Point_Cloud_Based_Large-Scale_Place_Recognition_WACV_2021_paper.html) · [Code](https://github.com/jac99/MinkLoc3D)
 - **[NDT-Transformer: Large-Scale 3D Point Cloud Localisation using the Normal Distribution Transform Representation](../papers/ndt-transformer-large-scale-3d-point-cloud-localisation-using-the-normal-distribution-transform-representation.md)** · ICRA · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2103.12292)
 - **[TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields](../papers/transloc3d-point-cloud-based-large-scale-place-recognition-using-adaptive-receptive-fields.md)** · arXiv · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2105.11605) · [Code](https://github.com/slothfulxtx/TransLoc3D)
@@ -34,4 +41,4 @@ Learned global descriptors based primarily on voxels, sparse convolutions, or ot
 - **[SpoxelNet: Spherical Voxel-based Deep Place Recognition for 3D Point Clouds of Crowded Indoor Spaces](../papers/spoxelnet-spherical-voxel-based-deep-place-recognition-for-3d-point-clouds-of-crowded-indoor-spaces.md)** · IROS · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/iros45743.2020.9341549)
 - **[Voxel-Based Representation Learning for Place Recognition Based on 3D Point Clouds](../papers/voxel-based-representation-learning-for-place-recognition-based-on-3d-point-clouds.md)** · IROS · `unknown` · `Voxel / sparse learning` · `Learning` · [Paper](https://ieeexplore.ieee.org/document/9340992)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

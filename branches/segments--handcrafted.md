@@ -16,9 +16,9 @@ Segment-based recognition using handcrafted segment descriptors, matching, or st
 
 ### 2020
 
-- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
+- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / semantic structure` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
 ### 2017
 
-- **[SegMatch: Segment based place recognition in 3D point clouds](../papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
+- **[SegMatch: Segment based place recognition in 3D point clouds](../papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / semantic structure` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

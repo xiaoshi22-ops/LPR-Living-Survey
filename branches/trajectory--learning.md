@@ -12,13 +12,16 @@ Trajectory or sequence recognition using learned temporal, recurrent, or attenti
 
 **Exclude:** single-scan transformer without temporal input
 
-## Papers (2)
+## Papers (3)
 
+### 2026
+
+- **[PHMRNet: Persistent Homology Based Mamba–RWKV Network for LiDAR Place Recognition](../papers/phmrnet-persistent-homology-based-mamba-rwkv-network-for-lidar-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2026.3683589)
 ### 2022
 
-- **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](../papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
+- **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](../papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence / temporal learning` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
 ### 2019
 
-- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
+- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence / temporal learning` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

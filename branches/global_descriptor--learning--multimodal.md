@@ -12,17 +12,20 @@ Learned place descriptors that fuse LiDAR with image, radar, semantic, or other 
 
 **Exclude:** LiDAR-only descriptor using intensity
 
-## Papers (4)
+## Papers (5)
 
+### 2025
+
+- **[LRFusionPR: A Polar BEV-Based LiDAR-Radar Fusion Network for Place Recognition](../papers/lrfusionpr-a-polar-bev-based-lidar-radar-fusion-network-for-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2025.3614062)
 ### 2022
 
-- **[AdaFusion: Visual-LiDAR Fusion With Adaptive Weights for Place Recognition](../papers/adafusion-visual-lidar-fusion-with-adaptive-weights-for-place-recognition.md)** · RAL · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2111.11739)
+- **[AdaFusion: Visual-LiDAR Fusion With Adaptive Weights for Place Recognition](../papers/adafusion-visual-lidar-fusion-with-adaptive-weights-for-place-recognition.md)** · RAL · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2111.11739)
 ### 2021
 
-- **[CORAL: Colored structural representation for bi-modal place recognition](../papers/coral-colored-structural-representation-for-bi-modal-place-recognition.md)** · IROS · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2011.10934)
-- **[Spherical Multi-Modal Place Recognition for Heterogeneous Sensor Systems](../papers/spherical-multi-modal-place-recognition-for-heterogeneous-sensor-systems.md)** · ICRA · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2104.10067)
+- **[CORAL: Colored structural representation for bi-modal place recognition](../papers/coral-colored-structural-representation-for-bi-modal-place-recognition.md)** · IROS · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2011.10934)
+- **[Spherical Multi-Modal Place Recognition for Heterogeneous Sensor Systems](../papers/spherical-multi-modal-place-recognition-for-heterogeneous-sensor-systems.md)** · ICRA · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2104.10067)
 ### 2020
 
-- **[PIC-Net: Point Cloud and Image Collaboration Network for Large-Scale Place Recognition](../papers/pic-net-point-cloud-and-image-collaboration-network-for-large-scale-place-recognition.md)** · arXiv · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2008.00658)
+- **[PIC-Net: Point Cloud and Image Collaboration Network for Large-Scale Place Recognition](../papers/pic-net-point-cloud-and-image-collaboration-network-for-large-scale-place-recognition.md)** · arXiv · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2008.00658)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

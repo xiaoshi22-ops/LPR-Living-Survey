@@ -16,10 +16,10 @@ LPR methods centered on a distinct research dimension not adequately represented
 
 ### 2024
 
-- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / cross-view` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
-- **[Uncertainty-Aware Lidar Place Recognition in Novel Environments](../papers/uncertainty-aware-lidar-place-recognition-in-novel-environments.md)** · IROS · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2210.01361)
+- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](../papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
+- **[Uncertainty-Aware Lidar Place Recognition in Novel Environments](../papers/uncertainty-aware-lidar-place-recognition-in-novel-environments.md)** · IROS · `arxiv_preprint` · `Lifelong / uncertainty learning` · `Learning` · [Paper](https://arxiv.org/abs/2210.01361)
 ### 2023
 
-- **[BioSLAM: A Bioinspired Lifelong Memory System for General Place Recognition](../papers/bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition.md)** · TRO · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2208.14543)
+- **[BioSLAM: A Bioinspired Lifelong Memory System for General Place Recognition](../papers/bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition.md)** · TRO · `arxiv_preprint` · `Lifelong / uncertainty learning` · `Learning` · [Paper](https://arxiv.org/abs/2208.14543)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

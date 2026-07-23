@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2024 / TRO / `arxiv_preprint`
 - **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Map / submap-assisted](../landscape.md#branch-temporal-map-map-assisted)
+- **Primary method:** [Learned map / submap](../landscape.md#branch-learning-based-map-assisted)
 - **Links:** [Paper](https://arxiv.org/abs/2309.08086) · [Reviewed official code](https://github.com/nubot-nudt/LCR-Net)
 
 ## Additional reviewed method tags
@@ -32,4 +31,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2018 / CVPR / `conference`
 - **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Point-based learning](../landscape.md#branch-global-retrieval-learned-point)
+- **Primary method:** [Point-based learning](../landscape.md#branch-learning-based-point)
 - **Links:** [Paper](https://doi.org/10.1109/cvpr.2018.00470) · [Reviewed official code](https://github.com/mikacuy/pointnetvlad)
 
 ## Additional reviewed method tags
@@ -28,4 +27,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

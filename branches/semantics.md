@@ -16,15 +16,15 @@ Methods where semantic classes, objects, or semantic relations are a primary sou
 
 ### 2024
 
-- **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](../papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
+- **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](../papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
 ### 2022
 
-- **[BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR](../papers/boxgraph-semantic-place-recognition-and-pose-estimation-from-3d-lidar.md)** · IROS · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2206.15154)
+- **[BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR](../papers/boxgraph-semantic-place-recognition-and-pose-estimation-from-3d-lidar.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2206.15154)
 ### 2021
 
-- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Semantic descriptors` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
+- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
 ### 2020
 
-- **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](../papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Semantic graphs` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
+- **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](../papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Segment / semantic learning` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

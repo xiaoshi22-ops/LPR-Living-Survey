@@ -12,20 +12,26 @@ Map-based recognition or global localization using learned map, node, intensity,
 
 **Exclude:** scan-only retrieval with no explicit map representation
 
-## Papers (5)
+## Papers (7)
 
+### 2026
+
+- **[UniLGL: Learning Uniform Place Recognition for FOV-Limited/Panoramic LiDAR Global Localization](../papers/unilgl-learning-uniform-place-recognition-for-fov-limited-panoramic-lidar-global-localization.md)** · IEEE Transactions on Robotics · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tro.2026.3672514)
+### 2025
+
+- **[Diffusion Based Robust LiDAR Place Recognition](../papers/diffusion-based-robust-lidar-place-recognition.md)** · 2025 IEEE International Conference on Robotics and Automation (ICRA) · `conference` · `Learned map / submap` · `Learning` · [Paper](https://doi.org/10.1109/icra55743.2025.11127534)
 ### 2024
 
-- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
+- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Learned map / submap` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
 ### 2022
 
 - **[LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM](../papers/lcdnet-deep-loop-closure-detection-and-point-cloud-registration-for-lidar-slam.md)** · TRO · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2103.05056) · [Code](https://github.com/robot-learning-freiburg/LCDNet)
 ### 2021
 
-- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Map / submap-assisted` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
+- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Learned map / submap` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
 - **[OverlapNet: a siamese network for computing LiDAR scan similarity with applications to loop closing and localization](../papers/overlapnet-a-siamese-network-for-computing-lidar-scan-similarity-with-applications-to-loop-closing-and-localization.md)** · Autonomous Robots · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1007/s10514-021-09999-0) · [Code](https://github.com/PRBonn/OverlapNet)
 ### 2020
 
-- **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
+- **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / semantic learning` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

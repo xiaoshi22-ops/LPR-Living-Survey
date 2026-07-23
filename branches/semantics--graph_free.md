@@ -12,10 +12,13 @@ Semantic place recognition using semantic descriptors or embeddings without an e
 
 **Exclude:** explicit node-edge graph matching
 
-## Papers (1)
+## Papers (2)
 
+### 2026
+
+- **[DyLPR: Dynamic Occlusion Inpainting-Enhanced LiDAR Place Recognition for Dynamic Traffic Environments](../papers/dylpr-dynamic-occlusion-inpainting-enhanced-lidar-place-recognition-for-dynamic-traffic-environments.md)** · IEEE Transactions on Industrial Informatics · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tii.2025.3618961)
 ### 2021
 
-- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Semantic descriptors` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
+- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](../papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

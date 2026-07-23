@@ -8,32 +8,32 @@ For non-overlapping field statistics, use the [primary research landscape](lands
 
 - [Global Descriptor](branches/global_descriptor.md) — 68 tagged papers
   - [Handcrafted](branches/global_descriptor--handcrafted.md) — 23 tagged papers
-    - [BEV](branches/global_descriptor--handcrafted--bev.md) — 9 tagged papers
-    - [Discretization](branches/global_descriptor--handcrafted--discretization.md) — 7 tagged papers
-    - [Frequency / Transform Domain](branches/global_descriptor--handcrafted--frequency_transform.md) — 4 tagged papers
+    - [BEV](branches/global_descriptor--handcrafted--bev.md) — 10 tagged papers
+    - [Discretization](branches/global_descriptor--handcrafted--discretization.md) — 8 tagged papers
+    - [Frequency / Transform Domain](branches/global_descriptor--handcrafted--frequency_transform.md) — 6 tagged papers
     - [Point / Structural](branches/global_descriptor--handcrafted--point_or_structure.md) — 10 tagged papers
   - [Learning](branches/global_descriptor--learning.md) — 45 tagged papers
-    - [Multimodal](branches/global_descriptor--learning--multimodal.md) — 4 tagged papers
-    - [Projection](branches/global_descriptor--learning--projection.md) — 11 tagged papers
-    - [Raw Point / Point Network](branches/global_descriptor--learning--point.md) — 19 tagged papers
-    - [Voxel / Sparse Discretization](branches/global_descriptor--learning--discretization.md) — 11 tagged papers
+    - [Multimodal](branches/global_descriptor--learning--multimodal.md) — 5 tagged papers
+    - [Projection](branches/global_descriptor--learning--projection.md) — 18 tagged papers
+    - [Raw Point / Point Network](branches/global_descriptor--learning--point.md) — 21 tagged papers
+    - [Voxel / Sparse Discretization](branches/global_descriptor--learning--discretization.md) — 14 tagged papers
 - [Local Descriptor](branches/local_descriptor.md) — 4 tagged papers
   - [Handcrafted](branches/local_descriptor--handcrafted.md) — 1 tagged papers
     - [3D Local](branches/local_descriptor--handcrafted--3d.md) — 1 tagged papers
-  - [Learning](branches/local_descriptor--learning.md) — 3 tagged papers
+  - [Learning](branches/local_descriptor--learning.md) — 4 tagged papers
 - [Map](branches/map.md) — 9 tagged papers
   - [Handcrafted](branches/map--handcrafted.md) — 4 tagged papers
-  - [Learning](branches/map--learning.md) — 5 tagged papers
+  - [Learning](branches/map--learning.md) — 7 tagged papers
 - [Other Methods](branches/other_methods.md) — 3 tagged papers
-  - [Cross-source / Cross-domain](branches/other_methods--cross_source.md) — 1 tagged papers
-  - [Lifelong / Uncertainty](branches/other_methods--lifelong_or_uncertainty.md) — 2 tagged papers
+  - [Cross-source / Cross-domain](branches/other_methods--cross_source.md) — 4 tagged papers
+  - [Lifelong / Uncertainty](branches/other_methods--lifelong_or_uncertainty.md) — 3 tagged papers
 - [Segments](branches/segments.md) — 4 tagged papers
   - [Handcrafted](branches/segments--handcrafted.md) — 2 tagged papers
   - [Learning](branches/segments--learning.md) — 2 tagged papers
 - [Semantics](branches/semantics.md) — 4 tagged papers
-  - [Graph-based](branches/semantics--graph_based.md) — 3 tagged papers
-  - [Graph-free](branches/semantics--graph_free.md) — 1 tagged papers
+  - [Graph-based](branches/semantics--graph_based.md) — 4 tagged papers
+  - [Graph-free](branches/semantics--graph_free.md) — 2 tagged papers
 - [Trajectory](branches/trajectory.md) — 2 tagged papers
-  - [Learning](branches/trajectory--learning.md) — 2 tagged papers
+  - [Learning](branches/trajectory--learning.md) — 3 tagged papers
 
-Taxonomy version: `0.1.0` · Snapshot: `lpr-survey-911453a86068e183`
+Taxonomy version: `0.1.0` · Snapshot: `lpr-survey-4c527a0f69d72ee9`

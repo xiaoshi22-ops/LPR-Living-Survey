@@ -12,11 +12,17 @@ Handcrafted descriptors using Fourier, Radon, sinogram, or related transform-dom
 
 **Exclude:** ordinary spatial histogram without transform-domain matching
 
-## Papers (4)
+## Papers (6)
 
+### 2026
+
+- **[FLASH: Fibonacci Lattice Spherical Harmonics for Semantic Place Recognition Using LiDAR](../papers/flash-fibonacci-lattice-spherical-harmonics-for-semantic-place-recognition-using-lidar.md)** · IEEE Robotics and Automation Letters · `journal` · `Frequency / transform` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2026.3665080)
+### 2025
+
+- **[Matched Filtering Based LiDAR Place Recognition for Urban and Natural Environments](../papers/matched-filtering-based-lidar-place-recognition-for-urban-and-natural-environments.md)** · IEEE Robotics and Automation Letters · `journal` · `Frequency / transform` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2025.3533966)
 ### 2023
 
-- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
+- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
 ### 2022
 
 - **[Fresco: Frequency-domain scan context for lidar-based place recognition with translation and rotation invariance:](../papers/fresco-frequency-domain-scan-context-for-lidar-based-place-recognition-with-translation-and-rotation-invariance.md)** · ICARCV · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/2206.12628) · [Code](https://github.com/soytony/FreSCo)
@@ -25,4 +31,4 @@ Handcrafted descriptors using Fourier, Radon, sinogram, or related transform-dom
 
 - **[LiDAR Iris for Loop-Closure Detection:](../papers/lidar-iris-for-loop-closure-detection.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/1912.03825) · [Code](https://github.com/JoestarK/LiDAR-Iris)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

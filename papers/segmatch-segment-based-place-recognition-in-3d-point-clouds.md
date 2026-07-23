@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2017 / ICRA / `conference`
 - **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Segment / object matching](../landscape.md#branch-local-structural-segment-object)
+- **Primary method:** [Segment / semantic structure](../landscape.md#branch-handcrafted-segment-semantic)
 - **Links:** [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Reviewed official code](https://github.com/ethz-asl/segmap)
 
 ## Additional reviewed method tags
@@ -27,4 +26,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

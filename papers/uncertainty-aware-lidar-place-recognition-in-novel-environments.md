@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2024 / IROS / `arxiv_preprint`
 - **Curation tier:** `indexed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Lifelong / uncertainty](../landscape.md#branch-emerging-cross-domain-lifelong-uncertainty)
+- **Primary method:** [Lifelong / uncertainty learning](../landscape.md#branch-learning-based-lifelong-uncertainty)
 - **Links:** [Paper](https://arxiv.org/abs/2210.01361)
 
 ## Additional reviewed method tags
@@ -22,4 +21,4 @@ No public structured facts are available in this snapshot.
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

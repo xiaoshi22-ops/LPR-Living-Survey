@@ -1,5 +1,1069 @@
 [
   {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 8,
+          "section": "IV. Experiments",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "SemanticKITTI",
+          "LDI-Dataset",
+          "real-vehicle data"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "III. Methodology Overview",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single LiDAR range/depth image"
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "III. Methodology Overview",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "III. Methodology Overview",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/tii.2025.3618961",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "learning_based/projection"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "dylpr-dynamic-occlusion-inpainting-enhanced-lidar-place-recognition-for-dynamic-traffic-environments",
+    "taxonomy": [
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      },
+      {
+        "name": "Graph-free",
+        "path": "semantics/graph_free"
+      }
+    ],
+    "title": "DyLPR: Dynamic Occlusion Inpainting-Enhanced LiDAR Place Recognition for Dynamic Traffic Environments",
+    "venue": "IEEE Transactions on Industrial Informatics",
+    "version_id": "doi:10.1109/tii.2025.3618961",
+    "version_type": "journal",
+    "work_id": "dylpr-dynamic-occlusion-inpainting-enhanced-lidar-place-recognition-for-dynamic-traffic-environments",
+    "year": 2026
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "IV. Experimental Evaluation",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "KITTI",
+          "Ford Campus",
+          "Apollo",
+          "CU-Multi"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III-C. Spherical Functions and Descriptor Generation",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single semantic LiDAR point cloud"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III-C. Spherical Functions and Descriptor Generation",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III-C. Spherical Functions and Descriptor Generation",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2026.3665080",
+    "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Frequency / transform",
+      "path": "handcrafted/frequency_transform"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "flash-fibonacci-lattice-spherical-harmonics-for-semantic-place-recognition-using-lidar",
+    "taxonomy": [
+      {
+        "name": "Frequency / Transform Domain",
+        "path": "global_descriptor/handcrafted/frequency_transform"
+      },
+      {
+        "name": "Graph-based",
+        "path": "semantics/graph_based"
+      }
+    ],
+    "title": "FLASH: Fibonacci Lattice Spherical Harmonics for Semantic Place Recognition Using LiDAR",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2026.3665080",
+    "version_type": "journal",
+    "work_id": "flash-fibonacci-lattice-spherical-harmonics-for-semantic-place-recognition-using-lidar",
+    "year": 2026
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "IV-A. Datasets and Evaluation Protocol",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "CS-Wild-Places",
+          "Wild-Places",
+          "MulRan"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III-A. Place Recognition with Hierarchical Features",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "LiDAR point-cloud submap"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III-A. Place Recognition with Hierarchical Features",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III-A. Place Recognition with Hierarchical Features",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2026.3692033",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Voxel / sparse learning",
+      "path": "learning_based/voxel_sparse"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "hotfloc-end-to-end-hierarchical-lidar-place-recognition-re-ranking-and-6-dof-metric-localisation-in-forests",
+    "taxonomy": [
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      },
+      {
+        "name": "Cross-source / Cross-domain",
+        "path": "other_methods/cross_source"
+      }
+    ],
+    "title": "HOTFLoc++: End-to-End Hierarchical LiDAR Place Recognition, Re-Ranking, and 6-DoF Metric Localisation in Forests",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2026.3692033",
+    "version_type": "journal",
+    "work_id": "hotfloc-end-to-end-hierarchical-lidar-place-recognition-re-ranking-and-6-dof-metric-localisation-in-forests",
+    "year": 2026
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "V-A. Datasets and Experimental Protocol",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "Oxford RobotCar",
+          "MulRan DCC",
+          "MulRan Riverside",
+          "In-house"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV. Methodology",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "continual sequence of LPR training domains"
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV. Methodology",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV. Methodology",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2026.3703260",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Lifelong / uncertainty learning",
+      "path": "learning_based/lifelong_uncertainty"
+    },
+    "primary_family": "Other Methods",
+    "relevance_tier": "core_lpr",
+    "slug": "learning-from-mistakes-loss-aware-memory-enhanced-continual-learning-for-lidar-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Lifelong / Uncertainty",
+        "path": "other_methods/lifelong_or_uncertainty"
+      }
+    ],
+    "title": "Learning From Mistakes: Loss-Aware Memory Enhanced Continual Learning for LiDAR Place Recognition",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2026.3703260",
+    "version_type": "journal",
+    "work_id": "learning-from-mistakes-loss-aware-memory-enhanced-continual-learning-for-lidar-place-recognition",
+    "year": 2026
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "IV-A. Experimental Setup",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "KITTI",
+          "Ford Campus",
+          "NCLT",
+          "MulRan"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Method",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "short sequence of LiDAR range-view frames"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Method",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Method",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "yes"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2026.3683589",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "learning_based/projection"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "phmrnet-persistent-homology-based-mamba-rwkv-network-for-lidar-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      },
+      {
+        "name": "Learning",
+        "path": "trajectory/learning"
+      }
+    ],
+    "title": "PHMRNet: Persistent Homology Based Mamba–RWKV Network for LiDAR Place Recognition",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2026.3683589",
+    "version_type": "journal",
+    "work_id": "phmrnet-persistent-homology-based-mamba-rwkv-network-for-lidar-place-recognition",
+    "year": 2026
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 8,
+          "section": "IV-A. Datasets",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "MCD",
+          "Snail",
+          "Garden"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "query LiDAR point cloud and database point-cloud map"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/tro.2026.3672514",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "learning_based/projection"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "unilgl-learning-uniform-place-recognition-for-fov-limited-panoramic-lidar-global-localization",
+    "taxonomy": [
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      },
+      {
+        "name": "Learning",
+        "path": "map/learning"
+      }
+    ],
+    "title": "UniLGL: Learning Uniform Place Recognition for FOV-Limited/Panoramic LiDAR Global Localization",
+    "venue": "IEEE Transactions on Robotics",
+    "version_id": "doi:10.1109/tro.2026.3672514",
+    "version_type": "journal",
+    "work_id": "unilgl-learning-uniform-place-recognition-for-fov-limited-panoramic-lidar-global-localization",
+    "year": 2026
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV. Experiments",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "Hilti",
+          "ETH LEE",
+          "Aesch construction site"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single LiDAR point cloud with a pre-scanned building mesh"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/icra55743.2025.11127534",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Learned map / submap",
+      "path": "learning_based/map_assisted"
+    },
+    "primary_family": "Map",
+    "relevance_tier": "core_lpr",
+    "slug": "diffusion-based-robust-lidar-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Learning",
+        "path": "map/learning"
+      }
+    ],
+    "title": "Diffusion Based Robust LiDAR Place Recognition",
+    "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+    "version_id": "doi:10.1109/icra55743.2025.11127534",
+    "version_type": "conference",
+    "work_id": "diffusion-based-robust-lidar-place-recognition",
+    "year": 2025
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 6,
+          "section": "5. Experimental Results",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "Wild-Places",
+          "Botanic",
+          "ANYmal"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "LiDAR submap represented by multi-height BEV density images"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00624",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "learning_based/projection"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "forestlpr-lidar-place-recognition-in-forests-attentioning-multiple-bev-density-images",
+    "taxonomy": [
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      }
+    ],
+    "title": "ForestLPR: LiDAR Place Recognition in Forests Attentioning Multiple BEV Density Images",
+    "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "version_id": "doi:10.1109/cvpr52734.2025.00624",
+    "version_type": "conference",
+    "work_id": "forestlpr-lidar-place-recognition-in-forests-attentioning-multiple-bev-density-images",
+    "year": 2025
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "IV. Experiments",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "MulRan",
+          "HeLiPR"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Method",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single point cloud from heterogeneous LiDAR types"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Method",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Method",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/icra55743.2025.11127677",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Voxel / sparse learning",
+      "path": "learning_based/voxel_sparse"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "helios-heterogeneous-lidar-place-recognition-via-overlap-based-learning-and-local-spherical-transformer",
+    "taxonomy": [
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      },
+      {
+        "name": "Cross-source / Cross-domain",
+        "path": "other_methods/cross_source"
+      }
+    ],
+    "title": "Helios: Heterogeneous Lidar Place Recognition via Overlap-Based Learning and Local Spherical Transformer",
+    "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+    "version_id": "doi:10.1109/icra55743.2025.11127677",
+    "version_type": "conference",
+    "work_id": "helios-heterogeneous-lidar-place-recognition-via-overlap-based-learning-and-local-spherical-transformer",
+    "year": 2025
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 6,
+          "section": "4. Experiments",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "Oxford RobotCar",
+          "CS-Campus3D",
+          "CS-Wild-Places"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "LiDAR point-cloud submap"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00623",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Voxel / sparse learning",
+      "path": "learning_based/voxel_sparse"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "hotformerloc-hierarchical-octree-transformer-for-versatile-lidar-place-recognition-across-ground-and-aerial-views",
+    "taxonomy": [
+      {
+        "name": "Voxel / Sparse Discretization",
+        "path": "global_descriptor/learning/discretization"
+      },
+      {
+        "name": "Cross-source / Cross-domain",
+        "path": "other_methods/cross_source"
+      }
+    ],
+    "title": "HOTFormerLoc: Hierarchical Octree Transformer for Versatile Lidar Place Recognition Across Ground and Aerial Views",
+    "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "version_id": "doi:10.1109/cvpr52734.2025.00623",
+    "version_type": "conference",
+    "work_id": "hotformerloc-hierarchical-octree-transformer-for-versatile-lidar-place-recognition-across-ground-and-aerial-views",
+    "year": 2025
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 6,
+          "section": "IV. Experiments",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "nuScenes",
+          "MulRan",
+          "Oxford Radar",
+          "Boreas"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "paired LiDAR and radar polar-BEV observations"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2025.3614062",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Cross-source / multimodal learning",
+      "path": "learning_based/cross_source_multimodal"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "lrfusionpr-a-polar-bev-based-lidar-radar-fusion-network-for-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Multimodal",
+        "path": "global_descriptor/learning/multimodal"
+      },
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      }
+    ],
+    "title": "LRFusionPR: A Polar BEV-Based LiDAR-Radar Fusion Network for Place Recognition",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2025.3614062",
+    "version_type": "journal",
+    "work_id": "lrfusionpr-a-polar-bev-based-lidar-radar-fusion-network-for-place-recognition",
+    "year": 2025
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "IV. Experiments",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "NCLT",
+          "Oxford Radar",
+          "WildPlaces"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single LiDAR scan represented as a BEV height-density map"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2025.3533966",
+    "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Frequency / transform",
+      "path": "handcrafted/frequency_transform"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "matched-filtering-based-lidar-place-recognition-for-urban-and-natural-environments",
+    "taxonomy": [
+      {
+        "name": "BEV",
+        "path": "global_descriptor/handcrafted/bev"
+      },
+      {
+        "name": "Frequency / Transform Domain",
+        "path": "global_descriptor/handcrafted/frequency_transform"
+      }
+    ],
+    "title": "Matched Filtering Based LiDAR Place Recognition for Urban and Natural Environments",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2025.3533966",
+    "version_type": "journal",
+    "work_id": "matched-filtering-based-lidar-place-recognition-for-urban-and-natural-environments",
+    "year": 2025
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "IV-A. Implementation and Experimental Setup",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "NCLT"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single LiDAR scan projected to range, BEV, and reverse views"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/iros60139.2025.11247758",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "learning_based/projection"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "mrmt-pr-a-multi-scale-reverse-view-mamba-transformer-for-lidar-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      }
+    ],
+    "title": "MRMT-PR: A Multi-Scale Reverse-View Mamba-Transformer for LiDAR Place Recognition",
+    "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "version_id": "doi:10.1109/iros60139.2025.11247758",
+    "version_type": "conference",
+    "work_id": "mrmt-pr-a-multi-scale-reverse-view-mamba-transformer-for-lidar-place-recognition",
+    "year": 2025
+  },
+  {
     "code_url": null,
     "curation_tier": "indexed",
     "facts": [],
@@ -7,11 +1071,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Geometry / topology",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "path": "handcrafted/geometry_topology"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "btc-a-binary-and-triangle-combined-descriptor-for-3-d-place-recognition",
     "taxonomy": [
       {
@@ -32,6 +1095,85 @@
     "version_id": "doi:10.1109/tro.2024.3353076",
     "version_type": "conference",
     "work_id": "LPR-002",
+    "year": 2024
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 6,
+          "section": "IV-A. Datasets and Experimental Setup",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "KITTI",
+          "Ford Campus",
+          "JLU Campus"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single LiDAR range image"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/tcsvt.2024.3509870",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Projection-based learning",
+      "path": "learning_based/projection"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "cctnet-a-circular-convolutional-transformer-network-for-lidar-based-place-recognition-handling-movable-objects-occlusion",
+    "taxonomy": [
+      {
+        "name": "Projection",
+        "path": "global_descriptor/learning/projection"
+      }
+    ],
+    "title": "CCTNet: A Circular Convolutional Transformer Network for LiDAR-Based Place Recognition Handling Movable Objects Occlusion",
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "version_id": "doi:10.1109/tcsvt.2024.3509870",
+    "version_type": "journal",
+    "work_id": "cctnet-a-circular-convolutional-transformer-network-for-lidar-based-place-recognition-handling-movable-objects-occlusion",
     "year": 2024
   },
   {
@@ -126,12 +1268,11 @@
     "paper_url": "https://arxiv.org/abs/2303.17778",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Cross-source / cross-view",
-      "path": "emerging_cross_domain/cross_source"
+      "name": "Cross-source / multimodal learning",
+      "path": "learning_based/cross_source_multimodal"
     },
     "primary_family": "Other Methods",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "crossloc3d-aerial-ground-cross-source-3d-place-recognition",
     "taxonomy": [
       {
@@ -170,11 +1311,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "cvtnet-a-cross-view-transformer-network-for-lidar-based-place-recognition-in-autonomous-driving-environments",
     "taxonomy": [
       {
@@ -205,11 +1345,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "effectively-detecting-loop-closures-using-point-cloud-density-maps",
     "taxonomy": [
       {
@@ -332,12 +1471,11 @@
     "paper_url": "https://arxiv.org/abs/2309.08086",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Map / submap-assisted",
-      "path": "temporal_map/map_assisted"
+      "name": "Learned map / submap",
+      "path": "learning_based/map_assisted"
     },
     "primary_family": "Map",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam",
     "taxonomy": [
       {
@@ -377,6 +1515,85 @@
     "year": 2024
   },
   {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 6,
+          "section": "IV. Evaluation",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "KITTI",
+          "MulRan",
+          "HeLiPR"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single LiDAR scan"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "no"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2024.3440089",
+    "paradigm": "Handcrafted",
+    "primary_branch": {
+      "name": "Projection / context",
+      "path": "handcrafted/projection_context"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "narrowing-your-fov-with-solid-spatially-organized-and-lightweight-global-descriptor-for-fov-constrained-lidar-place-reco",
+    "taxonomy": [
+      {
+        "name": "Discretization",
+        "path": "global_descriptor/handcrafted/discretization"
+      }
+    ],
+    "title": "Narrowing Your FOV With SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-Constrained LiDAR Place Recognition",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2024.3440089",
+    "version_type": "journal",
+    "work_id": "narrowing-your-fov-with-solid-spatially-organized-and-lightweight-global-descriptor-for-fov-constrained-lidar-place-reco",
+    "year": 2024
+  },
+  {
     "code_url": null,
     "curation_tier": "indexed",
     "facts": [],
@@ -384,11 +1601,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "osk-a-novel-lidar-occupancy-set-key-based-place-recognition-method-in-urban-environment",
     "taxonomy": [
       {
@@ -419,11 +1635,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "overlapmamba-novel-shift-state-space-model-for-lidar-based-place-recognition",
     "taxonomy": [
       {
@@ -454,11 +1669,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "p-gat-pose-graph-attentional-network-for-lidar-place-recognition",
     "taxonomy": [
       {
@@ -482,6 +1696,170 @@
     "year": 2024
   },
   {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 5,
+          "section": "IV. Experiments",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "HORTO-3DLM",
+          "KITTI Odometry"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single 3D LiDAR scan"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 1,
+          "section": "Abstract",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2024.3475044",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Point-based learning",
+      "path": "learning_based/point"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "pointnetpgap-slc-a-3d-lidar-based-place-recognition-approach-with-segment-level-consistency-training-for-mobile-robots-i",
+    "taxonomy": [
+      {
+        "name": "Raw Point / Point Network",
+        "path": "global_descriptor/learning/point"
+      }
+    ],
+    "title": "PointNetPGAP-SLC: A 3D LiDAR-Based Place Recognition Approach With Segment-Level Consistency Training for Mobile Robots in Horticulture",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2024.3475044",
+    "version_type": "journal",
+    "work_id": "pointnetpgap-slc-a-3d-lidar-based-place-recognition-approach-with-segment-level-consistency-training-for-mobile-robots-i",
+    "year": 2024
+  },
+  {
+    "audit": {
+      "decision": "accepted",
+      "evidence_level": "E2",
+      "gates": "G0-G6:pass",
+      "policy_id": "lpr-inclusion-policy-v2.0",
+      "policy_sha256": "fd7a5c0d447d51053779d7e1876ef345441f4da4c8b7b95e538deb9d33b8477d",
+      "verified_on": "2026-07-22"
+    },
+    "code_url": null,
+    "curation_tier": "evidence_reviewed",
+    "facts": [
+      {
+        "evidence": {
+          "page_start": 4,
+          "section": "IV-A. Datasets and Evaluation Methodology",
+          "source_type": "pdf"
+        },
+        "field": "datasets",
+        "information_type": "derived_fact",
+        "value": [
+          "MulRan DCC",
+          "MulRan Sejong",
+          "Apollo",
+          "Oxford RobotCar",
+          "In-house",
+          "KITTI"
+        ]
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Methodology",
+          "source_type": "pdf"
+        },
+        "field": "input_unit",
+        "information_type": "derived_fact",
+        "value": "single LiDAR point cloud"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Methodology",
+          "source_type": "pdf"
+        },
+        "field": "uses_learning",
+        "information_type": "derived_fact",
+        "value": "yes"
+      },
+      {
+        "evidence": {
+          "page_start": 3,
+          "section": "III. Methodology",
+          "source_type": "pdf"
+        },
+        "field": "uses_sequence",
+        "information_type": "derived_fact",
+        "value": "no"
+      }
+    ],
+    "paper_url": "https://doi.org/10.1109/lra.2024.3440098",
+    "paradigm": "Learning",
+    "primary_branch": {
+      "name": "Point-based learning",
+      "path": "learning_based/point"
+    },
+    "primary_family": "Global Descriptor",
+    "relevance_tier": "core_lpr",
+    "slug": "salsa-swift-adaptive-lightweight-self-attention-for-enhanced-lidar-place-recognition",
+    "taxonomy": [
+      {
+        "name": "Raw Point / Point Network",
+        "path": "global_descriptor/learning/point"
+      },
+      {
+        "name": "Learning",
+        "path": "local_descriptor/learning"
+      }
+    ],
+    "title": "SALSA: Swift Adaptive Lightweight Self-Attention for Enhanced LiDAR Place Recognition",
+    "venue": "IEEE Robotics and Automation Letters",
+    "version_id": "doi:10.1109/lra.2024.3440098",
+    "version_type": "journal",
+    "work_id": "salsa-swift-adaptive-lightweight-self-attention-for-enhanced-lidar-place-recognition",
+    "year": 2024
+  },
+  {
     "code_url": null,
     "curation_tier": "indexed",
     "facts": [],
@@ -489,11 +1867,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "selfloc-selective-feature-fusion-for-large-scale-point-cloud-based-place-recognition",
     "taxonomy": [
       {
@@ -620,12 +1997,11 @@
     "paper_url": "https://arxiv.org/abs/2407.08106",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Semantic graphs",
-      "path": "local_structural/semantic_graph"
+      "name": "Segment / semantic learning",
+      "path": "learning_based/segment_semantic"
     },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam",
     "taxonomy": [
       {
@@ -671,12 +2047,11 @@
     "paper_url": "https://arxiv.org/abs/2210.01361",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Lifelong / uncertainty",
-      "path": "emerging_cross_domain/lifelong_uncertainty"
+      "name": "Lifelong / uncertainty learning",
+      "path": "learning_based/lifelong_uncertainty"
     },
     "primary_family": "Other Methods",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "uncertainty-aware-lidar-place-recognition-in-novel-environments",
     "taxonomy": [
       {
@@ -789,11 +2164,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "bevplace-learning-lidar-based-place-recognition-using-bird-s-eye-view-images",
     "taxonomy": [
       {
@@ -824,11 +2198,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Geometry / topology",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "path": "handcrafted/geometry_topology"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "binary-image-fingerprint-stable-structure-identifier-for-3d-lidar-place-recognition-ral",
     "taxonomy": [
       {
@@ -858,12 +2231,11 @@
     "paper_url": "https://arxiv.org/abs/2208.14543",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Lifelong / uncertainty",
-      "path": "emerging_cross_domain/lifelong_uncertainty"
+      "name": "Lifelong / uncertainty learning",
+      "path": "learning_based/lifelong_uncertainty"
     },
     "primary_family": "Other Methods",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition",
     "taxonomy": [
       {
@@ -890,11 +2262,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Geometry / topology",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "path": "handcrafted/geometry_topology"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "contour-context-abstract-structural-distribution-for-3d-lidar-loop-detection-and-metric-pose-estimation",
     "taxonomy": [
       {
@@ -925,11 +2296,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Geometry / topology",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "path": "handcrafted/geometry_topology"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "place-recognition-of-large-scale-unstructured-orchards-with-attention-score-maps",
     "taxonomy": [
       {
@@ -1047,12 +2417,11 @@
     "paper_url": "https://arxiv.org/abs/2210.05984",
     "paradigm": "Handcrafted",
     "primary_branch": {
-      "name": "Map / submap-assisted",
-      "path": "temporal_map/map_assisted"
+      "name": "Map / submap",
+      "path": "handcrafted/map_assisted"
     },
     "primary_family": "Map",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map",
     "taxonomy": [
       {
@@ -1099,11 +2468,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "spherical-transformer-for-lidar-based-3d-recognition",
     "taxonomy": [
       {
@@ -1224,11 +2592,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Geometry / topology",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "path": "handcrafted/geometry_topology"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "std-stable-triangle-descriptor-for-3d-place-recognition",
     "taxonomy": [
       {
@@ -1271,11 +2638,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "vni-net-vector-neurons-based-rotation-invariant-descriptor-for-lidar-place-recognition",
     "taxonomy": [
       {
@@ -1305,12 +2671,11 @@
     "paper_url": "https://arxiv.org/abs/2111.11739",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Multimodal learning",
-      "path": "global_retrieval/learned/multimodal"
+      "name": "Cross-source / multimodal learning",
+      "path": "learning_based/cross_source_multimodal"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "adafusion-visual-lidar-fusion-with-adaptive-weights-for-place-recognition",
     "taxonomy": [
       {
@@ -1427,12 +2792,11 @@
     "paper_url": "https://arxiv.org/abs/2206.15154",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Semantic graphs",
-      "path": "local_structural/semantic_graph"
+      "name": "Segment / semantic learning",
+      "path": "learning_based/segment_semantic"
     },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "boxgraph-semantic-place-recognition-and-pose-estimation-from-3d-lidar",
     "taxonomy": [
       {
@@ -1467,11 +2831,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "dsc-deep-scan-context-descriptor-for-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -1502,11 +2865,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "efficient-3d-point-cloud-feature-learning-for-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -1627,11 +2989,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Frequency / transform",
-      "path": "global_retrieval/handcrafted/frequency_transform"
+      "path": "handcrafted/frequency_transform"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "fresco-frequency-domain-scan-context-for-lidar-based-place-recognition-with-translation-and-rotation-invariance",
     "taxonomy": [
       {
@@ -1666,11 +3027,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "hitpr-hierarchical-transformer-for-place-recognition-in-point-cloud",
     "taxonomy": [
       {
@@ -1701,11 +3061,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "improving-point-cloud-based-place-recognition-with-ranking-based-loss-and-large-batch-training",
     "taxonomy": [
       {
@@ -1736,11 +3095,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "incloud-incremental-learning-for-point-cloud-place-recognition",
     "taxonomy": [
       {
@@ -1859,11 +3217,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "lcdnet-deep-loop-closure-detection-and-point-cloud-registration-for-lidar-slam",
     "taxonomy": [
       {
@@ -1991,11 +3348,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "logg3d-net-locally-guided-global-descriptor-learning-for-3d-place-recognition",
     "taxonomy": [
       {
@@ -2034,11 +3390,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "minkloc3d-si-3d-lidar-place-recognition-with-sparse-convolutions-spherical-coordinates-and-intensity",
     "taxonomy": [
       {
@@ -2069,11 +3424,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "object-scan-context-object-centric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map",
     "taxonomy": [
       {
@@ -2192,11 +3546,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Frequency / transform",
-      "path": "global_retrieval/handcrafted/frequency_transform"
+      "path": "handcrafted/frequency_transform"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "one-ring-to-rule-them-all-radon-sinogram-for-place-recognition-orientation-and-translation-estimation",
     "taxonomy": [
       {
@@ -2326,11 +3679,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "overlaptransformer-an-efficient-and-yaw-angle-invariant-transformer-network-for-lidar-based-place-recognition",
     "taxonomy": [
       {
@@ -2361,11 +3713,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "retriever-point-cloud-retrieval-in-compressed-3d-maps",
     "taxonomy": [
       {
@@ -2483,12 +3834,11 @@
     "paper_url": "https://arxiv.org/abs/2209.07951",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Sequence-based recognition",
-      "path": "temporal_map/sequence"
+      "name": "Sequence / temporal learning",
+      "path": "learning_based/sequence"
     },
     "primary_family": "Trajectory",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data",
     "taxonomy": [
       {
@@ -2527,11 +3877,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "svt-net-super-light-weight-sparse-voxel-transformer-for-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -2562,11 +3911,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "a-registration-aided-domain-adaptation-network-for-3d-point-cloud-based-place-recognition",
     "taxonomy": [
       {
@@ -2596,12 +3944,11 @@
     "paper_url": "https://arxiv.org/abs/2011.10934",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Multimodal learning",
-      "path": "global_retrieval/learned/multimodal"
+      "name": "Cross-source / multimodal learning",
+      "path": "learning_based/cross_source_multimodal"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "coral-colored-structural-representation-for-bi-modal-place-recognition",
     "taxonomy": [
       {
@@ -2723,11 +4070,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "disco-differentiable-scan-context-with-orientation",
     "taxonomy": [
       {
@@ -2846,12 +4192,11 @@
     "paper_url": "https://doi.org/10.1109/lra.2021.3133593",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Map / submap-assisted",
-      "path": "temporal_map/map_assisted"
+      "name": "Learned map / submap",
+      "path": "learning_based/map_assisted"
     },
     "primary_family": "Map",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale",
     "taxonomy": [
       {
@@ -2987,11 +4332,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "minkloc3d-point-cloud-based-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -3022,11 +4366,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "ndt-transformer-large-scale-3d-point-cloud-localisation-using-the-normal-distribution-transform-representation",
     "taxonomy": [
       {
@@ -3056,12 +4399,11 @@
     "paper_url": "https://arxiv.org/abs/2108.01383",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Segment / object matching",
-      "path": "local_structural/segment_object"
+      "name": "Segment / semantic learning",
+      "path": "learning_based/segment_semantic"
     },
     "primary_family": "Segments",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "on-the-descriptive-power-of-lidar-intensity-images-for-segment-based-loop-closing-in-3-d-slam",
     "taxonomy": [
       {
@@ -3178,11 +4520,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "overlapnet-a-siamese-network-for-computing-lidar-scan-similarity-with-applications-to-loop-closing-and-localization",
     "taxonomy": [
       {
@@ -3221,11 +4562,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "pyramid-point-cloud-transformer-for-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -3347,11 +4687,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments",
     "taxonomy": [
       {
@@ -3386,11 +4725,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "soe-net-a-self-attention-and-orientation-encoding-network-for-point-cloud-based-place-recognition",
     "taxonomy": [
       {
@@ -3420,12 +4758,11 @@
     "paper_url": "https://arxiv.org/abs/2104.10067",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Multimodal learning",
-      "path": "global_retrieval/learned/multimodal"
+      "name": "Cross-source / multimodal learning",
+      "path": "learning_based/cross_source_multimodal"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "spherical-multi-modal-place-recognition-for-heterogeneous-sensor-systems",
     "taxonomy": [
       {
@@ -3549,12 +4886,11 @@
     "paper_url": "https://arxiv.org/abs/2107.00382",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Semantic descriptors",
-      "path": "local_structural/semantic_descriptor"
+      "name": "Segment / semantic learning",
+      "path": "learning_based/segment_semantic"
     },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "ssc-semantic-scan-context-for-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -3682,11 +5018,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "transloc3d-point-cloud-based-large-scale-place-recognition-using-adaptive-receptive-fields",
     "taxonomy": [
       {
@@ -3717,11 +5052,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "weighted-scan-context-global-descriptor-with-sparse-height-feature-for-loop-closure-detection",
     "taxonomy": [
       {
@@ -3752,11 +5086,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "intensity-scan-context-coding-intensity-and-geometry-relations-for-loop-closure-detection",
     "taxonomy": [
       {
@@ -3870,11 +5203,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Frequency / transform",
-      "path": "global_retrieval/handcrafted/frequency_transform"
+      "path": "handcrafted/frequency_transform"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "lidar-iris-for-loop-closure-detection",
     "taxonomy": [
       {
@@ -3909,11 +5241,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Geometry / topology",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "path": "handcrafted/geometry_topology"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "lipmatch-lidar-point-cloud-plane-based-loop-closure",
     "taxonomy": [
       {
@@ -3943,12 +5274,11 @@
     "paper_url": "https://arxiv.org/abs/2008.00658",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Multimodal learning",
-      "path": "global_retrieval/learned/multimodal"
+      "name": "Cross-source / multimodal learning",
+      "path": "learning_based/cross_source_multimodal"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "pic-net-point-cloud-and-image-collaboration-network-for-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -4066,12 +5396,11 @@
     "paper_url": "https://doi.org/10.1109/iros45743.2020.9341517",
     "paradigm": "Handcrafted",
     "primary_branch": {
-      "name": "Segment / object matching",
-      "path": "local_structural/segment_object"
+      "name": "Segment / semantic structure",
+      "path": "handcrafted/segment_semantic"
     },
     "primary_family": "Segments",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection",
     "taxonomy": [
       {
@@ -4196,12 +5525,11 @@
     "paper_url": "https://doi.org/10.1177/0278364919863090",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Segment / object matching",
-      "path": "local_structural/segment_object"
+      "name": "Segment / semantic learning",
+      "path": "learning_based/segment_semantic"
     },
     "primary_family": "Segments",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "segmap-segment-based-mapping-and-localization-using-data-driven-descriptors",
     "taxonomy": [
       {
@@ -4236,11 +5564,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "spoxelnet-spherical-voxel-based-deep-place-recognition-for-3d-point-clouds-of-crowded-indoor-spaces",
     "taxonomy": [
       {
@@ -4358,12 +5685,11 @@
     "paper_url": "https://doi.org/10.1111/cgf.14146",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Semantic graphs",
-      "path": "local_structural/semantic_graph"
+      "name": "Segment / semantic learning",
+      "path": "learning_based/segment_semantic"
     },
     "primary_family": "Semantics",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion",
     "taxonomy": [
       {
@@ -4402,11 +5728,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Voxel / sparse learning",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "path": "learning_based/voxel_sparse"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "voxel-based-representation-learning-for-place-recognition-based-on-3d-point-clouds",
     "taxonomy": [
       {
@@ -4437,11 +5762,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Projection-based learning",
-      "path": "global_retrieval/learned/projection"
+      "path": "learning_based/projection"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "1-day-learning-1-year-localization-long-term-lidar-localization-using-scan-context-image",
     "taxonomy": [
       {
@@ -4472,11 +5796,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Geometry / topology",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "path": "handcrafted/geometry_topology"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "c-m2dp-a-fast-point-cloud-descriptor-with-color-information-to-perform-loop-closure-detection",
     "taxonomy": [
       {
@@ -4590,11 +5913,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "lpd-net-3d-point-cloud-learning-for-large-scale-place-recognition-and-environment-analysis",
     "taxonomy": [
       {
@@ -4625,11 +5947,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "oreos-oriented-recognition-of-3d-point-clouds-in-outdoor-scenarios",
     "taxonomy": [
       {
@@ -4660,11 +5981,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "pcan-3d-attention-map-learning-using-contextual-information-for-point-cloud-based-retrieval",
     "taxonomy": [
       {
@@ -4781,12 +6101,11 @@
     "paper_url": "https://arxiv.org/abs/1904.13030",
     "paradigm": "Learning",
     "primary_branch": {
-      "name": "Sequence-based recognition",
-      "path": "temporal_map/sequence"
+      "name": "Sequence / temporal learning",
+      "path": "learning_based/sequence"
     },
     "primary_family": "Trajectory",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v",
     "taxonomy": [
       {
@@ -4908,11 +6227,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "pointnetvlad-deep-point-cloud-based-retrieval-for-large-scale-place-recognition",
     "taxonomy": [
       {
@@ -5029,11 +6347,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "scan-context-egocentric-spatial-descriptor-for-place-recognition-within-3d-point-cloud-map",
     "taxonomy": [
       {
@@ -5150,12 +6467,11 @@
     "paper_url": "https://doi.org/10.1109/icra.2017.7989618",
     "paradigm": "Handcrafted",
     "primary_branch": {
-      "name": "Segment / object matching",
-      "path": "local_structural/segment_object"
+      "name": "Segment / semantic structure",
+      "path": "handcrafted/segment_semantic"
     },
     "primary_family": "Segments",
     "relevance_tier": "core_lpr",
-    "representative_tier": "ordinary",
     "slug": "segmatch-segment-based-place-recognition-in-3d-point-clouds",
     "taxonomy": [
       {
@@ -5260,11 +6576,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "legacy_foundational",
-    "representative_tier": "ordinary",
     "slug": "m2dp-a-novel-3d-point-cloud-descriptor-and-its-application-in-loop-closure-detection",
     "taxonomy": [
       {
@@ -5295,11 +6610,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "legacy_foundational",
-    "representative_tier": "ordinary",
     "slug": "a-fast-histogram-based-similarity-measure-for-detecting-loop-closures-in-3-d-lidar-data",
     "taxonomy": [
       {
@@ -5330,11 +6644,10 @@
     "paradigm": "Handcrafted",
     "primary_branch": {
       "name": "Projection / context",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "path": "handcrafted/projection_context"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "legacy_foundational",
-    "representative_tier": "ordinary",
     "slug": "loop-closure-detection-using-small-sized-signatures-from-3d-lidar-data",
     "taxonomy": [
       {
@@ -5365,11 +6678,10 @@
     "paradigm": "Learning",
     "primary_branch": {
       "name": "Point-based learning",
-      "path": "global_retrieval/learned/point"
+      "path": "learning_based/point"
     },
     "primary_family": "Global Descriptor",
     "relevance_tier": "legacy_foundational",
-    "representative_tier": "ordinary",
     "slug": "learning-to-close-the-loop-from-3d-point-clouds",
     "taxonomy": [
       {

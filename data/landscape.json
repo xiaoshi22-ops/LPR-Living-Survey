@@ -1,165 +1,166 @@
 {
   "counts": {
-    "emerging_cross_domain": 3,
-    "emerging_cross_domain/cross_source": 1,
-    "emerging_cross_domain/lifelong_uncertainty": 2,
-    "global_retrieval": 58,
-    "global_retrieval/handcrafted": 19,
-    "global_retrieval/handcrafted/frequency_transform": 3,
-    "global_retrieval/handcrafted/geometry_topology": 7,
-    "global_retrieval/handcrafted/projection_context": 9,
-    "global_retrieval/learned": 39,
-    "global_retrieval/learned/multimodal": 4,
-    "global_retrieval/learned/point": 16,
-    "global_retrieval/learned/projection": 10,
-    "global_retrieval/learned/voxel_sparse": 9,
-    "local_structural": 8,
-    "local_structural/segment_object": 4,
-    "local_structural/semantic_descriptor": 1,
-    "local_structural/semantic_graph": 3,
-    "temporal_map": 5,
-    "temporal_map/map_assisted": 3,
-    "temporal_map/sequence": 2
+    "handcrafted": 25,
+    "handcrafted/frequency_transform": 5,
+    "handcrafted/geometry_topology": 7,
+    "handcrafted/map_assisted": 1,
+    "handcrafted/projection_context": 10,
+    "handcrafted/segment_semantic": 2,
+    "learning_based": 66,
+    "learning_based/cross_source_multimodal": 6,
+    "learning_based/lifelong_uncertainty": 3,
+    "learning_based/map_assisted": 3,
+    "learning_based/point": 18,
+    "learning_based/projection": 16,
+    "learning_based/segment_semantic": 6,
+    "learning_based/sequence": 2,
+    "learning_based/voxel_sparse": 12
   },
   "nodes": [
     {
-      "description": "Whole-scan or submap retrieval using a compact place representation.",
-      "name": "Global retrieval",
+      "description": "Deterministic geometric, projection, structural, or signal-processing LPR methods.",
+      "name": "Handcrafted",
       "parent_path": null,
-      "path": "global_retrieval"
+      "path": "handcrafted"
     },
     {
-      "description": "Deterministic geometric, projection, histogram, or signal-processing descriptors.",
-      "name": "Handcrafted descriptors",
-      "parent_path": "global_retrieval",
-      "path": "global_retrieval/handcrafted"
-    },
-    {
-      "description": "BEV, polar, range-view, contextual, or discretized handcrafted representations.",
+      "description": "BEV, polar, range-view, contextual, occupancy, or discretized handcrafted representations.",
       "name": "Projection / context",
-      "parent_path": "global_retrieval/handcrafted",
-      "path": "global_retrieval/handcrafted/projection_context"
+      "parent_path": "handcrafted",
+      "path": "handcrafted/projection_context"
     },
     {
-      "description": "Fourier, Radon, sinogram, and related transform-domain methods.",
+      "description": "Fourier, Radon, sinogram, and related transform-domain representations.",
       "name": "Frequency / transform",
-      "parent_path": "global_retrieval/handcrafted",
-      "path": "global_retrieval/handcrafted/frequency_transform"
+      "parent_path": "handcrafted",
+      "path": "handcrafted/frequency_transform"
     },
     {
       "description": "Explicit points, triangles, contours, graphs, or other geometric structures.",
       "name": "Geometry / topology",
-      "parent_path": "global_retrieval/handcrafted",
-      "path": "global_retrieval/handcrafted/geometry_topology"
+      "parent_path": "handcrafted",
+      "path": "handcrafted/geometry_topology"
     },
     {
-      "description": "Data-driven global embeddings and similarity functions.",
-      "name": "Learned descriptors",
-      "parent_path": "global_retrieval",
-      "path": "global_retrieval/learned"
+      "description": "Handcrafted keypoint, patch, or neighborhood descriptors and matching.",
+      "name": "Local descriptors",
+      "parent_path": "handcrafted",
+      "path": "handcrafted/local_descriptor"
+    },
+    {
+      "description": "Handcrafted segment, object, or semantic associations used for place recognition.",
+      "name": "Segment / semantic structure",
+      "parent_path": "handcrafted",
+      "path": "handcrafted/segment_semantic"
+    },
+    {
+      "description": "Deterministic sequence matching or temporal-consistency methods.",
+      "name": "Sequence / temporal",
+      "parent_path": "handcrafted",
+      "path": "handcrafted/sequence"
+    },
+    {
+      "description": "Handcrafted scan-to-map, submap, or persistent-map recognition.",
+      "name": "Map / submap",
+      "parent_path": "handcrafted",
+      "path": "handcrafted/map_assisted"
+    },
+    {
+      "description": "Handcrafted matching across sensor, platform, viewpoint, or map-source domains.",
+      "name": "Cross-source / multimodal",
+      "parent_path": "handcrafted",
+      "path": "handcrafted/cross_source_multimodal"
+    },
+    {
+      "description": "Handcrafted lifelong memory, novelty, or calibrated-uncertainty mechanisms.",
+      "name": "Lifelong / uncertainty",
+      "parent_path": "handcrafted",
+      "path": "handcrafted/lifelong_uncertainty"
+    },
+    {
+      "description": "A reviewed handcrafted primary contribution not yet covered by a stable mechanism branch.",
+      "name": "Other handcrafted",
+      "parent_path": "handcrafted",
+      "path": "handcrafted/other"
+    },
+    {
+      "description": "LPR methods whose core representation, descriptor, similarity, or matcher is trained from data.",
+      "name": "Learning-based",
+      "parent_path": null,
+      "path": "learning_based"
     },
     {
       "description": "Learned BEV, range, spherical, or other projected representations.",
       "name": "Projection-based learning",
-      "parent_path": "global_retrieval/learned",
-      "path": "global_retrieval/learned/projection"
+      "parent_path": "learning_based",
+      "path": "learning_based/projection"
     },
     {
-      "description": "Encoders operating primarily on raw points or point neighborhoods.",
+      "description": "Learned encoders operating primarily on raw points or point neighborhoods.",
       "name": "Point-based learning",
-      "parent_path": "global_retrieval/learned",
-      "path": "global_retrieval/learned/point"
+      "parent_path": "learning_based",
+      "path": "learning_based/point"
     },
     {
-      "description": "Voxel, sparse-convolution, and discretized 3D encoders.",
+      "description": "Learned voxel, sparse-convolution, and discretized 3D encoders.",
       "name": "Voxel / sparse learning",
-      "parent_path": "global_retrieval/learned",
-      "path": "global_retrieval/learned/voxel_sparse"
+      "parent_path": "learning_based",
+      "path": "learning_based/voxel_sparse"
     },
     {
-      "description": "Place representations learned across LiDAR and another sensor or map source.",
-      "name": "Multimodal learning",
-      "parent_path": "global_retrieval/learned",
-      "path": "global_retrieval/learned/multimodal"
+      "description": "Learned keypoint, patch, or neighborhood descriptors and matching.",
+      "name": "Learned local descriptors",
+      "parent_path": "learning_based",
+      "path": "learning_based/local_descriptor"
     },
     {
-      "description": "Learned global retrieval that does not yet fit a stable representation branch.",
-      "name": "Other learned retrieval",
-      "parent_path": "global_retrieval/learned",
-      "path": "global_retrieval/learned/other"
+      "description": "Learned segment, object, semantic descriptor, or semantic-graph recognition.",
+      "name": "Segment / semantic learning",
+      "parent_path": "learning_based",
+      "path": "learning_based/segment_semantic"
     },
     {
-      "description": "Recognition based on local features, segments, objects, semantics, or relations.",
-      "name": "Local, segment and semantic structure",
+      "description": "Learned temporal, recurrent, attention, or scan-sequence recognition.",
+      "name": "Sequence / temporal learning",
+      "parent_path": "learning_based",
+      "path": "learning_based/sequence"
+    },
+    {
+      "description": "Learned map-node, scan-to-map, submap, or global-relocalization representations.",
+      "name": "Learned map / submap",
+      "parent_path": "learning_based",
+      "path": "learning_based/map_assisted"
+    },
+    {
+      "description": "Learned recognition across sensors, platforms, viewpoints, or map-source domains.",
+      "name": "Cross-source / multimodal learning",
+      "parent_path": "learning_based",
+      "path": "learning_based/cross_source_multimodal"
+    },
+    {
+      "description": "Learned continual adaptation, novelty, memory, or calibrated uncertainty.",
+      "name": "Lifelong / uncertainty learning",
+      "parent_path": "learning_based",
+      "path": "learning_based/lifelong_uncertainty"
+    },
+    {
+      "description": "A reviewed learned primary contribution not yet covered by a stable mechanism branch.",
+      "name": "Other learning-based",
+      "parent_path": "learning_based",
+      "path": "learning_based/other"
+    },
+    {
+      "description": "Methods with learned and handcrafted components that are both essential primary contributions.",
+      "name": "Hybrid",
       "parent_path": null,
-      "path": "local_structural"
+      "path": "hybrid"
     },
     {
-      "description": "Keypoint, patch, or neighborhood descriptors and matching.",
-      "name": "Local descriptors",
-      "parent_path": "local_structural",
-      "path": "local_structural/local_descriptor"
-    },
-    {
-      "description": "Recognition through segment or object descriptors and associations.",
-      "name": "Segment / object matching",
-      "parent_path": "local_structural",
-      "path": "local_structural/segment_object"
-    },
-    {
-      "description": "Graph-based recognition using semantic entities and relations.",
-      "name": "Semantic graphs",
-      "parent_path": "local_structural",
-      "path": "local_structural/semantic_graph"
-    },
-    {
-      "description": "Semantic representations without an explicit relational graph.",
-      "name": "Semantic descriptors",
-      "parent_path": "local_structural",
-      "path": "local_structural/semantic_descriptor"
-    },
-    {
-      "description": "Recognition using sequences, submaps, trajectories, or persistent maps.",
-      "name": "Temporal and map-assisted",
-      "parent_path": null,
-      "path": "temporal_map"
-    },
-    {
-      "description": "Ordered scan sequences and learned or handcrafted temporal context.",
-      "name": "Sequence-based recognition",
-      "parent_path": "temporal_map",
-      "path": "temporal_map/sequence"
-    },
-    {
-      "description": "Explicit scan-to-map, submap, or persistent-map recognition.",
-      "name": "Map / submap-assisted",
-      "parent_path": "temporal_map",
-      "path": "temporal_map/map_assisted"
-    },
-    {
-      "description": "Cross-source, lifelong, uncertainty-aware, and other emerging LPR directions.",
-      "name": "Emerging and cross-domain",
-      "parent_path": null,
-      "path": "emerging_cross_domain"
-    },
-    {
-      "description": "Recognition across sensing sources, platforms, viewpoints, or map domains.",
-      "name": "Cross-source / cross-view",
-      "parent_path": "emerging_cross_domain",
-      "path": "emerging_cross_domain/cross_source"
-    },
-    {
-      "description": "Continual adaptation, novelty, memory, or calibrated uncertainty.",
-      "name": "Lifelong / uncertainty",
-      "parent_path": "emerging_cross_domain",
-      "path": "emerging_cross_domain/lifelong_uncertainty"
-    },
-    {
-      "description": "Emerging primary contributions awaiting a stable landscape branch.",
-      "name": "Other emerging methods",
-      "parent_path": "emerging_cross_domain",
-      "path": "emerging_cross_domain/other"
+      "description": "Tightly integrated learned and handcrafted LPR representations or matchers.",
+      "name": "Integrated learned–handcrafted",
+      "parent_path": "hybrid",
+      "path": "hybrid/integrated"
     }
   ],
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

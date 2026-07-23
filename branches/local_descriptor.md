@@ -16,7 +16,7 @@ Methods whose primary retrieval unit is a local keypoint, patch, neighborhood, o
 
 ### 2024
 
-- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
+- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Learned map / submap` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
 ### 2023
 
 - **[STD: Stable Triangle Descriptor for 3D place recognition](../papers/std-stable-triangle-descriptor-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Geometry / topology` · `Handcrafted` · [Paper](https://arxiv.org/abs/2209.12435) · [Code](https://github.com/hku-mars/STD)
@@ -25,6 +25,6 @@ Methods whose primary retrieval unit is a local keypoint, patch, neighborhood, o
 - **[LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition](../papers/logg3d-net-locally-guided-global-descriptor-learning-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2109.08336) · [Code](https://github.com/csiro-robotics/LoGG3D-Net)
 ### 2021
 
-- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Map / submap-assisted` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
+- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](../papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Learned map / submap` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

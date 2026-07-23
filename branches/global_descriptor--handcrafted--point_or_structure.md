@@ -17,20 +17,20 @@ Handcrafted global descriptors built from point sets, stable primitives, graphs,
 ### 2024
 
 - **[BTC: A Binary and Triangle Combined Descriptor for 3-D Place Recognition](../papers/btc-a-binary-and-triangle-combined-descriptor-for-3-d-place-recognition.md)** · TRO · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/tro.2024.3353076)
-- **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](../papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
+- **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](../papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
 ### 2023
 
 - **[Binary Image Fingerprint: Stable Structure Identifier for 3D LiDAR Place Recognition ``RAL``](../papers/binary-image-fingerprint-stable-structure-identifier-for-3d-lidar-place-recognition-ral.md)** · 待确认 · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2023.3297063)
 - **[Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation](../papers/contour-context-abstract-structural-distribution-for-3d-lidar-loop-detection-and-metric-pose-estimation.md)** · ICRA · `arxiv_preprint` · `Geometry / topology` · `Handcrafted` · [Paper](https://arxiv.org/abs/2302.06149)
 - **[Place Recognition of Large-Scale Unstructured Orchards With Attention Score Maps](../papers/place-recognition-of-large-scale-unstructured-orchards-with-attention-score-maps.md)** · RAL · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2023.3234744)
-- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
+- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](../papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
 - **[STD: Stable Triangle Descriptor for 3D place recognition](../papers/std-stable-triangle-descriptor-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Geometry / topology` · `Handcrafted` · [Paper](https://arxiv.org/abs/2209.12435) · [Code](https://github.com/hku-mars/STD)
 ### 2020
 
 - **[LiPMatch: LiDAR Point Cloud Plane Based Loop-Closure](../papers/lipmatch-lidar-point-cloud-plane-based-loop-closure.md)** · RAL · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2020.3021374)
-- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
+- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / semantic structure` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
 ### 2019
 
 - **[c-m2dp: A fast point cloud descriptor with color information to perform loop closure detection](../papers/c-m2dp-a-fast-point-cloud-descriptor-with-color-information-to-perform-loop-closure-detection.md)** · CASE · `unknown` · `Geometry / topology` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/8842896)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

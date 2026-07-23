@@ -16,13 +16,13 @@ Methods that partition a scan or map into object-like or geometric segments and 
 
 ### 2021
 
-- **[On the descriptive power of LiDAR intensity images for segment-based loop closing in 3-D SLAM](../papers/on-the-descriptive-power-of-lidar-intensity-images-for-segment-based-loop-closing-in-3-d-slam.md)** · IROS · `arxiv_preprint` · `Segment / object matching` · `Learning` · [Paper](https://arxiv.org/abs/2108.01383)
+- **[On the descriptive power of LiDAR intensity images for segment-based loop closing in 3-D SLAM](../papers/on-the-descriptive-power-of-lidar-intensity-images-for-segment-based-loop-closing-in-3-d-slam.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2108.01383)
 ### 2020
 
-- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
-- **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
+- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](../papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / semantic structure` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
+- **[SegMap: Segment-based mapping and localization using data-driven descriptors](../papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / semantic learning` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
 ### 2017
 
-- **[SegMatch: Segment based place recognition in 3D point clouds](../papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
+- **[SegMatch: Segment based place recognition in 3D point clouds](../papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / semantic structure` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

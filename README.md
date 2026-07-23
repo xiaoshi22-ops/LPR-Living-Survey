@@ -6,9 +6,9 @@ An evidence-reviewed, continuously updated map of LiDAR place recognition resear
 
 | Evidence-reviewed | Indexed | In review | Published coverage |
 | ---: | ---: | ---: | :--- |
-| **30** | **44** | **30** | **2010–2024** |
+| **47** | **44** | **30** | **2010–2026** |
 
-The canonical public-scope corpus currently contains **104 unique works**. Only entries that pass version-metadata and primary-classification gates appear in the public paper lists; pending records remain in the review queue.
+The canonical public-scope corpus currently contains **121 unique works**. Only entries that pass version-metadata and primary-classification gates appear in the public paper lists; pending records remain in the review queue.
 
 ## Field at a glance
 
@@ -18,21 +18,19 @@ The canonical public-scope corpus currently contains **104 unique works**. Only 
 
 ## Research landscape
 
-Each paper has one additive primary branch for overview statistics and any number of reviewed method tags for detailed browsing.
+Each paper has one additive core-paradigm branch for overview statistics and any number of reviewed method facets for detailed browsing. `Global descriptor` is a descriptor-scope facet rather than a top-level branch.
 
-| Primary branch | Papers |
+| Core paradigm | Papers |
 | --- | ---: |
-| Global retrieval | 58 |
-| Local, segment and semantic structure | 8 |
-| Temporal and map-assisted | 5 |
-| Emerging and cross-domain | 3 |
+| Handcrafted | 25 |
+| Learning-based | 66 |
 
 [Open the research tree and branch paper lists →](landscape.md)
 
 ## Explore
 
 - [Methods organized by year](by-year.md)
-- [Research landscape: one primary branch per paper](landscape.md)
+- [Research landscape: paradigm first, then mechanism](landscape.md)
 - [Multi-label method index](taxonomy.md)
 - [Snapshot changelog](CHANGELOG.md)
 - [How to propose a correction or addition](CONTRIBUTING.md)
@@ -46,9 +44,9 @@ Each paper has one additive primary branch for overview statistics and any numbe
 
 ## Trust model
 
-- A paper is published only after its preferred version metadata and taxonomy assignments are reviewed.
+- A paper is published only after the frozen inclusion-policy gates and deterministic publication validation pass.
 - Structured facts are rendered only from accepted assertions with source locators.
-- “Initial reviewed corpus” does not mean “representative” or “milestone”; those labels require a separate human decision.
+- The project does not assign representative, milestone, key-paper, or impact rankings.
 - Restricted PDFs, evidence quotations, local paths, credentials, and unreviewed model output are never published.
 
-Snapshot: `lpr-survey-911453a86068e183` (`911453a86068`)
+Snapshot: `lpr-survey-4c527a0f69d72ee9` (`4c527a0f69d7`)

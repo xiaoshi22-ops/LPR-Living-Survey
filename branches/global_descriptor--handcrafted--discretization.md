@@ -12,11 +12,12 @@ Handcrafted descriptors based on spatial bins, histograms, signatures, or discre
 
 **Exclude:** raw-point learned embeddings
 
-## Papers (7)
+## Papers (8)
 
 ### 2024
 
 - **[Effectively Detecting Loop Closures using Point Cloud Density Maps](../papers/effectively-detecting-loop-closures-using-point-cloud-density-maps.md)** · ICRA · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://www.ipb.uni-bonn.de/pdfs/gupta2024icra.pdf)
+- **[Narrowing Your FOV With SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-Constrained LiDAR Place Recognition](../papers/narrowing-your-fov-with-solid-spatially-organized-and-lightweight-global-descriptor-for-fov-constrained-lidar-place-reco.md)** · IEEE Robotics and Automation Letters · `journal` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2024.3440089)
 - **[OSK: A Novel LiDAR Occupancy Set Key-Based Place Recognition Method in Urban Environment](../papers/osk-a-novel-lidar-occupancy-set-key-based-place-recognition-method-in-urban-environment.md)** · TIM · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/tim.2024.3375408)
 ### 2021
 
@@ -34,4 +35,4 @@ Handcrafted descriptors based on spatial bins, histograms, signatures, or discre
 
 - **[Loop closure detection using small-sized signatures from 3D LIDAR data](../papers/loop-closure-detection-using-small-sized-signatures-from-3d-lidar-data.md)** · SSRR · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/6106765)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

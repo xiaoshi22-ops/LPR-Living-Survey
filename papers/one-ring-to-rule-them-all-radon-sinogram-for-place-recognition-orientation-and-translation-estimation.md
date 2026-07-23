@@ -7,8 +7,7 @@
 - **Year / venue / type:** 2022 / IROS / `arxiv_preprint`
 - **Curation tier:** `evidence_reviewed`
 - **Relevance:** `core_lpr`
-- **Representative tier:** `ordinary`
-- **Primary branch:** [Frequency / transform](../landscape.md#branch-global-retrieval-handcrafted-frequency-transform)
+- **Primary method:** [Frequency / transform](../landscape.md#branch-handcrafted-frequency-transform)
 - **Links:** [Paper](https://arxiv.org/abs/2204.07992)
 
 ## Additional reviewed method tags
@@ -31,4 +30,4 @@
 
 > Information types distinguish author-reported facts, derived facts, researcher judgements, and agent inferences. The locator identifies the reviewed source; verbatim evidence remains in the private audit store.
 
-[Back to year view](../by-year.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to year view](../by-year.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

@@ -12,12 +12,14 @@ Learned global descriptors whose main encoder operates on points or point neighb
 
 **Exclude:** primarily voxelized or projected encoders
 
-## Papers (19)
+## Papers (21)
 
 ### 2024
 
-- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
+- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](../papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Learned map / submap` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
 - **[P-GAT: Pose-Graph Attentional Network for Lidar Place Recognition](../papers/p-gat-pose-graph-attentional-network-for-lidar-place-recognition.md)** · RAL · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2309.00168)
+- **[PointNetPGAP-SLC: A 3D LiDAR-Based Place Recognition Approach With Segment-Level Consistency Training for Mobile Robots in Horticulture](../papers/pointnetpgap-slc-a-3d-lidar-based-place-recognition-approach-with-segment-level-consistency-training-for-mobile-robots-i.md)** · IEEE Robotics and Automation Letters · `journal` · `Point-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2024.3475044)
+- **[SALSA: Swift Adaptive Lightweight Self-Attention for Enhanced LiDAR Place Recognition](../papers/salsa-swift-adaptive-lightweight-self-attention-for-enhanced-lidar-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Point-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2024.3440098)
 - **[SelFLoc: Selective feature fusion for large-scale point cloud-based place recognition](../papers/selfloc-selective-feature-fusion-for-large-scale-point-cloud-based-place-recognition.md)** · KBS · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2306.01205)
 ### 2023
 
@@ -36,13 +38,13 @@ Learned global descriptors whose main encoder operates on points or point neighb
 - **[SOE-Net: A Self-Attention and Orientation Encoding Network for Point Cloud Based Place Recognition](../papers/soe-net-a-self-attention-and-orientation-encoding-network-for-point-cloud-based-place-recognition.md)** · CVPR · `unknown` · `Point-based learning` · `Learning` · [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Xia_SOE-Net_A_Self-Attention_and_Orientation_Encoding_Network_for_Point_Cloud_CVPR_2021_paper.html)
 ### 2020
 
-- **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](../papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Semantic graphs` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
+- **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](../papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Segment / semantic learning` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
 ### 2019
 
 - **[LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and Environment Analysis](../papers/lpd-net-3d-point-cloud-learning-for-large-scale-place-recognition-and-environment-analysis.md)** · ICCV · `unknown` · `Point-based learning` · `Learning` · [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.html) · [Code](https://github.com/Suoivy/LPD-net)
 - **[OREOS: Oriented Recognition of 3D Point Clouds in Outdoor Scenarios](../papers/oreos-oriented-recognition-of-3d-point-clouds-in-outdoor-scenarios.md)** · IROS · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/1903.07918)
 - **[PCAN: 3D Attention Map Learning Using Contextual Information for Point Cloud Based Retrieval](../papers/pcan-3d-attention-map-learning-using-contextual-information-for-point-cloud-based-retrieval.md)** · CVPR · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/1904.09793)
-- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
+- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](../papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence / temporal learning` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
 ### 2018
 
 - **[PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition](../papers/pointnetvlad-deep-point-cloud-based-retrieval-for-large-scale-place-recognition.md)** · CVPR · `conference` · `Point-based learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr.2018.00470) · [Code](https://github.com/mikacuy/pointnetvlad)
@@ -50,4 +52,4 @@ Learned global descriptors whose main encoder operates on points or point neighb
 
 - **[Learning to close the loop from 3D point clouds](../papers/learning-to-close-the-loop-from-3d-point-clouds.md)** · IROS · `unknown` · `Point-based learning` · `Learning` · [Paper](https://ieeexplore.ieee.org/document/5651013)
 
-[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-911453a86068e183`
+[Back to multi-label index](../taxonomy.md) · Snapshot: `lpr-survey-4c527a0f69d72ee9`

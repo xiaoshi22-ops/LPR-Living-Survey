@@ -2,70 +2,59 @@
 
 # LPR research landscape
 
-Every published paper is counted once under the branch that best represents its primary contribution. Reviewed method taxonomy assignments remain multi-label facets, so their counts may overlap; the landscape counts below are additive.
+Every published paper is counted once, first by its core method paradigm (handcrafted, learning-based, or hybrid) and then by its main representation or matching mechanism. Descriptor scope and the reviewed canonical taxonomy remain multi-label facets.
 
 ```mermaid
 flowchart TB
-  root["LiDAR Place Recognition<br/>74 papers"]
-  n_global_retrieval["Global retrieval<br/>58 papers"]
-  n_global_retrieval_handcrafted["Handcrafted descriptors<br/>19 papers"]
-  n_global_retrieval_handcrafted_projection_context["Projection / context<br/>9 papers"]
-  n_global_retrieval_handcrafted_frequency_transform["Frequency / transform<br/>3 papers"]
-  n_global_retrieval_handcrafted_geometry_topology["Geometry / topology<br/>7 papers"]
-  n_global_retrieval_learned["Learned descriptors<br/>39 papers"]
-  n_global_retrieval_learned_projection["Projection-based learning<br/>10 papers"]
-  n_global_retrieval_learned_point["Point-based learning<br/>16 papers"]
-  n_global_retrieval_learned_voxel_sparse["Voxel / sparse learning<br/>9 papers"]
-  n_global_retrieval_learned_multimodal["Multimodal learning<br/>4 papers"]
-  n_local_structural["Local, segment and semantic structure<br/>8 papers"]
-  n_local_structural_segment_object["Segment / object matching<br/>4 papers"]
-  n_local_structural_semantic_graph["Semantic graphs<br/>3 papers"]
-  n_local_structural_semantic_descriptor["Semantic descriptors<br/>1 paper"]
-  n_temporal_map["Temporal and map-assisted<br/>5 papers"]
-  n_temporal_map_sequence["Sequence-based recognition<br/>2 papers"]
-  n_temporal_map_map_assisted["Map / submap-assisted<br/>3 papers"]
-  n_emerging_cross_domain["Emerging and cross-domain<br/>3 papers"]
-  n_emerging_cross_domain_cross_source["Cross-source / cross-view<br/>1 paper"]
-  n_emerging_cross_domain_lifelong_uncertainty["Lifelong / uncertainty<br/>2 papers"]
-  root --> n_global_retrieval
-  n_global_retrieval --> n_global_retrieval_handcrafted
-  n_global_retrieval_handcrafted --> n_global_retrieval_handcrafted_projection_context
-  n_global_retrieval_handcrafted --> n_global_retrieval_handcrafted_frequency_transform
-  n_global_retrieval_handcrafted --> n_global_retrieval_handcrafted_geometry_topology
-  n_global_retrieval --> n_global_retrieval_learned
-  n_global_retrieval_learned --> n_global_retrieval_learned_projection
-  n_global_retrieval_learned --> n_global_retrieval_learned_point
-  n_global_retrieval_learned --> n_global_retrieval_learned_voxel_sparse
-  n_global_retrieval_learned --> n_global_retrieval_learned_multimodal
-  root --> n_local_structural
-  n_local_structural --> n_local_structural_segment_object
-  n_local_structural --> n_local_structural_semantic_graph
-  n_local_structural --> n_local_structural_semantic_descriptor
-  root --> n_temporal_map
-  n_temporal_map --> n_temporal_map_sequence
-  n_temporal_map --> n_temporal_map_map_assisted
-  root --> n_emerging_cross_domain
-  n_emerging_cross_domain --> n_emerging_cross_domain_cross_source
-  n_emerging_cross_domain --> n_emerging_cross_domain_lifelong_uncertainty
+  root["LiDAR Place Recognition<br/>91 papers"]
+  n_handcrafted["Handcrafted<br/>25 papers"]
+  n_handcrafted_projection_context["Projection / context<br/>10 papers"]
+  n_handcrafted_frequency_transform["Frequency / transform<br/>5 papers"]
+  n_handcrafted_geometry_topology["Geometry / topology<br/>7 papers"]
+  n_handcrafted_segment_semantic["Segment / semantic structure<br/>2 papers"]
+  n_handcrafted_map_assisted["Map / submap<br/>1 paper"]
+  n_learning_based["Learning-based<br/>66 papers"]
+  n_learning_based_projection["Projection-based learning<br/>16 papers"]
+  n_learning_based_point["Point-based learning<br/>18 papers"]
+  n_learning_based_voxel_sparse["Voxel / sparse learning<br/>12 papers"]
+  n_learning_based_segment_semantic["Segment / semantic learning<br/>6 papers"]
+  n_learning_based_sequence["Sequence / temporal learning<br/>2 papers"]
+  n_learning_based_map_assisted["Learned map / submap<br/>3 papers"]
+  n_learning_based_cross_source_multimodal["Cross-source / multimodal learning<br/>6 papers"]
+  n_learning_based_lifelong_uncertainty["Lifelong / uncertainty learning<br/>3 papers"]
+  root --> n_handcrafted
+  n_handcrafted --> n_handcrafted_projection_context
+  n_handcrafted --> n_handcrafted_frequency_transform
+  n_handcrafted --> n_handcrafted_geometry_topology
+  n_handcrafted --> n_handcrafted_segment_semantic
+  n_handcrafted --> n_handcrafted_map_assisted
+  root --> n_learning_based
+  n_learning_based --> n_learning_based_projection
+  n_learning_based --> n_learning_based_point
+  n_learning_based --> n_learning_based_voxel_sparse
+  n_learning_based --> n_learning_based_segment_semantic
+  n_learning_based --> n_learning_based_sequence
+  n_learning_based --> n_learning_based_map_assisted
+  n_learning_based --> n_learning_based_cross_source_multimodal
+  n_learning_based --> n_learning_based_lifelong_uncertainty
 ```
 
-## Primary branch totals
+## Core paradigm totals
 
-| Branch | Papers | Share |
+| Paradigm | Papers | Share |
 | --- | ---: | ---: |
-| Global retrieval | 58 | 78.4% |
-| Local, segment and semantic structure | 8 | 10.8% |
-| Temporal and map-assisted | 5 | 6.8% |
-| Emerging and cross-domain | 3 | 4.1% |
+| Handcrafted | 25 | 27.5% |
+| Learning-based | 66 | 72.5% |
 
 ## Papers by primary branch
 
-<a id="branch-global-retrieval-handcrafted-projection-context"></a>
-### Projection / context (9)
+<a id="branch-handcrafted-projection-context"></a>
+### Projection / context (10)
 
-BEV, polar, range-view, contextual, or discretized handcrafted representations.
+BEV, polar, range-view, contextual, occupancy, or discretized handcrafted representations.
 
 - **[Effectively Detecting Loop Closures using Point Cloud Density Maps](papers/effectively-detecting-loop-closures-using-point-cloud-density-maps.md)** · ICRA · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://www.ipb.uni-bonn.de/pdfs/gupta2024icra.pdf)
+- **[Narrowing Your FOV With SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-Constrained LiDAR Place Recognition](papers/narrowing-your-fov-with-solid-spatially-organized-and-lightweight-global-descriptor-for-fov-constrained-lidar-place-reco.md)** · IEEE Robotics and Automation Letters · `journal` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2024.3440089)
 - **[OSK: A Novel LiDAR Occupancy Set Key-Based Place Recognition Method in Urban Environment](papers/osk-a-novel-lidar-occupancy-set-key-based-place-recognition-method-in-urban-environment.md)** · TIM · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/tim.2024.3375408)
 - **[Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments:](papers/scan-context-structural-place-recognition-robust-to-rotation-and-lateral-variations-in-urban-environments.md)** · TRO · `arxiv_preprint` · `Projection / context` · `Handcrafted` · [Paper](https://arxiv.org/abs/2109.13494) · [Code](https://github.com/asdfghjkl623/scancontext)
 - **[Weighted scan context: Global descriptor with sparse height feature for loop closure detection:](papers/weighted-scan-context-global-descriptor-with-sparse-height-feature-for-loop-closure-detection.md)** · ICCCR · `conference` · `Projection / context` · `Handcrafted` · [Paper](https://doi.org/10.1109/icccr49711.2021.9349417)
@@ -75,16 +64,18 @@ BEV, polar, range-view, contextual, or discretized handcrafted representations.
 - **[A fast histogram-based similarity measure for detecting loop closures in 3-D LIDAR data](papers/a-fast-histogram-based-similarity-measure-for-detecting-loop-closures-in-3-d-lidar-data.md)** · IROS · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/7353454)
 - **[Loop closure detection using small-sized signatures from 3D LIDAR data](papers/loop-closure-detection-using-small-sized-signatures-from-3d-lidar-data.md)** · SSRR · `unknown` · `Projection / context` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/6106765)
 
-<a id="branch-global-retrieval-handcrafted-frequency-transform"></a>
-### Frequency / transform (3)
+<a id="branch-handcrafted-frequency-transform"></a>
+### Frequency / transform (5)
 
-Fourier, Radon, sinogram, and related transform-domain methods.
+Fourier, Radon, sinogram, and related transform-domain representations.
 
+- **[FLASH: Fibonacci Lattice Spherical Harmonics for Semantic Place Recognition Using LiDAR](papers/flash-fibonacci-lattice-spherical-harmonics-for-semantic-place-recognition-using-lidar.md)** · IEEE Robotics and Automation Letters · `journal` · `Frequency / transform` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2026.3665080)
+- **[Matched Filtering Based LiDAR Place Recognition for Urban and Natural Environments](papers/matched-filtering-based-lidar-place-recognition-for-urban-and-natural-environments.md)** · IEEE Robotics and Automation Letters · `journal` · `Frequency / transform` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2025.3533966)
 - **[Fresco: Frequency-domain scan context for lidar-based place recognition with translation and rotation invariance:](papers/fresco-frequency-domain-scan-context-for-lidar-based-place-recognition-with-translation-and-rotation-invariance.md)** · ICARCV · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/2206.12628) · [Code](https://github.com/soytony/FreSCo)
 - **[One RING to Rule Them All: Radon Sinogram for Place Recognition, Orientation and Translation Estimation:](papers/one-ring-to-rule-them-all-radon-sinogram-for-place-recognition-orientation-and-translation-estimation.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/2204.07992)
 - **[LiDAR Iris for Loop-Closure Detection:](papers/lidar-iris-for-loop-closure-detection.md)** · IROS · `arxiv_preprint` · `Frequency / transform` · `Handcrafted` · [Paper](https://arxiv.org/abs/1912.03825) · [Code](https://github.com/JoestarK/LiDAR-Iris)
 
-<a id="branch-global-retrieval-handcrafted-geometry-topology"></a>
+<a id="branch-handcrafted-geometry-topology"></a>
 ### Geometry / topology (7)
 
 Explicit points, triangles, contours, graphs, or other geometric structures.
@@ -97,11 +88,32 @@ Explicit points, triangles, contours, graphs, or other geometric structures.
 - **[LiPMatch: LiDAR Point Cloud Plane Based Loop-Closure](papers/lipmatch-lidar-point-cloud-plane-based-loop-closure.md)** · RAL · `conference` · `Geometry / topology` · `Handcrafted` · [Paper](https://doi.org/10.1109/lra.2020.3021374)
 - **[c-m2dp: A fast point cloud descriptor with color information to perform loop closure detection](papers/c-m2dp-a-fast-point-cloud-descriptor-with-color-information-to-perform-loop-closure-detection.md)** · CASE · `unknown` · `Geometry / topology` · `Handcrafted` · [Paper](https://ieeexplore.ieee.org/document/8842896)
 
-<a id="branch-global-retrieval-learned-projection"></a>
-### Projection-based learning (10)
+<a id="branch-handcrafted-segment-semantic"></a>
+### Segment / semantic structure (2)
+
+Handcrafted segment, object, or semantic associations used for place recognition.
+
+- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / semantic structure` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
+- **[SegMatch: Segment based place recognition in 3D point clouds](papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / semantic structure` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
+
+<a id="branch-handcrafted-map-assisted"></a>
+### Map / submap (1)
+
+Handcrafted scan-to-map, submap, or persistent-map recognition.
+
+- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
+
+<a id="branch-learning-based-projection"></a>
+### Projection-based learning (16)
 
 Learned BEV, range, spherical, or other projected representations.
 
+- **[DyLPR: Dynamic Occlusion Inpainting-Enhanced LiDAR Place Recognition for Dynamic Traffic Environments](papers/dylpr-dynamic-occlusion-inpainting-enhanced-lidar-place-recognition-for-dynamic-traffic-environments.md)** · IEEE Transactions on Industrial Informatics · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tii.2025.3618961)
+- **[PHMRNet: Persistent Homology Based Mamba–RWKV Network for LiDAR Place Recognition](papers/phmrnet-persistent-homology-based-mamba-rwkv-network-for-lidar-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2026.3683589)
+- **[UniLGL: Learning Uniform Place Recognition for FOV-Limited/Panoramic LiDAR Global Localization](papers/unilgl-learning-uniform-place-recognition-for-fov-limited-panoramic-lidar-global-localization.md)** · IEEE Transactions on Robotics · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tro.2026.3672514)
+- **[ForestLPR: LiDAR Place Recognition in Forests Attentioning Multiple BEV Density Images](papers/forestlpr-lidar-place-recognition-in-forests-attentioning-multiple-bev-density-images.md)** · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr52734.2025.00624)
+- **[MRMT-PR: A Multi-Scale Reverse-View Mamba-Transformer for LiDAR Place Recognition](papers/mrmt-pr-a-multi-scale-reverse-view-mamba-transformer-for-lidar-place-recognition.md)** · 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/iros60139.2025.11247758)
+- **[CCTNet: A Circular Convolutional Transformer Network for LiDAR-Based Place Recognition Handling Movable Objects Occlusion](papers/cctnet-a-circular-convolutional-transformer-network-for-lidar-based-place-recognition-handling-movable-objects-occlusion.md)** · IEEE Transactions on Circuits and Systems for Video Technology · `journal` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/tcsvt.2024.3509870)
 - **[CVTNet: A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments](papers/cvtnet-a-cross-view-transformer-network-for-lidar-based-place-recognition-in-autonomous-driving-environments.md)** · TII · `arxiv_preprint` · `Projection-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2302.01665)
 - **[OverlapMamba: Novel Shift State Space Model for LiDAR-based Place Recognition](papers/overlapmamba-novel-shift-state-space-model-for-lidar-based-place-recognition.md)** · arXiv · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2025.3582109)
 - **[BEVPlace: Learning LiDAR-based Place Recognition using Bird's Eye View Images](papers/bevplace-learning-lidar-based-place-recognition-using-bird-s-eye-view-images.md)** · ICCV · `unknown` · `Projection-based learning` · `Learning` · [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_BEVPlace_Learning_LiDAR-based_Place_Recognition_using_Birds_Eye_View_Images_ICCV_2023_paper.html) · [Code](https://github.com/zjuluolun/BEVPlace)
@@ -113,12 +125,14 @@ Learned BEV, range, spherical, or other projected representations.
 - **[OverlapNet: a siamese network for computing LiDAR scan similarity with applications to loop closing and localization](papers/overlapnet-a-siamese-network-for-computing-lidar-scan-similarity-with-applications-to-loop-closing-and-localization.md)** · Autonomous Robots · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1007/s10514-021-09999-0) · [Code](https://github.com/PRBonn/OverlapNet)
 - **[1-Day Learning, 1-Year Localization: Long-Term LiDAR Localization Using Scan Context Image](papers/1-day-learning-1-year-localization-long-term-lidar-localization-using-scan-context-image.md)** · RAL · `conference` · `Projection-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2019.2897340)
 
-<a id="branch-global-retrieval-learned-point"></a>
-### Point-based learning (16)
+<a id="branch-learning-based-point"></a>
+### Point-based learning (18)
 
-Encoders operating primarily on raw points or point neighborhoods.
+Learned encoders operating primarily on raw points or point neighborhoods.
 
 - **[P-GAT: Pose-Graph Attentional Network for Lidar Place Recognition](papers/p-gat-pose-graph-attentional-network-for-lidar-place-recognition.md)** · RAL · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2309.00168)
+- **[PointNetPGAP-SLC: A 3D LiDAR-Based Place Recognition Approach With Segment-Level Consistency Training for Mobile Robots in Horticulture](papers/pointnetpgap-slc-a-3d-lidar-based-place-recognition-approach-with-segment-level-consistency-training-for-mobile-robots-i.md)** · IEEE Robotics and Automation Letters · `journal` · `Point-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2024.3475044)
+- **[SALSA: Swift Adaptive Lightweight Self-Attention for Enhanced LiDAR Place Recognition](papers/salsa-swift-adaptive-lightweight-self-attention-for-enhanced-lidar-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Point-based learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2024.3440098)
 - **[SelFLoc: Selective feature fusion for large-scale point cloud-based place recognition](papers/selfloc-selective-feature-fusion-for-large-scale-point-cloud-based-place-recognition.md)** · KBS · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2306.01205)
 - **[VNI-Net: Vector Neurons-based Rotation-Invariant Descriptor for LiDAR Place Recognition](papers/vni-net-vector-neurons-based-rotation-invariant-descriptor-for-lidar-place-recognition.md)** · arXiv · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2308.12870)
 - **[Efficient 3D Point Cloud Feature Learning for Large-Scale Place Recognition](papers/efficient-3d-point-cloud-feature-learning-for-large-scale-place-recognition.md)** · TIP · `arxiv_preprint` · `Point-based learning` · `Learning` · [Paper](https://arxiv.org/abs/2101.02374)
@@ -135,11 +149,14 @@ Encoders operating primarily on raw points or point neighborhoods.
 - **[PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition](papers/pointnetvlad-deep-point-cloud-based-retrieval-for-large-scale-place-recognition.md)** · CVPR · `conference` · `Point-based learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr.2018.00470) · [Code](https://github.com/mikacuy/pointnetvlad)
 - **[Learning to close the loop from 3D point clouds](papers/learning-to-close-the-loop-from-3d-point-clouds.md)** · IROS · `unknown` · `Point-based learning` · `Learning` · [Paper](https://ieeexplore.ieee.org/document/5651013)
 
-<a id="branch-global-retrieval-learned-voxel-sparse"></a>
-### Voxel / sparse learning (9)
+<a id="branch-learning-based-voxel-sparse"></a>
+### Voxel / sparse learning (12)
 
-Voxel, sparse-convolution, and discretized 3D encoders.
+Learned voxel, sparse-convolution, and discretized 3D encoders.
 
+- **[HOTFLoc++: End-to-End Hierarchical LiDAR Place Recognition, Re-Ranking, and 6-DoF Metric Localisation in Forests](papers/hotfloc-end-to-end-hierarchical-lidar-place-recognition-re-ranking-and-6-dof-metric-localisation-in-forests.md)** · IEEE Robotics and Automation Letters · `journal` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2026.3692033)
+- **[Helios: Heterogeneous Lidar Place Recognition via Overlap-Based Learning and Local Spherical Transformer](papers/helios-heterogeneous-lidar-place-recognition-via-overlap-based-learning-and-local-spherical-transformer.md)** · 2025 IEEE International Conference on Robotics and Automation (ICRA) · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/icra55743.2025.11127677)
+- **[HOTFormerLoc: Hierarchical Octree Transformer for Versatile Lidar Place Recognition Across Ground and Aerial Views](papers/hotformerloc-hierarchical-octree-transformer-for-versatile-lidar-place-recognition-across-ground-and-aerial-views.md)** · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/cvpr52734.2025.00623)
 - **[LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM](papers/lcdnet-deep-loop-closure-detection-and-point-cloud-registration-for-lidar-slam.md)** · TRO · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2103.05056) · [Code](https://github.com/robot-learning-freiburg/LCDNet)
 - **[LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition](papers/logg3d-net-locally-guided-global-descriptor-learning-for-3d-place-recognition.md)** · ICRA · `arxiv_preprint` · `Voxel / sparse learning` · `Learning` · [Paper](https://arxiv.org/abs/2109.08336) · [Code](https://github.com/csiro-robotics/LoGG3D-Net)
 - **[MinkLoc3D-SI: 3D LiDAR Place Recognition With Sparse Convolutions, Spherical Coordinates, and Intensity](papers/minkloc3d-si-3d-lidar-place-recognition-with-sparse-convolutions-spherical-coordinates-and-intensity.md)** · RAL · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3136863)
@@ -150,74 +167,56 @@ Voxel, sparse-convolution, and discretized 3D encoders.
 - **[SpoxelNet: Spherical Voxel-based Deep Place Recognition for 3D Point Clouds of Crowded Indoor Spaces](papers/spoxelnet-spherical-voxel-based-deep-place-recognition-for-3d-point-clouds-of-crowded-indoor-spaces.md)** · IROS · `conference` · `Voxel / sparse learning` · `Learning` · [Paper](https://doi.org/10.1109/iros45743.2020.9341549)
 - **[Voxel-Based Representation Learning for Place Recognition Based on 3D Point Clouds](papers/voxel-based-representation-learning-for-place-recognition-based-on-3d-point-clouds.md)** · IROS · `unknown` · `Voxel / sparse learning` · `Learning` · [Paper](https://ieeexplore.ieee.org/document/9340992)
 
-<a id="branch-global-retrieval-learned-multimodal"></a>
-### Multimodal learning (4)
+<a id="branch-learning-based-segment-semantic"></a>
+### Segment / semantic learning (6)
 
-Place representations learned across LiDAR and another sensor or map source.
+Learned segment, object, semantic descriptor, or semantic-graph recognition.
 
-- **[AdaFusion: Visual-LiDAR Fusion With Adaptive Weights for Place Recognition](papers/adafusion-visual-lidar-fusion-with-adaptive-weights-for-place-recognition.md)** · RAL · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2111.11739)
-- **[CORAL: Colored structural representation for bi-modal place recognition](papers/coral-colored-structural-representation-for-bi-modal-place-recognition.md)** · IROS · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2011.10934)
-- **[Spherical Multi-Modal Place Recognition for Heterogeneous Sensor Systems](papers/spherical-multi-modal-place-recognition-for-heterogeneous-sensor-systems.md)** · ICRA · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2104.10067)
-- **[PIC-Net: Point Cloud and Image Collaboration Network for Large-Scale Place Recognition](papers/pic-net-point-cloud-and-image-collaboration-network-for-large-scale-place-recognition.md)** · arXiv · `arxiv_preprint` · `Multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2008.00658)
+- **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
+- **[BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR](papers/boxgraph-semantic-place-recognition-and-pose-estimation-from-3d-lidar.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2206.15154)
+- **[On the descriptive power of LiDAR intensity images for segment-based loop closing in 3-D SLAM](papers/on-the-descriptive-power-of-lidar-intensity-images-for-segment-based-loop-closing-in-3-d-slam.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2108.01383)
+- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Segment / semantic learning` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
+- **[SegMap: Segment-based mapping and localization using data-driven descriptors](papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / semantic learning` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
+- **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Segment / semantic learning` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
 
-<a id="branch-local-structural-segment-object"></a>
-### Segment / object matching (4)
+<a id="branch-learning-based-sequence"></a>
+### Sequence / temporal learning (2)
 
-Recognition through segment or object descriptors and associations.
+Learned temporal, recurrent, attention, or scan-sequence recognition.
 
-- **[On the descriptive power of LiDAR intensity images for segment-based loop closing in 3-D SLAM](papers/on-the-descriptive-power-of-lidar-intensity-images-for-segment-based-loop-closing-in-3-d-slam.md)** · IROS · `arxiv_preprint` · `Segment / object matching` · `Learning` · [Paper](https://arxiv.org/abs/2108.01383)
-- **[Seed: A Segmentation-Based Egocentric 3D Point Cloud Descriptor for Loop Closure Detection](papers/seed-a-segmentation-based-egocentric-3d-point-cloud-descriptor-for-loop-closure-detection.md)** · IROS · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/iros45743.2020.9341517)
-- **[SegMap: Segment-based mapping and localization using data-driven descriptors](papers/segmap-segment-based-mapping-and-localization-using-data-driven-descriptors.md)** · IJRR · `conference` · `Segment / object matching` · `Learning` · [Paper](https://doi.org/10.1177/0278364919863090)
-- **[SegMatch: Segment based place recognition in 3D point clouds](papers/segmatch-segment-based-place-recognition-in-3d-point-clouds.md)** · ICRA · `conference` · `Segment / object matching` · `Handcrafted` · [Paper](https://doi.org/10.1109/icra.2017.7989618) · [Code](https://github.com/ethz-asl/segmap)
+- **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence / temporal learning` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
+- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence / temporal learning` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
 
-<a id="branch-local-structural-semantic-graph"></a>
-### Semantic graphs (3)
+<a id="branch-learning-based-map-assisted"></a>
+### Learned map / submap (3)
 
-Graph-based recognition using semantic entities and relations.
+Learned map-node, scan-to-map, submap, or global-relocalization representations.
 
-- **[SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM](papers/sglc-semantic-graph-guided-coarse-fine-refine-full-loop-closing-for-lidar-slam.md)** · arXiv · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2407.08106) · [Code](https://github.com/nubot-nudt/SGLC)
-- **[BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR](papers/boxgraph-semantic-place-recognition-and-pose-estimation-from-3d-lidar.md)** · IROS · `arxiv_preprint` · `Semantic graphs` · `Learning` · [Paper](https://arxiv.org/abs/2206.15154)
-- **[SRNet: A 3D Scene Recognition Network using Static Graph and Dense Semantic Fusion](papers/srnet-a-3d-scene-recognition-network-using-static-graph-and-dense-semantic-fusion.md)** · Computer Graphics Forum · `conference` · `Semantic graphs` · `Learning` · [Paper](https://doi.org/10.1111/cgf.14146)
+- **[Diffusion Based Robust LiDAR Place Recognition](papers/diffusion-based-robust-lidar-place-recognition.md)** · 2025 IEEE International Conference on Robotics and Automation (ICRA) · `conference` · `Learned map / submap` · `Learning` · [Paper](https://doi.org/10.1109/icra55743.2025.11127534)
+- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Learned map / submap` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
+- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Learned map / submap` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
 
-<a id="branch-local-structural-semantic-descriptor"></a>
-### Semantic descriptors (1)
+<a id="branch-learning-based-cross-source-multimodal"></a>
+### Cross-source / multimodal learning (6)
 
-Semantic representations without an explicit relational graph.
+Learned recognition across sensors, platforms, viewpoints, or map-source domains.
 
-- **[SSC: Semantic Scan Context for Large-Scale Place Recognition](papers/ssc-semantic-scan-context-for-large-scale-place-recognition.md)** · IROS · `arxiv_preprint` · `Semantic descriptors` · `Learning` · [Paper](https://arxiv.org/abs/2107.00382) · [Code](https://github.com/lilin-hitcrt/SSC)
+- **[LRFusionPR: A Polar BEV-Based LiDAR-Radar Fusion Network for Place Recognition](papers/lrfusionpr-a-polar-bev-based-lidar-radar-fusion-network-for-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2025.3614062)
+- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
+- **[AdaFusion: Visual-LiDAR Fusion With Adaptive Weights for Place Recognition](papers/adafusion-visual-lidar-fusion-with-adaptive-weights-for-place-recognition.md)** · RAL · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2111.11739)
+- **[CORAL: Colored structural representation for bi-modal place recognition](papers/coral-colored-structural-representation-for-bi-modal-place-recognition.md)** · IROS · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2011.10934)
+- **[Spherical Multi-Modal Place Recognition for Heterogeneous Sensor Systems](papers/spherical-multi-modal-place-recognition-for-heterogeneous-sensor-systems.md)** · ICRA · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2104.10067)
+- **[PIC-Net: Point Cloud and Image Collaboration Network for Large-Scale Place Recognition](papers/pic-net-point-cloud-and-image-collaboration-network-for-large-scale-place-recognition.md)** · arXiv · `arxiv_preprint` · `Cross-source / multimodal learning` · `Learning` · [Paper](https://arxiv.org/abs/2008.00658)
 
-<a id="branch-temporal-map-sequence"></a>
-### Sequence-based recognition (2)
+<a id="branch-learning-based-lifelong-uncertainty"></a>
+### Lifelong / uncertainty learning (3)
 
-Ordered scan sequences and learned or handcrafted temporal context.
+Learned continual adaptation, novelty, memory, or calibrated uncertainty.
 
-- **[SeqOT: A Spatial–Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data](papers/seqot-a-spatial-temporal-transformer-network-for-place-recognition-using-sequential-lidar-data.md)** · TIE · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/2209.07951) · [Code](https://github.com/BIT-MJY/SeqOT)
-- **[SeqLPD: Sequence Matching Enhanced Loop-Closure Detection Based on Large-Scale Point Cloud Description for Self-Driving Vehicles](papers/seqlpd-sequence-matching-enhanced-loop-closure-detection-based-on-large-scale-point-cloud-description-for-self-driving-v.md)** · IROS · `arxiv_preprint` · `Sequence-based recognition` · `Learning` · [Paper](https://arxiv.org/abs/1904.13030)
+- **[Learning From Mistakes: Loss-Aware Memory Enhanced Continual Learning for LiDAR Place Recognition](papers/learning-from-mistakes-loss-aware-memory-enhanced-continual-learning-for-lidar-place-recognition.md)** · IEEE Robotics and Automation Letters · `journal` · `Lifelong / uncertainty learning` · `Learning` · [Paper](https://doi.org/10.1109/lra.2026.3703260)
+- **[Uncertainty-Aware Lidar Place Recognition in Novel Environments](papers/uncertainty-aware-lidar-place-recognition-in-novel-environments.md)** · IROS · `arxiv_preprint` · `Lifelong / uncertainty learning` · `Learning` · [Paper](https://arxiv.org/abs/2210.01361)
+- **[BioSLAM: A Bioinspired Lifelong Memory System for General Place Recognition](papers/bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition.md)** · TRO · `arxiv_preprint` · `Lifelong / uncertainty learning` · `Learning` · [Paper](https://arxiv.org/abs/2208.14543)
 
-<a id="branch-temporal-map-map-assisted"></a>
-### Map / submap-assisted (3)
-
-Explicit scan-to-map, submap, or persistent-map recognition.
-
-- **[Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM](papers/fast-and-accurate-deep-loop-closing-and-relocalization-for-reliable-lidar-slam.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Learning` · [Paper](https://arxiv.org/abs/2309.08086) · [Code](https://github.com/nubot-nudt/LCR-Net)
-- **[RING++: Roto-Translation Invariant Gram for Global Localization on a Sparse Scan Map](papers/ring-roto-translation-invariant-gram-for-global-localization-on-a-sparse-scan-map.md)** · TRO · `arxiv_preprint` · `Map / submap-assisted` · `Handcrafted` · [Paper](https://arxiv.org/abs/2210.05984)
-- **[EgoNN: Egocentric Neural Network for Point Cloud Based 6DoF Relocalization at the City Scale](papers/egonn-egocentric-neural-network-for-point-cloud-based-6dof-relocalization-at-the-city-scale.md)** · RAL · `conference` · `Map / submap-assisted` · `Learning` · [Paper](https://doi.org/10.1109/lra.2021.3133593) · [Code](https://github.com/jac99/Egonn)
-
-<a id="branch-emerging-cross-domain-cross-source"></a>
-### Cross-source / cross-view (1)
-
-Recognition across sensing sources, platforms, viewpoints, or map domains.
-
-- **[CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](papers/crossloc3d-aerial-ground-cross-source-3d-place-recognition.md)** · ICCV · `arxiv_preprint` · `Cross-source / cross-view` · `Learning` · [Paper](https://arxiv.org/abs/2303.17778) · [Code](https://github.com/rayguan97/crossloc3d)
-
-<a id="branch-emerging-cross-domain-lifelong-uncertainty"></a>
-### Lifelong / uncertainty (2)
-
-Continual adaptation, novelty, memory, or calibrated uncertainty.
-
-- **[Uncertainty-Aware Lidar Place Recognition in Novel Environments](papers/uncertainty-aware-lidar-place-recognition-in-novel-environments.md)** · IROS · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2210.01361)
-- **[BioSLAM: A Bioinspired Lifelong Memory System for General Place Recognition](papers/bioslam-a-bioinspired-lifelong-memory-system-for-general-place-recognition.md)** · TRO · `arxiv_preprint` · `Lifelong / uncertainty` · `Learning` · [Paper](https://arxiv.org/abs/2208.14543)
-
-Landscape version: `0.1.0` · Snapshot: `lpr-survey-911453a86068e183`
+Landscape version: `0.2.0` · Snapshot: `lpr-survey-4c527a0f69d72ee9`
 
 [Browse by year](by-year.md) · [Open the multi-label index](taxonomy.md)
